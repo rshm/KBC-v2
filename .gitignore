@@ -2,3 +2,5 @@ node_modules
 .idea
 venv
 package-lock.json
+dist
+build
