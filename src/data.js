@@ -19,7 +19,8 @@ const data = [
         text: "China",
         correct: false
       }
-    ]
+    ],
+    fiftyFifty: ["Russia", "India"]
   },
   {
     id: 2,
@@ -41,7 +42,8 @@ const data = [
         text: "Methi Seeds",
         correct: false
       }
-    ]
+    ],
+    fiftyFifty: ["Methi Seeds", "Saunf"]
   },
   {
     id: 3,
@@ -64,7 +66,8 @@ const data = [
         text: "Cuddalore",
         correct: false
       }
-    ]
+    ],
+    fiftyFifty: ["Buxar", "Cuddalore"]
   },
   {
     id: 4,
@@ -86,7 +89,8 @@ const data = [
         text: "Bhojpuri",
         correct: false
       }
-    ]
+    ],
+    fiftyFifty: ["Maithili", "Bhojpuri"]
   },
   {
     id: 5,
@@ -108,7 +112,8 @@ const data = [
         text: "Hockey, Cricket",
         correct: true
       }
-    ]
+    ],
+    fiftyFifty: ["Badminton, Cricket", "Badminton, Tennis"]
   }
 ];
 

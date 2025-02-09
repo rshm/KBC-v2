@@ -5,6 +5,8 @@ import Quiz from "./components/Quiz";
 import { data, prizeMoney } from "./data";
 import Timer from "./components/Timer";
 import Start from "./components/Start";
+import { FaPhoneAlt } from 'react-icons/fa'; // Import the icons
+import { TbRewindBackward50 } from "react-icons/tb";
 
 // Utility function to shuffle an array
 const shuffleArray = (array) => {
@@ -97,9 +99,7 @@ function App() {
                   {prizeMoney.map((item) => (
                       <li
                           key={item.id}
-                          className={
-                            questionNumber === item.id ? "item active" : "item"
-                          }
+                          className={questionNumber === item.id ? "item active" : "item"}
                       >
                         <h5 className="amount">{item.amount}</h5>
                       </li>
@@ -107,6 +107,14 @@ function App() {
                 </MDBListGroup>
               </MDBCol>
             </MDBRow>
+        )}
+
+        {/* Conditionally render the icons immediately after the user enters their name */}
+        {name && (
+            <div className="top-icons">
+              <TbRewindBackward50 size={40} className="top-icon" />
+              <FaPhoneAlt size={40} className="top-icon" />
+            </div>
         )}
       </div>
   );

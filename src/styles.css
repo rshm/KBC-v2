@@ -161,3 +161,17 @@
   color: #fff;
   font-weight: 600;
 }
+
+/* Style for the icons at the top center */
+.top-icons {
+  position: absolute;
+  top: 20px; /* Distance from the top of the screen */
+  left: 60%;
+  transform: translateX(-60%); /* Center the icons horizontally */
+  display: flex;
+  gap: 20px; /* Spacing between the icons */
+}
+
+.top-icon {
+  color: #007bff; /* Icon color (you can customize this) */
+}
