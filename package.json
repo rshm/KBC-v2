@@ -2,8 +2,9 @@
   "name": "kbc-quiz-app",
   "version": "1.0.0",
   "description": "",
+  "homepage": "./",
   "keywords": [],
-  "main": "main.js",
+  "main": "public/electron.js",
   "dependencies": {
     "@testing-library/react": "12.1.4",
     "fsevents": "^2.3.3",
@@ -20,8 +21,10 @@
     "directories": {
       "output": "dist"
     },
+    "asarUnpack": ["build/**"],
     "files": [
       "build/**/*",
+      "public/electron.js",
       "main.js"
     ],
     "mac": {

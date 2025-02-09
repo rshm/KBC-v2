@@ -7,11 +7,16 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
             nodeIntegration: true,
         },
     });
-    mainWindow.loadURL('http://localhost:3000'); // Load your React app
+    // const startURL = isDev
+    //     ? "http://localhost:3000" // Development mode
+    //     : `file://${path.join(__dirname, "build", "index.html")}`;
+    const startURL = `file://${path.join(__dirname, "index.html")}`;
+    console.log("Loading URL:", startURL); // Log the path
+    mainWindow.loadURL(startURL);
+    mainWindow.webContents.openDevTools();
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
