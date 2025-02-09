@@ -20,7 +20,7 @@ const data = [
         correct: false
       }
     ],
-    fiftyFifty: ["Russia", "India"]
+    fiftyFifty: ["Russia", "Brazil"]
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const data = [
         correct: false
       }
     ],
-    fiftyFifty: ["Methi Seeds", "Saunf"]
+    fiftyFifty: ["Methi Seeds", "Ajwain"]
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ const data = [
         correct: false
       }
     ],
-    fiftyFifty: ["Buxar", "Cuddalore"]
+    fiftyFifty: ["Plassey", "Cuddalore"]
   },
   {
     id: 4,

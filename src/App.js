@@ -23,6 +23,8 @@ function App() {
   const [timeOut, setTimeOut] = useState(false);
   const [earned, setEarned] = useState("₹ 0");
   const [shuffledData, setShuffledData] = useState([]);
+  const [lifelines, setLifelines] = useState({ fiftyFifty: false, phoneAFriend: false });
+  const [currentQuestion, setCurrentQuestion] = useState(null);
 
   useEffect(() => {
     if (name) {
@@ -31,11 +33,43 @@ function App() {
   }, [name]);
 
   useEffect(() => {
-    questionNumber > 1 &&
-    setEarned(
-        prizeMoney.find((item) => item.id === questionNumber - 1).amount
-    );
+    if (questionNumber > 1) {
+      setEarned(
+          prizeMoney.find((item) => item.id === questionNumber - 1).amount
+      );
+    }
   }, [questionNumber]);
+
+  useEffect(() => {
+    // Update current question based on questionNumber
+    if (shuffledData.length > 0) {
+      const question = shuffledData.find((q) => q.id === questionNumber);
+      setCurrentQuestion(question);
+    }
+  }, [questionNumber, shuffledData]);
+
+  const handleOptionClick = (option) => {
+    if (option === shuffledData[questionNumber - 1].answer) {
+      if (questionNumber === shuffledData.length) {
+        setEarned(prizeMoney[prizeMoney.length - 1].amount);
+        setTimeOut(true); // Game over, player won
+      } else {
+        setQuestionNumber(prev => prev + 1);
+      }
+    } else {
+      setEarned(prizeMoney[questionNumber - 2]?.amount || "₹0");
+      setTimeOut(true); // Game over, player lost
+    }
+  };
+
+  const handleFiftyFifty = () => {
+    setLifelines((prev) => ({ ...prev, fiftyFifty: true }));
+  };
+
+  const handlePhoneAFriend = () => {
+    alert(`Your friend suggests: "I think the answer is ${shuffledData[questionNumber - 1].answer}"`);
+    setLifelines((prev) => ({ ...prev, phoneAFriend: true }));
+  };
 
   return (
       <div className="App">
@@ -63,6 +97,8 @@ function App() {
                               questionNumber={questionNumber}
                               setQuestionNumber={setQuestionNumber}
                               setTimeOut={setTimeOut}
+                              lifelines={lifelines}
+                              onOptionClick={handleOptionClick}
                           />
                         </div>
                       </>
@@ -109,11 +145,24 @@ function App() {
             </MDBRow>
         )}
 
-        {/* Conditionally render the icons immediately after the user enters their name */}
+        {/* Conditionally render the lifeline icons */}
         {name && (
             <div className="top-icons">
-              <TbRewindBackward50 size={40} className="top-icon" />
-              <FaPhoneAlt size={40} className="top-icon" />
+              {/* FiftyFifty Lifeline Icon */}
+              <TbRewindBackward50
+                  size={40}
+                  className="top-icon"
+                  onClick={handleFiftyFifty}
+                  disabled={lifelines.fiftyFifty}
+              />
+
+              {/* PhoneAFriend Lifeline Icon */}
+              <FaPhoneAlt
+                  size={40}
+                  className="top-icon"
+                  onClick={handlePhoneAFriend}
+                  disabled={lifelines.phoneAFriend}
+              />
             </div>
         )}
       </div>
