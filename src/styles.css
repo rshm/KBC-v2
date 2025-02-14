@@ -166,7 +166,7 @@
 .top-icons {
   position: absolute;
   top: 20px; /* Distance from the top of the screen */
-  left: 60%;
+  left: 90%;
   transform: translateX(-60%); /* Center the icons horizontally */
   display: flex;
   gap: 20px; /* Spacing between the icons */

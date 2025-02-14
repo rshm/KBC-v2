@@ -90,6 +90,23 @@ function App() {
                                 questionNumber={questionNumber}
                             />
                           </div>
+                          <div className="top-icons">
+                            {/* FiftyFifty Lifeline Icon */}
+                            <TbRewindBackward50
+                                size={40}
+                                className="top-icon"
+                                onClick={handleFiftyFifty}
+                                disabled={lifelines.fiftyFifty}
+                            />
+
+                            {/* PhoneAFriend Lifeline Icon */}
+                            <FaPhoneAlt
+                                size={40}
+                                className="top-icon"
+                                onClick={handlePhoneAFriend}
+                                disabled={lifelines.phoneAFriend}
+                            />
+                          </div>
                         </div>
                         <div style={{ height: "50%" }}>
                           <Quiz
@@ -98,7 +115,7 @@ function App() {
                               setQuestionNumber={setQuestionNumber}
                               setTimeOut={setTimeOut}
                               lifelines={lifelines}
-                              onOptionClick={handleOptionClick}
+                              setLifelines={setLifelines}
                           />
                         </div>
                       </>
@@ -143,27 +160,6 @@ function App() {
                 </MDBListGroup>
               </MDBCol>
             </MDBRow>
-        )}
-
-        {/* Conditionally render the lifeline icons */}
-        {name && (
-            <div className="top-icons">
-              {/* FiftyFifty Lifeline Icon */}
-              <TbRewindBackward50
-                  size={40}
-                  className="top-icon"
-                  onClick={handleFiftyFifty}
-                  disabled={lifelines.fiftyFifty}
-              />
-
-              {/* PhoneAFriend Lifeline Icon */}
-              <FaPhoneAlt
-                  size={40}
-                  className="top-icon"
-                  onClick={handlePhoneAFriend}
-                  disabled={lifelines.phoneAFriend}
-              />
-            </div>
         )}
       </div>
   );
