@@ -172,6 +172,12 @@
   gap: 20px; /* Spacing between the icons */
 }
 
+.clicked-icon {
+  color: red !important; /* Change icon color to red */
+  pointer-events: none; /* Prevent further clicks */
+}
+
 .top-icon {
+  cursor: pointer;
   color: #007bff; /* Icon color (you can customize this) */
 }

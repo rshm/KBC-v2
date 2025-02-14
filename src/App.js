@@ -1,5 +1,5 @@
 import "./styles.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { MDBRow, MDBCol, MDBListGroup, MDBBtn } from "mdb-react-ui-kit";
 import Quiz from "./components/Quiz";
 import { data, prizeMoney } from "./data";
@@ -24,6 +24,8 @@ function App() {
   const [earned, setEarned] = useState("₹ 0");
   const [shuffledData, setShuffledData] = useState([]);
   const [lifelines, setLifelines] = useState({ fiftyFifty: false, phoneAFriend: false });
+  const fiftyFiftyClicked = useRef(false);
+  const phoneAFriendClicked = useRef(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
 
   useEffect(() => {
@@ -63,12 +65,18 @@ function App() {
   };
 
   const handleFiftyFifty = () => {
-    setLifelines((prev) => ({ ...prev, fiftyFifty: true }));
+    if (!fiftyFiftyClicked.current) { // Only allow the first click
+      setLifelines((prev) => ({ ...prev, fiftyFifty: true }));
+      fiftyFiftyClicked.current = true; // Mark the icon as clicked
+    }
+
   };
 
   const handlePhoneAFriend = () => {
-    alert(`Your friend suggests: "I think the answer is ${shuffledData[questionNumber - 1].answer}"`);
-    setLifelines((prev) => ({ ...prev, phoneAFriend: true }));
+    if (!phoneAFriendClicked.current) { // Only allow the first click
+      setLifelines((prev) => ({ ...prev, phoneAFriend: true }));
+      phoneAFriendClicked.current = true; // Mark the icon as clicked
+    }
   };
 
   return (
@@ -94,17 +102,19 @@ function App() {
                             {/* FiftyFifty Lifeline Icon */}
                             <TbRewindBackward50
                                 size={40}
-                                className="top-icon"
+                                className={`top-icon ${fiftyFiftyClicked.current ? "clicked-icon" : ""}`}
                                 onClick={handleFiftyFifty}
                                 disabled={lifelines.fiftyFifty}
+                                style={{ cursor: fiftyFiftyClicked.current ? "not-allowed" : "pointer" }}
                             />
 
                             {/* PhoneAFriend Lifeline Icon */}
                             <FaPhoneAlt
                                 size={40}
-                                className="top-icon"
+                                className={`top-icon ${phoneAFriendClicked.current ? "clicked-icon" : ""}`}
                                 onClick={handlePhoneAFriend}
                                 disabled={lifelines.phoneAFriend}
+                                style={{ cursor: phoneAFriendClicked.current ? "not-allowed" : "pointer" }}
                             />
                           </div>
                         </div>
