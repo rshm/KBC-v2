@@ -90,7 +90,7 @@ function App() {
               <MDBCol md="9">
                 <div className="main">
                   {timeOut ? (
-                      <h1 className="earned">You Earned Total: {earned}</h1>
+                      <h1 className="earned">Aap hain: {earned}</h1>
                   ) : (
                       <>
                         <div style={{ height: "50%", position: "relative" }}>
