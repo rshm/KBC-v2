@@ -73,6 +73,14 @@ function App() {
 
   };
 
+  const resetGame = () =>{
+    fiftyFiftyClicked.current = false;
+    phoneAFriendClicked.current = false;
+    setLifelines((prev) => ({ ...prev, fiftyFifty: false, phoneAFriend: false }));
+    setStopTimer(false);
+    setTimeOut(true)
+  }
+
   const handlePhoneAFriend = () => {
     if (!phoneAFriendClicked.current) { // Only allow the first click
       setLifelines((prev) => ({ ...prev, phoneAFriend: true }));
@@ -144,7 +152,7 @@ function App() {
                       style={{ float: "right" }}
                       className="mx-2"
                       color="light"
-                      onClick={() => setTimeOut(true)}
+                      onClick={() => resetGame()}
                   >
                     Quit
                   </MDBBtn>
@@ -154,6 +162,7 @@ function App() {
                         setName(null);
                         setQuestionNumber(1);
                         setEarned("₹ 0");
+                        resetGame();
                       }}
                   >
                     Exit
