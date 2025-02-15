@@ -4969,20 +4969,20 @@ const data =
     ];
 
 const prizeMoney = [
-  { id: 1, amount: "Suraksha Sadhak (Safety Practitioner)" },
-  { id: 2, amount: "Suraksha Jigyasu (Safety Seeker)" },
-  { id: 3, amount: "Suraksha Pathik (Safety Explorer)" },
-  { id: 4, amount: "Suraksha Upasak (Safety Devotee)" },
-  { id: 5, amount: "Suraksha Samarthak (Safety Supporter)" },
-  { id: 6, amount: "Suraksha Gyaani (Safety Knowledgeable)" },
-  { id: 7, amount: "Suraksha Vishleshak (Safety Analyst)" },
-  { id: 8, amount: "Suraksha Margdarshak (Safety Guide)" },
-  { id: 9, amount: "Suraksha Prabhari (Safety In-Charge)" },
-  { id: 10, amount: "Suraksha Shreshtha (Safety Excellent)" },
-  { id: 11, amount: "Suraksha Mahanayak (Safety Hero)" },
-  { id: 12, amount: "Suraksha Vidwan (Safety Scholar)" },
-  { id: 13, amount: "Suraksha Ratna (Safety Gem)" },
-  { id: 14, amount: "Suraksha Mahaguru (Safety Grand Master)" },
+  { id: 1, amount: "Suraksha Sadhak" },
+  { id: 2, amount: "Suraksha Jigyasu" },
+  { id: 3, amount: "Suraksha Pathik" },
+  { id: 4, amount: "Suraksha Upasak" },
+  { id: 5, amount: "Suraksha Samarthak" },
+  { id: 6, amount: "Suraksha Gyaani" },
+  { id: 7, amount: "Suraksha Vishleshak" },
+  { id: 8, amount: "Suraksha Margdarshak" },
+  { id: 9, amount: "Suraksha Prabhari" },
+  { id: 10, amount: "Suraksha Shreshtha" },
+  { id: 11, amount: "Suraksha Mahanayak" },
+  { id: 12, amount: "Suraksha Vidwan" },
+  { id: 13, amount: "Suraksha Ratna" },
+  { id: 14, amount: "Suraksha Mahaguru" },
   { id: 15, amount: "Suraksha Adhipati" }
 ].reverse();
 

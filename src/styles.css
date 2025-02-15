@@ -158,8 +158,13 @@
   position: relative;
   margin: auto;
   margin-top: 450px;
-  color: #44f11b;
+  color: #44f11b !important; /* Ensures text stays green */
   font-weight: 600;
+  background-color: #fff; /* Fully opaque white background */
+  padding: 10px 20px; /* Adds spacing for better readability */
+  border-radius: 8px; /* Optional: Rounds corners for a modern look */
+  display: inline-block; /* Keeps it sized to content */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds slight shadow for contrast */
 }
 
 /* Style for the icons at the top center */

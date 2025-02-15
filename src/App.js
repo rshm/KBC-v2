@@ -21,7 +21,7 @@ function App() {
   const [name, setName] = useState(null);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [timeOut, setTimeOut] = useState(false);
-  const [earned, setEarned] = useState("₹ 0");
+  const [earned, setEarned] = useState("Suraksha Sadhak");
   const [shuffledData, setShuffledData] = useState([]);
   const [lifelines, setLifelines] = useState({ fiftyFifty: false, phoneAFriend: false });
   const fiftyFiftyClicked = useRef(false);
@@ -184,7 +184,7 @@ function App() {
                   </MDBBtn>
                 </span>
                     <MDBCol md="6">Name: {name}</MDBCol>
-                    <MDBCol md="6">Total Earned: {earned}</MDBCol>
+                    <MDBCol md="6">Aap hain: {earned}</MDBCol>
                   </MDBRow>
                   <hr />
                   {prizeMoney.map((item) => (
