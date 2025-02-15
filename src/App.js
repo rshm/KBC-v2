@@ -27,6 +27,7 @@ function App() {
   const fiftyFiftyClicked = useRef(false);
   const phoneAFriendClicked = useRef(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [stopTimer, setStopTimer] = useState(false);
 
   useEffect(() => {
     if (name) {
@@ -50,19 +51,19 @@ function App() {
     }
   }, [questionNumber, shuffledData]);
 
-  const handleOptionClick = (option) => {
-    if (option === shuffledData[questionNumber - 1].answer) {
-      if (questionNumber === shuffledData.length) {
-        setEarned(prizeMoney[prizeMoney.length - 1].amount);
-        setTimeOut(true); // Game over, player won
-      } else {
-        setQuestionNumber(prev => prev + 1);
-      }
-    } else {
-      setEarned(prizeMoney[questionNumber - 2]?.amount || "₹0");
-      setTimeOut(true); // Game over, player lost
-    }
-  };
+  // const handleOptionClick = (option) => {
+  //   if (option === shuffledData[questionNumber - 1].answer) {
+  //     if (questionNumber === shuffledData.length) {
+  //       setEarned(prizeMoney[prizeMoney.length - 1].amount);
+  //       setTimeOut(true); // Game over, player won
+  //     } else {
+  //       setQuestionNumber(prev => prev + 1);
+  //     }
+  //   } else {
+  //     setEarned(prizeMoney[questionNumber - 2]?.amount || "₹0");
+  //     setTimeOut(true); // Game over, player lost
+  //   }
+  // };
 
   const handleFiftyFifty = () => {
     if (!fiftyFiftyClicked.current) { // Only allow the first click
@@ -76,6 +77,7 @@ function App() {
     if (!phoneAFriendClicked.current) { // Only allow the first click
       setLifelines((prev) => ({ ...prev, phoneAFriend: true }));
       phoneAFriendClicked.current = true; // Mark the icon as clicked
+      setStopTimer(true); // Stop the timer
     }
   };
 
@@ -96,6 +98,8 @@ function App() {
                             <Timer
                                 setTimeOut={setTimeOut}
                                 questionNumber={questionNumber}
+                                stopTimer={stopTimer}
+                                setStopTimer={setStopTimer}
                             />
                           </div>
                           <div className="top-icons">
@@ -153,6 +157,17 @@ function App() {
                       }}
                   >
                     Exit
+                  </MDBBtn>
+                  <MDBBtn
+                      style={{ float: "right"
+                  }}
+                      className="mx-2"
+                      color="light"
+                      onClick={() => {
+                        setStopTimer(prev => !prev)
+                      }}
+                  >
+                     {stopTimer ? "Resume" : "Pause"}
                   </MDBBtn>
                 </span>
                     <MDBCol md="6">Name: {name}</MDBCol>
