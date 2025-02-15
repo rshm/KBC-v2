@@ -133,7 +133,6 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
               <MDBBtn
                   style={{ float: "right" }}
                   className="mx-2"
-                  color="light"
                   onClick={handleStartQuestion}
               >
                 Op

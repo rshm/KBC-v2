@@ -5,16 +5,16 @@ const fastestFingerData =
         "question": "Arrange this Safety PPE according to their usage  from Head to Toe.",
         "answers": [
             {
-                "text": "A. Safety Shoes"
+                "text": "A.    Safety Shoes"
             },
             {
-                "text": "B. Safety Goggles"
+                "text": "B.    Safety Goggles"
             },
             {
-                "text": "C. Hand gloves"
+                "text": "C.   Hand gloves"
             },
             {
-                "text": "D. Safety Helmet"
+                "text": "D.   Safety Helmet"
             }
         ],
         "correctAnswer": "dbca"
@@ -24,16 +24,16 @@ const fastestFingerData =
         "question": "Arrange this Risk order from High to Low Risk category.",
         "answers": [
             {
-                "text": "A. White"
+                "text": "A.    White"
             },
             {
-                "text": "B. Turquoise"
+                "text": "B.    Turquoise"
             },
             {
-                "text": "C. Purple"
+                "text": "C.   Purple"
             },
             {
-                "text": "D. Blue"
+                "text": "D.   Blue"
             }
         ],
         "correctAnswer": "cdba"
@@ -43,16 +43,16 @@ const fastestFingerData =
         "question": "Arrange this Injury category  form High to Low severity.",
         "answers": [
             {
-                "text": "A. LWC"
+                "text": "A.    LWC"
             },
             {
-                "text": "B. FAC"
+                "text": "B.    FAC"
             },
             {
-                "text": "C. RWC"
+                "text": "C.   RWC"
             },
             {
-                "text": "D. MTC"
+                "text": "D.   MTC"
             }
         ],
         "correctAnswer": "acdb"
@@ -62,16 +62,16 @@ const fastestFingerData =
         "question": "Arrange this PPE from its service temp. in order to from High to Low.",
         "answers": [
             {
-                "text": "A. Boiler Suit"
+                "text": "A.    Boiler Suit"
             },
             {
-                "text": "B. Chemical protective suit"
+                "text": "B.    Chemical protective suit"
             },
             {
-                "text": "C. Hot splash suit"
+                "text": "C.   Hot splash suit"
             },
             {
-                "text": "D. Aluminised Suit"
+                "text": "D.   Aluminised Suit"
             }
         ],
         "correctAnswer": "dcba"
@@ -81,16 +81,16 @@ const fastestFingerData =
         "question": "Arrange this Safety PPE according to their usage  from Toe  to Head",
         "answers": [
             {
-                "text": "A. Hand gloves"
+                "text": "A.    Hand gloves"
             },
             {
-                "text": "B. Safety Goggles"
+                "text": "B.    Safety Goggles"
             },
             {
-                "text": "C. Safety Shoes"
+                "text": "C.   Safety Shoes"
             },
             {
-                "text": "D. Safety Helmet"
+                "text": "D.   Safety Helmet"
             }
         ],
         "correctAnswer": "cabd"
@@ -100,16 +100,16 @@ const fastestFingerData =
         "question": "Arrange this hierarchy of controls of HITRA from Higher protection  to Lower protection.",
         "answers": [
             {
-                "text": "A. PPEs "
+                "text": "A.    PPEs "
             },
             {
-                "text": "B. Elimination"
+                "text": "B.    Elimination"
             },
             {
-                "text": "C. Substitution"
+                "text": "C.   Substitution"
             },
             {
-                "text": "D. Engineering Control"
+                "text": "D.   Engineering Control"
             }
         ],
         "correctAnswer": "bcda"
@@ -119,16 +119,16 @@ const fastestFingerData =
         "question": "Arrange the correct sequence of fire extinguisher operation for extinguish fire.",
         "answers": [
             {
-                "text": "A. Sweep"
+                "text": "A.    Sweep"
             },
             {
-                "text": "B. Aim"
+                "text": "B.    Aim"
             },
             {
-                "text": "C. Squeeze"
+                "text": "C.   Squeeze"
             },
             {
-                "text": "D. Pull"
+                "text": "D.   Pull"
             }
         ],
         "correctAnswer": "dbca"
@@ -138,16 +138,16 @@ const fastestFingerData =
         "question": "Arrange this sequential steps of basic HITRA Process",
         "answers": [
             {
-                "text": "A. Control measures"
+                "text": "A.    Control measures"
             },
             {
-                "text": "B. Monitoring"
+                "text": "B.    Monitoring"
             },
             {
-                "text": "C. Identify the hazards"
+                "text": "C.   Identify the hazards"
             },
             {
-                "text": "D. List out Task/ Sub tasks"
+                "text": "D.   List out Task/ Sub tasks"
             }
         ],
         "correctAnswer": "dcab"
@@ -157,16 +157,16 @@ const fastestFingerData =
         "question": "Arrange the sequential order before entering in confined space",
         "answers": [
             {
-                "text": "A. Provision of stand by person"
+                "text": "A.    Provision of stand by person"
             },
             {
-                "text": "B. Confined space entry"
+                "text": "B.    Confined space entry"
             },
             {
-                "text": "C. Obtained work permit"
+                "text": "C.   Obtained work permit"
             },
             {
-                "text": "D. Gas Monitoring"
+                "text": "D.   Gas Monitoring"
             }
         ],
         "correctAnswer": "dcab"
@@ -176,16 +176,16 @@ const fastestFingerData =
         "question": "Arrange the sequential order for hot work jobs",
         "answers": [
             {
-                "text": "A. Hot work"
+                "text": "A.    Hot work"
             },
             {
-                "text": "B. Issued permit"
+                "text": "B.    Issued permit"
             },
             {
-                "text": "C. LEL Checking "
+                "text": "C.   LEL Checking "
             },
             {
-                "text": "D. Booth Preparation"
+                "text": "D.   Booth Preparation"
             }
         ],
         "correctAnswer": "dcba"
@@ -195,35 +195,35 @@ const fastestFingerData =
         "question": "Arrange the sequential order before starting pump maintenance work.",
         "answers": [
             {
-                "text": "A. Try Test"
+                "text": "A.    Try Test"
             },
             {
-                "text": "B. Start Maintenance Job"
+                "text": "B.    Start Maintenance Job"
             },
             {
-                "text": "C. Issued permit"
+                "text": "C.   Issued permit"
             },
             {
-                "text": "D. LOTO"
+                "text": "D.   LOTO"
             }
         ],
         "correctAnswer": "dcab"
     },
     {
         "id": 12,
-        "question": "Arrange in sequential order for the type of isolation with respect to reliability for man entry in confined space job. (1 as more reliable)",
+        "question": "Arrange in sequential order for the type of isolation with respect to reliability for man entry in confined space joB.    (1 as more reliable)",
         "answers": [
             {
-                "text": "A. Single valve isolation.  "
+                "text": "A.    Single valve isolation.  "
             },
             {
-                "text": "B. Spool dismantle and to provide rated end blind "
+                "text": "B.    Spool dismantle and to provide rated end blind "
             },
             {
-                "text": "C. Double block and bleed"
+                "text": "C.   Double block and bleed"
             },
             {
-                "text": "D. Provide slip blind or reversing of spectacle blind. "
+                "text": "D.   Provide slip blind or reversing of spectacle blinD.   "
             }
         ],
         "correctAnswer": "bdca"
@@ -233,16 +233,16 @@ const fastestFingerData =
         "question": "Arrange following Hazardous Area Classification in order of It's  Flammable Gases concentration from Higher to Lower",
         "answers": [
             {
-                "text": "A. Zone 2"
+                "text": "A.    Zone 2"
             },
             {
-                "text": "B. Safe"
+                "text": "B.    Safe"
             },
             {
-                "text": "C. Zone 0"
+                "text": "C.   Zone 0"
             },
             {
-                "text": "D. Zone 1"
+                "text": "D.   Zone 1"
             }
         ],
         "correctAnswer": "cdab"
@@ -252,16 +252,16 @@ const fastestFingerData =
         "question": "Arrange Electrical Voltage level based on It's Electrical Shock Potential - Lower to Higher",
         "answers": [
             {
-                "text": "A. 230 V"
+                "text": "A.    230 V"
             },
             {
-                "text": "B. 415 V"
+                "text": "B.    415 V"
             },
             {
-                "text": "C. 230 KV"
+                "text": "C.   230 KV"
             },
             {
-                "text": "D. 11 KV"
+                "text": "D.   11 KV"
             }
         ],
         "correctAnswer": "abdc"
@@ -271,16 +271,16 @@ const fastestFingerData =
         "question": "Arrange following category of  permit approver based on their authority  - Higher to Lower",
         "answers": [
             {
-                "text": "A. Approver I"
+                "text": "A.    Approver I"
             },
             {
-                "text": "B. Approver III"
+                "text": "B.    Approver III"
             },
             {
-                "text": "C. Approver II"
+                "text": "C.   Approver II"
             },
             {
-                "text": "D. Field Executive"
+                "text": "D.   Field Executive"
             }
         ],
         "correctAnswer": "bcad"
@@ -290,16 +290,16 @@ const fastestFingerData =
         "question": "Arrange Process Safety Incident category based on it' s Risk Potential - Higher to Lower",
         "answers": [
             {
-                "text": "A. Tier III"
+                "text": "A.    Tier III"
             },
             {
-                "text": "B. Tier I"
+                "text": "B.    Tier I"
             },
             {
-                "text": "C. Tier II"
+                "text": "C.   Tier II"
             },
             {
-                "text": "D. Tier IV"
+                "text": "D.   Tier IV"
             }
         ],
         "correctAnswer": "bcad"
@@ -309,16 +309,16 @@ const fastestFingerData =
         "question": "Arrange following HSEF Events based on their occurrence in the year from January to December",
         "answers": [
             {
-                "text": "A. Environment Day"
+                "text": "A.    Environment Day"
             },
             {
-                "text": "B. Annual Safety Campaign"
+                "text": "B.    Annual Safety Campaign"
             },
             {
-                "text": "C. HTM Awareness Week"
+                "text": "C.   HTM Awareness Week"
             },
             {
-                "text": "D. National Fire Service Day"
+                "text": "D.   National Fire Service Day"
             }
         ],
         "correctAnswer": "bdac"

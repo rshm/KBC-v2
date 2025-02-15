@@ -13,12 +13,16 @@ const Start = ({ setName, setTimeOut }) => {
         }
     };
 
+    // Callback function to reset gameType and go back to the start screen
+    const handleExit = () => {
+        setGameType(null); // Reset gameType to show the start screen
+    };
+
     return (
         <>
             {/* Show buttons if no game type is selected */}
             {!gameType ? (
-                <div style={{ display: "flex", justifyContent: "space-between", width: "100%", padding: "15px" , marginTop: "300px",
-                maxWidth:"600px", marginLeft: "500px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", width: "100%", padding: "15px", marginTop: "300px", maxWidth: "600px", marginLeft: "500px" }}>
                     <MDBBtn
                         color="primary"
                         style={{
@@ -46,24 +50,24 @@ const Start = ({ setName, setTimeOut }) => {
                 // If the "Quiz" is selected, show the name input field
                 <>
                     <div className="startScreen">
-                    <input
-                        type="text"
-                        placeholder="Enter Name"
-                        ref={inputRef}
-                        className="form-control "
-                    />
-                    <MDBBtn
-                        style={{ width: "100%" }}
-                        className="mt-2"
-                        onClick={handleClick}
-                    >
-                        Start Game
-                    </MDBBtn>
+                        <input
+                            type="text"
+                            placeholder="Enter Name"
+                            ref={inputRef}
+                            className="form-control"
+                        />
+                        <MDBBtn
+                            style={{ width: "100%" }}
+                            className="mt-2"
+                            onClick={handleClick}
+                        >
+                            Start Game
+                        </MDBBtn>
                     </div>
                 </>
             ) : (
                 // If the "Fastest Finger First" is selected, show the FastestFingerFirst component
-                <FastestFingerFirst />
+                <FastestFingerFirst onExit={handleExit} />
             )}
         </>
     );
