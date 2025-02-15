@@ -159,10 +159,9 @@ function App() {
                     Exit
                   </MDBBtn>
                   <MDBBtn
-                      style={{ float: "right"
-                  }}
+                      style={{ float: "right"}}
                       className="mx-2"
-                      color="light"
+                      color={stopTimer ? "success" : "danger"}
                       onClick={() => {
                         setStopTimer(prev => !prev)
                       }}
