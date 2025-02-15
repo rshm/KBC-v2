@@ -186,3 +186,19 @@
   cursor: pointer;
   color: #007bff; /* Icon color (you can customize this) */
 }
+
+.mode-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.mode-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
