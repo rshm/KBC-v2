@@ -1,34 +1,72 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import { MDBBtn } from "mdb-react-ui-kit";
+import FastestFingerFirst from "./FastestFingerFirst";
 
 const Start = ({ setName, setTimeOut }) => {
-  const inputRef = useRef();
+    const [gameType, setGameType] = useState(null); // To store the selected game type
+    const inputRef = useRef();
 
-  const handleClick = () => {
-    setTimeOut(false);
-    inputRef.current.value && setName(inputRef.current.value);
-  };
-  return (
-    <div
-      style={{
-        margin: "auto",
-        padding: "15px",
-        maxWidth: "400px",
-        alignContent: "center",
-        marginTop: "300px"
-      }}
-    >
-      <input
-        type="text"
-        placeholder="Enter Name"
-        ref={inputRef}
-        className="form-control"
-      />
-      <MDBBtn style={{ width: "100%" }} className="mt-2" onClick={handleClick}>
-        Start Game
-      </MDBBtn>
-    </div>
-  );
+    const handleClick = () => {
+        setTimeOut(false);
+        if (inputRef.current.value) {
+            setName(inputRef.current.value);
+        }
+    };
+
+    return (
+        <>
+            {/* Show buttons if no game type is selected */}
+            {!gameType ? (
+                <div style={{ display: "flex", justifyContent: "space-between", width: "100%", padding: "15px" , marginTop: "300px",
+                maxWidth:"600px", marginLeft: "500px" }}>
+                    <MDBBtn
+                        color="primary"
+                        style={{
+                            width: "45%", // Adjust width to ensure both buttons fit side by side
+                            height: "150px",
+                            fontSize: "20px",
+                        }}
+                        onClick={() => setGameType("quiz")}
+                    >
+                        Quiz
+                    </MDBBtn>
+                    <MDBBtn
+                        color="secondary"
+                        style={{
+                            width: "45%", // Adjust width to ensure both buttons fit side by side
+                            height: "150px",
+                            fontSize: "20px",
+                        }}
+                        onClick={() => setGameType("fastestFinger")}
+                    >
+                        Fastest Finger First
+                    </MDBBtn>
+                </div>
+            ) : gameType === "quiz" ? (
+                // If the "Quiz" is selected, show the name input field
+                <>
+                    <div className="startScreen">
+                    <input
+                        type="text"
+                        placeholder="Enter Name"
+                        ref={inputRef}
+                        className="form-control "
+                    />
+                    <MDBBtn
+                        style={{ width: "100%" }}
+                        className="mt-2"
+                        onClick={handleClick}
+                    >
+                        Start Game
+                    </MDBBtn>
+                    </div>
+                </>
+            ) : (
+                // If the "Fastest Finger First" is selected, show the FastestFingerFirst component
+                <FastestFingerFirst />
+            )}
+        </>
+    );
 };
 
 export default Start;
