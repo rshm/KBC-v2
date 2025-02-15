@@ -1,14 +1,14 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import useSound from "use-sound";
-import play from "../sounds/play.mp3";
+import kbcwelcome from "../sounds/kbcwelcome.mp3";
 import correct from "../sounds/correct.mp3";
 import wrong from "../sounds/wrong.mp3";
 
-const Quiz = ({data, questionNumber, setQuestionNumber, setTimeOut, lifelines, setLifelines}) => {
+const Quiz = ({ data, questionNumber, setQuestionNumber, setTimeOut, lifelines, setLifelines, showAnswers,setShowAnswers }) => {
     const [question, setQuestion] = useState(null);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [className, setClassName] = useState("answer");
-    const [letsPlay] = useSound(play);
+    const [letsPlay] = useSound(kbcwelcome);
     const [correctAnswer] = useSound(correct);
     const [wrongAnswer] = useSound(wrong);
 
@@ -39,9 +39,9 @@ const Quiz = ({data, questionNumber, setQuestionNumber, setTimeOut, lifelines, s
                 correctAnswer();
                 delay(3000, () => {
                     setQuestionNumber((prev) => prev + 1);
-                    setLifelines((prev) => ({...prev, fiftyFifty: false}));
+                    setLifelines((prev) => ({ ...prev, fiftyFifty: false }));
                     setSelectedAnswer(null);
-
+                    setShowAnswers(false);
                 });
             } else {
                 wrongAnswer();
@@ -57,22 +57,22 @@ const Quiz = ({data, questionNumber, setQuestionNumber, setTimeOut, lifelines, s
         ? question?.answers.filter((answer) => question?.fiftyFifty.includes(answer.text))
         : question?.answers;
 
-    console.log(answersToDisplay)
-
     return (
         <div className="quiz">
             <div className="question">{question?.question}</div>
-            <div className="answers">
-                {answersToDisplay?.map((item) => (
-                    <div
-                        key={item.text}
-                        className={selectedAnswer === item ? className : "answer"}
-                        onClick={() => !selectedAnswer && handleClick(item)}
-                    >
-                        {item.text}
-                    </div>
-                ))}
-            </div>
+            {showAnswers && ( // Only show answers if showAnswers is true
+                <div className="answers">
+                    {answersToDisplay?.map((item) => (
+                        <div
+                            key={item.text}
+                            className={selectedAnswer === item ? className : "answer"}
+                            onClick={() => !selectedAnswer && handleClick(item)}
+                        >
+                            {item.text}
+                        </div>
+                    ))}
+                </div>
+            )}
         </div>
     );
 };

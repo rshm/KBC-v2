@@ -28,6 +28,7 @@ function App() {
   const phoneAFriendClicked = useRef(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [stopTimer, setStopTimer] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false); // New state to control answers visibility
 
   useEffect(() => {
     if (name) {
@@ -51,35 +52,21 @@ function App() {
     }
   }, [questionNumber, shuffledData]);
 
-  // const handleOptionClick = (option) => {
-  //   if (option === shuffledData[questionNumber - 1].answer) {
-  //     if (questionNumber === shuffledData.length) {
-  //       setEarned(prizeMoney[prizeMoney.length - 1].amount);
-  //       setTimeOut(true); // Game over, player won
-  //     } else {
-  //       setQuestionNumber(prev => prev + 1);
-  //     }
-  //   } else {
-  //     setEarned(prizeMoney[questionNumber - 2]?.amount || "₹0");
-  //     setTimeOut(true); // Game over, player lost
-  //   }
-  // };
-
   const handleFiftyFifty = () => {
     if (!fiftyFiftyClicked.current) { // Only allow the first click
       setLifelines((prev) => ({ ...prev, fiftyFifty: true }));
       fiftyFiftyClicked.current = true; // Mark the icon as clicked
     }
-
   };
 
-  const resetGame = () =>{
+  const resetGame = () => {
     fiftyFiftyClicked.current = false;
     phoneAFriendClicked.current = false;
     setLifelines((prev) => ({ ...prev, fiftyFifty: false, phoneAFriend: false }));
     setStopTimer(false);
-    setTimeOut(true)
-  }
+    setTimeOut(true);
+    setShowAnswers(false); // Reset showAnswers when the game resets
+  };
 
   const handlePhoneAFriend = () => {
     if (!phoneAFriendClicked.current) { // Only allow the first click
@@ -87,6 +74,11 @@ function App() {
       phoneAFriendClicked.current = true; // Mark the icon as clicked
       setStopTimer(true); // Stop the timer
     }
+  };
+
+  const handleStartQuestion = () => {
+    setShowAnswers(true); // Show answers and start the timer
+    setStopTimer(false); // Ensure the timer is running
   };
 
   return (
@@ -103,12 +95,14 @@ function App() {
                       <>
                         <div style={{ height: "50%", position: "relative" }}>
                           <div className="timer">
-                            <Timer
-                                setTimeOut={setTimeOut}
-                                questionNumber={questionNumber}
-                                stopTimer={stopTimer}
-                                setStopTimer={setStopTimer}
-                            />
+                            {showAnswers && ( // Only show the timer when answers are visible
+                                <Timer
+                                    setTimeOut={setTimeOut}
+                                    questionNumber={questionNumber}
+                                    stopTimer={stopTimer}
+                                    setStopTimer={setStopTimer}
+                                />
+                            )}
                           </div>
                           <div className="top-icons">
                             {/* FiftyFifty Lifeline Icon */}
@@ -138,6 +132,8 @@ function App() {
                               setTimeOut={setTimeOut}
                               lifelines={lifelines}
                               setLifelines={setLifelines}
+                              showAnswers={showAnswers}
+                              setShowAnswers={setShowAnswers}// Pass showAnswers to Quiz
                           />
                         </div>
                       </>
@@ -148,6 +144,15 @@ function App() {
                 <MDBListGroup className="money-list">
                   <MDBRow>
                 <span className="mb-2">
+                  <MDBBtn
+                      style={{ float: "right" }}
+                      className="mx-2"
+                      color="light"
+                      onClick={handleStartQuestion} // Start the question and timer
+                  >
+                    Op
+                  </MDBBtn>
+
                   <MDBBtn
                       style={{ float: "right" }}
                       className="mx-2"
