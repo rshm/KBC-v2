@@ -1,65 +1,43 @@
 import React, { useState, useEffect } from "react";
 import { MDBBtn } from "mdb-react-ui-kit";
-import {fastestFingerData} from "../fastestFingerData"
-import useSound from "use-sound";
-import kbcwelcome from "../sounds/kbcwelcome.mp3";
-import correct from "../sounds/correct.mp3";
-import wrong from "../sounds/wrong.mp3";
+import { fastestFingerData } from "../fastestFingerData";
 
 const FastestFingerFirst = () => {
-    const [question, setQuestion] = useState(null);
-    const [selectedAnswer, setSelectedAnswer] = useState(null);
-    const [className, setClassName] = useState("answer");
-    const [letsPlay] = useSound(kbcwelcome);
-    const [correctAnswer] = useSound(correct);
-    const [wrongAnswer] = useSound(wrong);
+    const [questions, setQuestions] = useState([]); // All questions from JSON
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Current question index
+    const [question, setQuestion] = useState(null); // Current question
+    const [showAnswers, setShowAnswers] = useState(false); // State to control answers visibility
 
-    // Sample question for Fastest Finger First (you can customize this or pass it as props)
-    const data = [
-        {
-            question: "Which country is known as the Land of the Rising Sun?",
-            answers: [
-                { text: "China", correct: false },
-                { text: "Japan", correct: true },
-                { text: "South Korea", correct: false },
-                { text: "Thailand", correct: false },
-            ],
-        },
-    ];
-
-    useEffect(() => {
-        setQuestion(data[0]); // You can customize this to fetch dynamic data if needed
-        letsPlay(); // Play welcome sound when the game starts
-    }, [letsPlay]);
-
-    const delay = (duration, callBack) => {
-        setTimeout(() => {
-            callBack();
-        }, duration);
+    // Shuffle the questions array
+    const shuffleQuestions = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     };
 
-    const handleClick = (item) => {
-        setSelectedAnswer(item);
-        setClassName("answer active");
+    // Load questions from JSON and shuffle them
+    useEffect(() => {
+        const shuffledQuestions = shuffleQuestions([...fastestFingerData]);
+        setQuestions(shuffledQuestions);
+        setQuestion(shuffledQuestions[0]); // Set the first question
+    }, []);
 
-        delay(1000, () => {
-            setClassName(item.correct ? "answer correct" : "answer wrong");
-        });
+    // Handle moving to the next question
+    const handleNextQuestion = () => {
+        if (currentQuestionIndex < questions.length - 1) {
+            setCurrentQuestionIndex((prev) => prev + 1); // Move to the next question
+            setQuestion(questions[currentQuestionIndex + 1]); // Update the current question
+            setShowAnswers(false); // Hide answers for the next question
+        } else {
+            alert("No more questions!"); // End of questions
+        }
+    };
 
-        delay(1000, () => {
-            if (item.correct) {
-                correctAnswer();
-                delay(3000, () => {
-                    // Here, you can add logic for moving to the next round or ending the game
-                    alert("Correct! You can move to the next round.");
-                });
-            } else {
-                wrongAnswer();
-                delay(1000, () => {
-                    alert("Wrong answer! You are out.");
-                });
-            }
-        });
+    // Handle showing answers
+    const handleShowAnswers = () => {
+        setShowAnswers(true); // Show answers when the button is clicked
     };
 
     return (
@@ -94,7 +72,8 @@ const FastestFingerFirst = () => {
                         backgroundColor: "green", // Green for "Show Answers"
                     }}
                     className="mx-2"
-                    onClick={() => alert("Showing answers...")}
+                    onClick={handleShowAnswers} // Show answers when clicked
+                    disabled={showAnswers} // Disable the button after answers are shown
                 >
                     Show Answers
                 </MDBBtn>
@@ -103,10 +82,10 @@ const FastestFingerFirst = () => {
                     style={{
                         width: "200px", // Width of the buttons
                         marginBottom: "10px", // Spacing between buttons
-                        backgroundColor: "blue", // Yellow for "Next Question"
+                        backgroundColor: "blue", // Blue for "Next Question"
                     }}
                     className="mx-2"
-                    onClick={() => alert("Next question...")}
+                    onClick={handleNextQuestion} // Move to the next question
                 >
                     Next Question
                 </MDBBtn>
@@ -117,17 +96,15 @@ const FastestFingerFirst = () => {
                 <div className="ffquestion" style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
                     {question?.question}
                 </div>
-                <div className="answers">
-                    {question?.answers.map((item) => (
-                        <div
-                            key={item.text}
-                            className={selectedAnswer === item ? className : "answer"}
-                            onClick={() => !selectedAnswer && handleClick(item)}
-                        >
-                            {item.text}
-                        </div>
-                    ))}
-                </div>
+                {showAnswers && ( // Only show answers if showAnswers is true
+                    <div className="answers">
+                        {question?.answers.map((item) => (
+                            <div key={item.text} className="answer">
+                                {item.text}
+                            </div>
+                        ))}
+                    </div>
+                )}
             </div>
         </div>
     );
