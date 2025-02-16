@@ -75,7 +75,7 @@ const FastestFingerFirst = ({ onExit }) => {
                     onClick={handleShowAnswers} // Show answers when clicked
                     disabled={showAnswers} // Disable the button after answers are shown
                 >
-                    Show Answers
+                    Show Options
                 </MDBBtn>
 
                 <MDBBtn
