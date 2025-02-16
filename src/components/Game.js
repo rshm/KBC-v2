@@ -52,7 +52,6 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
     };
 
     const resetGame = () => {
-        console.log("calling resetGame");
         fiftyFiftyClicked.current = false;
         phoneAFriendClicked.current = false;
         setLifelines({ fiftyFifty: false, phoneAFriend: false });
