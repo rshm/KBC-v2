@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { MDBBtn } from "mdb-react-ui-kit";
 import { fastestFingerData } from "../fastestFingerData";
+import fastestFingerFirst from "../sounds/FastestFingerFirst.mp3";
+import useSound from "use-sound";
 
 const FastestFingerFirst = ({ onExit }) => {
     const [questions, setQuestions] = useState([]); // All questions from JSON
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Current question index
     const [question, setQuestion] = useState(null); // Current question
     const [showAnswers, setShowAnswers] = useState(false); // State to control answers visibility
+    const [fff] = useSound(fastestFingerFirst);
 
     // Shuffle the questions array
     const shuffleQuestions = (array) => {
@@ -38,6 +41,7 @@ const FastestFingerFirst = ({ onExit }) => {
     // Handle showing answers
     const handleShowAnswers = () => {
         setShowAnswers(true); // Show answers when the button is clicked
+        fff();
     };
 
     return (
