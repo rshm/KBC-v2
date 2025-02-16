@@ -17,7 +17,7 @@ const fastestFingerData =
                 "text": "D.   Safety Helmet"
             }
         ],
-        "correctAnswer": "dbca"
+        "correctAnswer": "DBCA"
     },
     {
         "id": 2,
@@ -36,7 +36,7 @@ const fastestFingerData =
                 "text": "D.   Blue"
             }
         ],
-        "correctAnswer": "cdba"
+        "correctAnswer": "CDBA"
     },
     {
         "id": 3,
@@ -55,7 +55,7 @@ const fastestFingerData =
                 "text": "D.   MTC"
             }
         ],
-        "correctAnswer": "acdb"
+        "correctAnswer": "ACDB"
     },
     {
         "id": 4,
@@ -74,7 +74,7 @@ const fastestFingerData =
                 "text": "D.   Aluminised Suit"
             }
         ],
-        "correctAnswer": "dcba"
+        "correctAnswer": "DCBA"
     },
     {
         "id": 5,
@@ -93,7 +93,7 @@ const fastestFingerData =
                 "text": "D.   Safety Helmet"
             }
         ],
-        "correctAnswer": "cabd"
+        "correctAnswer": "CABD"
     },
     {
         "id": 6,
@@ -112,7 +112,7 @@ const fastestFingerData =
                 "text": "D.   Engineering Control"
             }
         ],
-        "correctAnswer": "bcda"
+        "correctAnswer": "BCDA"
     },
     {
         "id": 7,
@@ -131,7 +131,7 @@ const fastestFingerData =
                 "text": "D.   Pull"
             }
         ],
-        "correctAnswer": "dbca"
+        "correctAnswer": "DBCA"
     },
     {
         "id": 8,
@@ -150,7 +150,7 @@ const fastestFingerData =
                 "text": "D.   List out Task/ Sub tasks"
             }
         ],
-        "correctAnswer": "dcab"
+        "correctAnswer": "DCAB"
     },
     {
         "id": 9,
@@ -169,7 +169,7 @@ const fastestFingerData =
                 "text": "D.   Gas Monitoring"
             }
         ],
-        "correctAnswer": "dcab"
+        "correctAnswer": "DCAB"
     },
     {
         "id": 10,
@@ -188,7 +188,7 @@ const fastestFingerData =
                 "text": "D.   Booth Preparation"
             }
         ],
-        "correctAnswer": "dcba"
+        "correctAnswer": "DCBA"
     },
     {
         "id": 11,
@@ -207,7 +207,7 @@ const fastestFingerData =
                 "text": "D.   LOTO"
             }
         ],
-        "correctAnswer": "dcab"
+        "correctAnswer": "DCAB"
     },
     {
         "id": 12,
@@ -226,7 +226,7 @@ const fastestFingerData =
                 "text": "D.   Provide slip blind or reversing of spectacle blinD.   "
             }
         ],
-        "correctAnswer": "bdca"
+        "correctAnswer": "BDCA"
     },
     {
         "id": 13,
@@ -245,7 +245,7 @@ const fastestFingerData =
                 "text": "D.   Zone 1"
             }
         ],
-        "correctAnswer": "cdab"
+        "correctAnswer": "CDAB"
     },
     {
         "id": 14,
@@ -264,7 +264,7 @@ const fastestFingerData =
                 "text": "D.   11 KV"
             }
         ],
-        "correctAnswer": "abdc"
+        "correctAnswer": "ABDC"
     },
     {
         "id": 15,
@@ -283,7 +283,7 @@ const fastestFingerData =
                 "text": "D.   Field Executive"
             }
         ],
-        "correctAnswer": "bcad"
+        "correctAnswer": "BCAD"
     },
     {
         "id": 16,
@@ -302,7 +302,7 @@ const fastestFingerData =
                 "text": "D.   Tier IV"
             }
         ],
-        "correctAnswer": "bcad"
+        "correctAnswer": "BCAD"
     },
     {
         "id": 17,
@@ -321,7 +321,7 @@ const fastestFingerData =
                 "text": "D.   National Fire Service Day"
             }
         ],
-        "correctAnswer": "bdac"
+        "correctAnswer": "BDAC"
     }
 ];
 

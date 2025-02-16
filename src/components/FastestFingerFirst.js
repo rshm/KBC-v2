@@ -9,6 +9,7 @@ const FastestFingerFirst = ({ onExit }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Current question index
     const [question, setQuestion] = useState(null); // Current question
     const [showAnswers, setShowAnswers] = useState(false); // State to control answers visibility
+    const [correctAnswerText, setCorrectAnswerText] = useState(""); // Store the correct answer to display
     const [fff] = useSound(fastestFingerFirst);
 
     // Shuffle the questions array
@@ -33,6 +34,7 @@ const FastestFingerFirst = ({ onExit }) => {
             setCurrentQuestionIndex((prev) => prev + 1); // Move to the next question
             setQuestion(questions[currentQuestionIndex + 1]); // Update the current question
             setShowAnswers(false); // Hide answers for the next question
+            setCorrectAnswerText(""); // Clear the correct answer display
         } else {
             alert("No more questions!"); // End of questions
         }
@@ -42,6 +44,12 @@ const FastestFingerFirst = ({ onExit }) => {
     const handleShowAnswers = () => {
         setShowAnswers(true); // Show answers when the button is clicked
         fff();
+    };
+
+    // Handle showing the correct answer
+    const handleShowCorrectAnswer = () => {
+        // Directly display the correctAnswer string (like "dbca")
+        setCorrectAnswerText(`Correct Answer: ${question?.correctAnswer}`);
     };
 
     return (
@@ -93,7 +101,34 @@ const FastestFingerFirst = ({ onExit }) => {
                 >
                     Next Question
                 </MDBBtn>
+
+                <MDBBtn
+                    style={{
+                        width: "200px", // Width of the buttons
+                        marginBottom: "10px", // Spacing between buttons
+                        backgroundColor: "orange", // Orange for "Correct Answer"
+                    }}
+                    className="mx-2"
+                    onClick={handleShowCorrectAnswer} // Show the correct answer
+                >
+                    Correct Answer
+                </MDBBtn>
             </div>
+
+            {/* Correct Answer Display */}
+            {correctAnswerText && (
+                <div
+                    style={{
+                        textAlign: "center",
+                        fontSize: "1.2rem",
+                        fontWeight: "bold",
+                        color: "green",
+                        marginBottom: "20px",
+                    }}
+                >
+                    {correctAnswerText}
+                </div>
+            )}
 
             {/* Question and answers section */}
             <div style={{ height: "50%", position: "relative" }}>
