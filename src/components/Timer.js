@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import countdown from "../sounds/countdown.mp3";
 
 const Timer = ({ setTimeOut, questionNumber, stopTimer, setStopTimer }) => {
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(60);
   const audioRef = useRef(new Audio(countdown));
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Timer = ({ setTimeOut, questionNumber, stopTimer, setStopTimer }) => {
   }, [timer, setTimeOut, stopTimer]);
 
   useEffect(() => {
-    setTimer(15);
+    setTimer(60);
     setStopTimer(false); // Reset stopTimer when questionNumber changes
   }, [questionNumber]);
 
