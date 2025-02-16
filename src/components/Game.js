@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBListGroup, MDBBtn } from "mdb-react-ui-kit";
 import Quiz from "./Quiz";
 import { data, prizeMoney } from "../data";
 import Timer from "./Timer";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaPlay, FaPause } from "react-icons/fa";
 import { TbRewindBackward50 } from "react-icons/tb";
 
 const shuffleArray = (array) => {
@@ -108,6 +108,18 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                                         disabled={lifelines.phoneAFriend}
                                         style={{ cursor: phoneAFriendClicked.current ? "not-allowed" : "pointer" }}
                                     />
+                                    <div
+                                        className="top-icon"
+                                        style={{ cursor: "pointer", display: "inline-block" }}
+                                        onClick={() => setStopTimer((prev) => !prev)}
+                                    >
+                                        {stopTimer ? (
+                                            <FaPlay size={40} className={stopTimer ? "clicked-icon" : ""} />
+                                        ) : (
+                                            <FaPause size={40} className={stopTimer ? "clicked-icon" : ""} />
+                                        )}
+                                    </div>
+
                                 </div>
                             </div>
                             <div style={{ height: "50%" }}>
@@ -155,14 +167,6 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                   }}
               >
                 Exit
-              </MDBBtn>
-              <MDBBtn
-                  style={{ float: "right" }}
-                  className="mx-2"
-                  color={stopTimer ? "success" : "danger"}
-                  onClick={() => setStopTimer((prev) => !prev)}
-              >
-                {stopTimer ? "Resume" : "Pause"}
               </MDBBtn>
             </span>
                         <MDBCol md="6">Name: {name}</MDBCol>
