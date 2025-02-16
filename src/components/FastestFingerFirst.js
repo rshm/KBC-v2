@@ -110,6 +110,7 @@ const FastestFingerFirst = ({ onExit }) => {
                     }}
                     className="mx-2"
                     onClick={handleShowCorrectAnswer} // Show the correct answer
+                    disabled={!showAnswers} // Disable the button until "Show Options" has been clicked
                 >
                     Correct Answer
                 </MDBBtn>
@@ -120,10 +121,15 @@ const FastestFingerFirst = ({ onExit }) => {
                 <div
                     style={{
                         textAlign: "center",
-                        fontSize: "1.2rem",
-                        fontWeight: "bold",
-                        color: "green",
-                        marginBottom: "20px",
+                        fontWeight: 600,
+                        fontSize: "2rem",
+                        padding: "0px 40px 0px 40px",
+                        backgroundColor: "rgba(0, 0, 0, 0.7)", /* Fully opaque white background */
+                        borderRadius: "8px", /* Optional: Rounds corners for a modern look */
+                        display: "inline-block",/* Keeps it sized to content */
+                        color: "white", // White font color
+                        width: "fit-content", // Ensure the div fits around the text
+                        margin: "20px auto", // Center the div horizontally
                     }}
                 >
                     {correctAnswerText}
