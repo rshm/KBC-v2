@@ -161,6 +161,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                             </MDBBtn>
                             <MDBBtn
                                 style={{ float: "right" }}
+                                className="mx-2"
                                 onClick={() => {
                                     setName(null);
                                     setQuestionNumber(1);
@@ -173,6 +174,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
 
                             <MDBBtn
                                 style={{ float: "right" }}
+                                className="mx-2"
                                 onClick={() => {
                                     setScClicked(true);
                                 }}
