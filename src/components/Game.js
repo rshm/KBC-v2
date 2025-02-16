@@ -25,6 +25,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
     const [stopTimer, setStopTimer] = useState(false);
     const [showAnswers, setShowAnswers] = useState(false);
     const [scClicked, setScClicked] = useState(false);
+    const [optionsClicked, setOptionsClicked] = useState(false); // Track if Options button is clicked
 
     useEffect(() => {
         if (name) {
@@ -72,6 +73,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
     const handleStartQuestion = () => {
         setShowAnswers(true);
         setStopTimer(false);
+        setOptionsClicked(true); // Mark that Options button has been clicked
     };
 
     return (
@@ -119,7 +121,6 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                                             <FaPause size={40} className={stopTimer ? "clicked-icon" : ""} />
                                         )}
                                     </div>
-
                                 </div>
                             </div>
                             <div style={{ height: "50%" }}>
@@ -142,44 +143,44 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
             <MDBCol md="3" className="money">
                 <MDBListGroup className="money-list">
                     <MDBRow>
-            <span className="mb-2">
-              <MDBBtn
-                  style={{ float: "right" }}
-                  className="mx-2"
-                  onClick={handleStartQuestion}
-              >
-                Options
-              </MDBBtn>
-              <MDBBtn
-                  style={{ float: "right" }}
-                  className="mx-2"
-                  color="light"
-                  onClick={() => resetGame()}
-              >
-                Quit
-              </MDBBtn>
-              <MDBBtn
-                  style={{ float: "right" }}
-                  onClick={() => {
-                      setName(null);
-                      setQuestionNumber(1);
-                      setTimeOut(true);
-                      resetGame();
-                  }}
-              >
-                Exit
-              </MDBBtn>
+                        <span className="mb-2">
+                            <MDBBtn
+                                style={{ float: "right" }}
+                                className="mx-2"
+                                onClick={handleStartQuestion}
+                            >
+                                Options
+                            </MDBBtn>
+                            <MDBBtn
+                                style={{ float: "right" }}
+                                className="mx-2"
+                                color="light"
+                                onClick={() => resetGame()}
+                            >
+                                Quit
+                            </MDBBtn>
+                            <MDBBtn
+                                style={{ float: "right" }}
+                                onClick={() => {
+                                    setName(null);
+                                    setQuestionNumber(1);
+                                    setTimeOut(true);
+                                    resetGame();
+                                }}
+                            >
+                                Exit
+                            </MDBBtn>
 
-                <MDBBtn
-                    style={{ float: "right" }}
-                    onClick={() => {
-                        setScClicked(true);
-                    }}
-                >
-                SCA
-              </MDBBtn>
-
-            </span>
+                            <MDBBtn
+                                style={{ float: "right" }}
+                                onClick={() => {
+                                    setScClicked(true);
+                                }}
+                                disabled={!optionsClicked} // Disable SCA button until Options is clicked
+                            >
+                                SCA
+                            </MDBBtn>
+                        </span>
                         <MDBCol md="6">Name: {name}</MDBCol>
                         <MDBCol md="6">Aap hain: {earned}</MDBCol>
                     </MDBRow>
