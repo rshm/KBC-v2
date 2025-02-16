@@ -10,7 +10,7 @@ const FastestFingerFirst = ({ onExit }) => {
     const [question, setQuestion] = useState(null); // Current question
     const [showAnswers, setShowAnswers] = useState(false); // State to control answers visibility
     const [correctAnswerText, setCorrectAnswerText] = useState(""); // Store the correct answer to display
-    const [fff] = useSound(fastestFingerFirst);
+    const [fff, { stop }] = useSound(fastestFingerFirst);
 
     // Shuffle the questions array
     const shuffleQuestions = (array) => {
@@ -46,6 +46,11 @@ const FastestFingerFirst = ({ onExit }) => {
         fff();
     };
 
+    const handleExit = () => {
+        stop(); // Stop the sound when the exit button is pressed
+        onExit(); // Call the onExit callback to go back to the start screen
+    };
+
     // Handle showing the correct answer
     const handleShowCorrectAnswer = () => {
         // Directly display the correctAnswer string (like "dbca")
@@ -72,7 +77,7 @@ const FastestFingerFirst = ({ onExit }) => {
                         backgroundColor: "red", // Red for "Exit"
                     }}
                     className="mx-2"
-                    onClick={onExit} // Call the onExit callback to go back to the start screen
+                    onClick={handleExit} // Call the onExit callback to go back to the start screen
                 >
                     Exit
                 </MDBBtn>
