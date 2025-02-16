@@ -4,7 +4,17 @@ import kbcwelcome from "../sounds/kbcwelcome.mp3";
 import correct from "../sounds/correct.mp3";
 import wrong from "../sounds/wrong.mp3";
 
-const Quiz = ({ data, questionNumber, setQuestionNumber, setTimeOut, lifelines, setLifelines, showAnswers,setShowAnswers }) => {
+const Quiz = ({
+                  data,
+                  questionNumber,
+                  setQuestionNumber,
+                  lifelines,
+                  setLifelines,
+                  showAnswers,
+                  setShowAnswers,
+                  setStopTimer,
+                  scClicked, // Receive scClicked prop
+              }) => {
     const [question, setQuestion] = useState(null);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [className, setClassName] = useState("answer");
@@ -45,8 +55,8 @@ const Quiz = ({ data, questionNumber, setQuestionNumber, setTimeOut, lifelines, 
                 });
             } else {
                 wrongAnswer();
-                delay(1000, () => {
-                    setTimeOut(true);
+                delay(3000, () => {
+                    setStopTimer(true);
                 });
             }
         });
@@ -65,7 +75,11 @@ const Quiz = ({ data, questionNumber, setQuestionNumber, setTimeOut, lifelines, 
                     {answersToDisplay?.map((item) => (
                         <div
                             key={item.text}
-                            className={selectedAnswer === item ? className : "answer"}
+                            className={selectedAnswer === item
+                                ? className
+                                : scClicked && item.correct // If scClicked, highlight correct answer
+                                    ? "answer correct"
+                                    : "answer"}
                             onClick={() => !selectedAnswer && handleClick(item)}
                         >
                             {item.text}

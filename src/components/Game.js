@@ -24,6 +24,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
     const [currentQuestion, setCurrentQuestion] = useState(null);
     const [stopTimer, setStopTimer] = useState(false);
     const [showAnswers, setShowAnswers] = useState(false);
+    const [scClicked, setScClicked] = useState(false);
 
     useEffect(() => {
         if (name) {
@@ -126,11 +127,12 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                                     data={shuffledData}
                                     questionNumber={questionNumber}
                                     setQuestionNumber={setQuestionNumber}
-                                    setTimeOut={setTimeOut}
                                     lifelines={lifelines}
                                     setLifelines={setLifelines}
                                     showAnswers={showAnswers}
                                     setShowAnswers={setShowAnswers}
+                                    setStopTimer={setStopTimer}
+                                    scClicked={scClicked}
                                 />
                             </div>
                         </>
@@ -167,6 +169,16 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
               >
                 Exit
               </MDBBtn>
+
+                <MDBBtn
+                    style={{ float: "right" }}
+                    onClick={() => {
+                        setScClicked(true);
+                    }}
+                >
+                SCA
+              </MDBBtn>
+
             </span>
                         <MDBCol md="6">Name: {name}</MDBCol>
                         <MDBCol md="6">Aap hain: {earned}</MDBCol>
