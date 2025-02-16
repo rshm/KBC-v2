@@ -16,7 +16,7 @@ function createWindow() {
     const startURL = `file://${path.join(__dirname, "index.html")}`;
     console.log("Loading URL:", startURL); // Log the path
     mainWindow.loadURL(startURL);
-    mainWindow.webContents.openDevTools();
+    // mainWindow.webContents.openDevTools();
     mainWindow.on('closed', function () {
         mainWindow = null;
     });
