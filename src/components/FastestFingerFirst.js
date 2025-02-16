@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { MDBBtn } from "mdb-react-ui-kit";
 import { fastestFingerData } from "../fastestFingerData";
 
-const FastestFingerFirst = () => {
+const FastestFingerFirst = ({ onExit }) => {
     const [questions, setQuestions] = useState([]); // All questions from JSON
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Current question index
     const [question, setQuestion] = useState(null); // Current question
@@ -60,7 +60,7 @@ const FastestFingerFirst = () => {
                         backgroundColor: "red", // Red for "Exit"
                     }}
                     className="mx-2"
-                    onClick={() => alert("Exiting game...")}
+                    onClick={onExit} // Call the onExit callback to go back to the start screen
                 >
                     Exit
                 </MDBBtn>

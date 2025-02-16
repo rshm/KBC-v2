@@ -15,6 +15,7 @@ const Start = ({ setName, setTimeOut }) => {
 
     // Callback function to reset gameType and go back to the start screen
     const handleExit = () => {
+        console.log("calling exit")
         setGameType(null); // Reset gameType to show the start screen
     };
 
