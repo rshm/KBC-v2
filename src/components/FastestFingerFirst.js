@@ -12,6 +12,10 @@ const FastestFingerFirst = ({ onExit }) => {
     const [correctAnswerText, setCorrectAnswerText] = useState(""); // Store the correct answer to display
     const [fff, { stop }] = useSound(fastestFingerFirst);
 
+    // Timer related state
+    const [timer, setTimer] = useState(30); // Timer starts at 30 seconds
+    const [timerInterval, setTimerInterval] = useState(null); // Store interval ID to clear later
+
     // Shuffle the questions array
     const shuffleQuestions = (array) => {
         for (let i = array.length - 1; i > 0; i--) {
@@ -35,15 +39,34 @@ const FastestFingerFirst = ({ onExit }) => {
             setQuestion(questions[currentQuestionIndex + 1]); // Update the current question
             setShowAnswers(false); // Hide answers for the next question
             setCorrectAnswerText(""); // Clear the correct answer display
+
+            // Clear timer when moving to next question
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                setTimer(30); // Reset timer to 30 seconds
+            }
         } else {
             alert("No more questions!"); // End of questions
         }
     };
 
-    // Handle showing answers
+    // Handle showing answers and starting the timer
     const handleShowAnswers = () => {
         setShowAnswers(true); // Show answers when the button is clicked
         fff();
+
+        // Start the timer when Show Options is clicked
+        const interval = setInterval(() => {
+            setTimer((prevTimer) => {
+                if (prevTimer <= 1) {
+                    clearInterval(interval); // Stop the timer once it reaches 0
+                    return 0;
+                }
+                return prevTimer - 1; // Decrease the timer by 1 each second
+            });
+        }, 1000);
+
+        setTimerInterval(interval); // Save the interval ID
     };
 
     const handleExit = () => {
@@ -59,6 +82,30 @@ const FastestFingerFirst = ({ onExit }) => {
 
     return (
         <div className="main">
+            {/* Timer Display */}
+            {showAnswers && (
+                <div
+                    style={{
+                        position: "absolute",
+                        left: "20px", // Position to the left
+                        top: "50%", // Center vertically
+                        transform: "translateY(-50%)", // Adjust to truly center vertically
+                        width: "100px", // Width of the circle
+                        height: "100px", // Height of the circle
+                        borderRadius: "50%", // Make it a circle
+                        border: "5px solid white", // White border
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        fontSize: "1.5rem", // Adjust the font size inside the circle
+                        color: "white", // White color for the timer text
+                        backgroundColor: "rgba(0, 0, 0, 0.5)", // Slight background color
+                    }}
+                >
+                    {timer}
+                </div>
+            )}
+
             {/* Container for the buttons */}
             <div
                 style={{
