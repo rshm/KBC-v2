@@ -23,7 +23,7 @@ const data =
         ],
         "fiftyFifty": [
           40,
-          25
+          30
         ]
       },
       {
@@ -75,7 +75,7 @@ const data =
         ],
         "fiftyFifty": [
           "Hot work permit is required",
-          "Vehicle fitness certificate is required"
+          "Cold work permit is required"
         ]
       },
       {
@@ -101,7 +101,7 @@ const data =
         ],
         "fiftyFifty": [
           "Three or more blinds are installed",
-          "Six or more blinds are installed"
+          "One or more blinds are installed"
         ]
       },
       {
@@ -153,7 +153,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cold work permit",
-          "HWP"
+          "Vessel entry permit"
         ]
       },
       {
@@ -179,7 +179,7 @@ const data =
         ],
         "fiftyFifty": [
           "0.5 ppm",
-          "10 ppm"
+          "1 ppm"
         ]
       },
       {
@@ -231,7 +231,7 @@ const data =
         ],
         "fiftyFifty": [
           "Mobile Elevated Working Platform",
-          "Manually Elevating Working Platform "
+          "Motor  Elevating  Working Platform"
         ]
       },
       {
@@ -283,7 +283,7 @@ const data =
         ],
         "fiftyFifty": [
           "White ",
-          "Blue"
+          "Yellow"
         ]
       },
       {
@@ -309,7 +309,7 @@ const data =
         ],
         "fiftyFifty": [
           "Asphyxiation",
-          "Explosion"
+          "Toxic"
         ]
       },
       {
@@ -335,7 +335,7 @@ const data =
         ],
         "fiftyFifty": [
           "Significant aspect",
-          "Security violation"
+          NaN
         ]
       },
       {
@@ -413,7 +413,7 @@ const data =
         ],
         "fiftyFifty": [
           "36 Km/Hr",
-          "20 Km/Hr."
+          "40 Km/Hr."
         ]
       },
       {
@@ -439,7 +439,7 @@ const data =
         ],
         "fiftyFifty": [
           "60% ",
-          0.85
+          0.7
         ]
       },
       {
@@ -491,7 +491,7 @@ const data =
         ],
         "fiftyFifty": [
           " 75 deg. ",
-          " 45 deg."
+          "50 deg."
         ]
       },
       {
@@ -543,7 +543,7 @@ const data =
         ],
         "fiftyFifty": [
           "FRP ladder ",
-          "Wooden ladder"
+          "Rope ladder"
         ]
       },
       {
@@ -569,7 +569,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of the above",
-          "SSM"
+          "Security Dept"
         ]
       },
       {
@@ -595,7 +595,7 @@ const data =
         ],
         "fiftyFifty": [
           "1050 ",
-          1250
+          1150
         ]
       },
       {
@@ -647,7 +647,7 @@ const data =
         ],
         "fiftyFifty": [
           "To work above 1.5 meter. from floor level  ",
-          "All the above"
+          "To work above 1.0 meter. from floor level"
         ]
       },
       {
@@ -673,7 +673,7 @@ const data =
         ],
         "fiftyFifty": [
           "2 meter",
-          "1 meter"
+          "2.5 meter"
         ]
       },
       {
@@ -725,7 +725,7 @@ const data =
         ],
         "fiftyFifty": [
           "Plant HOD",
-          "Maintenance Manager"
+          "Shift Engineer  "
         ]
       },
       {
@@ -751,7 +751,7 @@ const data =
         ],
         "fiftyFifty": [
           "Air purifying and Air supplied ",
-          "Face mask and Half mask"
+          "Air filtering and air cleaning "
         ]
       },
       {
@@ -777,7 +777,7 @@ const data =
         ],
         "fiftyFifty": [
           "270 bar",
-          "250 bar"
+          "45 bar"
         ]
       },
       {
@@ -829,7 +829,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cardiopulmonary resuscitation",
-          " Cardio pulse ratio "
+          "Cardio pulmonary ratio"
         ]
       },
       {
@@ -855,7 +855,7 @@ const data =
         ],
         "fiftyFifty": [
           "Both of above",
-          "Human Being"
+          "None of above"
         ]
       },
       {
@@ -881,7 +881,7 @@ const data =
         ],
         "fiftyFifty": [
           "Copper",
-          " Earth "
+          "Aluminium"
         ]
       },
       {
@@ -907,7 +907,7 @@ const data =
         ],
         "fiftyFifty": [
           "Having voltage less than 4.5 V &  Explosion-proof",
-          "Having voltage less than 24 V "
+          "No torch is allowed, only hand-lamps are allowed"
         ]
       },
       {
@@ -933,7 +933,7 @@ const data =
         ],
         "fiftyFifty": [
           "Black & Yellow Stripes",
-          "Blue and White Bands in a Circle "
+          "Red and White Bands in a Circle"
         ]
       },
       {
@@ -959,7 +959,7 @@ const data =
         ],
         "fiftyFifty": [
           "MOC with  more than Rs 5.0 crore ",
-          "Both A & B"
+          NaN
         ]
       },
       {
@@ -985,7 +985,7 @@ const data =
         ],
         "fiftyFifty": [
           "Both A & B",
-          "MOC with  more than Rs 5.0 crore "
+          NaN
         ]
       },
       {
@@ -1011,7 +1011,7 @@ const data =
         ],
         "fiftyFifty": [
           "Chemical to chemical interaction Metrix ",
-          "MIQA"
+          "PSSR"
         ]
       },
       {
@@ -1063,7 +1063,7 @@ const data =
         ],
         "fiftyFifty": [
           "Before staring the job",
-          "No body can do try test"
+          "After completion of job"
         ]
       },
       {
@@ -1089,7 +1089,7 @@ const data =
         ],
         "fiftyFifty": [
           "3 years from the date of the last revision. ",
-          "2 years from the date of the last revision.   "
+          "5 years from the date of the last revision. "
         ]
       },
       {
@@ -1115,7 +1115,7 @@ const data =
         ],
         "fiftyFifty": [
           "Radiation Safety officer (RSO)",
-          "PTW accepter"
+          "Contractor supervisor"
         ]
       },
       {
@@ -1167,7 +1167,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blocking the flow of energy from the power source to the equipment.",
-          "None of all"
+          "Placing a notice on the power source to warn others that job is in progress. "
         ]
       },
       {
@@ -1219,7 +1219,7 @@ const data =
         ],
         "fiftyFifty": [
           "Shift-in-charge ",
-          "CTS engineer"
+          "Contractor supervisor"
         ]
       },
       {
@@ -1245,7 +1245,7 @@ const data =
         ],
         "fiftyFifty": [
           "Tool Box Talk",
-          "By safety video screening "
+          "Level-2 training"
         ]
       },
       {
@@ -1271,7 +1271,7 @@ const data =
         ],
         "fiftyFifty": [
           "Guard rail ",
-          "Knee rail"
+          "all the above"
         ]
       },
       {
@@ -1297,7 +1297,7 @@ const data =
         ],
         "fiftyFifty": [
           "Inert gas",
-          "Flammable gas"
+          "Ideal gas "
         ]
       },
       {
@@ -1323,7 +1323,7 @@ const data =
         ],
         "fiftyFifty": [
           "Acceptor",
-          "Contractor Supervisor"
+          "Field Executive"
         ]
       },
       {
@@ -1479,7 +1479,7 @@ const data =
         ],
         "fiftyFifty": [
           " Issuer",
-          "Approval-1"
+          "Contractor supervisor"
         ]
       },
       {
@@ -1505,7 +1505,7 @@ const data =
         ],
         "fiftyFifty": [
           "Acceptor ",
-          "Contractor supervisor"
+          "Issuer"
         ]
       },
       {
@@ -1557,7 +1557,7 @@ const data =
         ],
         "fiftyFifty": [
           8,
-          7
+          6
         ]
       },
       {
@@ -1583,7 +1583,7 @@ const data =
         ],
         "fiftyFifty": [
           " Noise Reduction Rating ",
-          "Noise Reduction Rules"
+          "Noise Rating Rules"
         ]
       },
       {
@@ -1609,7 +1609,7 @@ const data =
         ],
         "fiftyFifty": [
           "Consequence Management",
-          "LPR-ZT "
+          "General Safety Rules"
         ]
       },
       {
@@ -1635,7 +1635,7 @@ const data =
         ],
         "fiftyFifty": [
           "Intervener",
-          "Observer "
+          " Interviewer "
         ]
       },
       {
@@ -1661,7 +1661,7 @@ const data =
         ],
         "fiftyFifty": [
           " Issuer ",
-          "Both A and B"
+          "acceptor"
         ]
       },
       {
@@ -1713,7 +1713,7 @@ const data =
         ],
         "fiftyFifty": [
           "Acceptor",
-          " Issuer"
+          " Maintenance Manager"
         ]
       },
       {
@@ -1765,7 +1765,7 @@ const data =
         ],
         "fiftyFifty": [
           "Melting point",
-          " flash point Dilute point "
+          "Boiling point"
         ]
       },
       {
@@ -1791,7 +1791,7 @@ const data =
         ],
         "fiftyFifty": [
           "Specialty Thermal Protective Apparel",
-          "Asbestos suits"
+          "Cryogenic suits "
         ]
       },
       {
@@ -1843,7 +1843,7 @@ const data =
         ],
         "fiftyFifty": [
           "Automate Process",
-          "Lock out  "
+          "Install Interlocks"
         ]
       },
       {
@@ -1895,7 +1895,7 @@ const data =
         ],
         "fiftyFifty": [
           "LPG",
-          "Chlorine"
+          "Naphtha "
         ]
       },
       {
@@ -1973,7 +1973,7 @@ const data =
         ],
         "fiftyFifty": [
           "Executing department",
-          "Area operator"
+          "Safety department"
         ]
       },
       {
@@ -1999,7 +1999,7 @@ const data =
         ],
         "fiftyFifty": [
           "Name of the person involved in the incident ",
-          "Key factors"
+          "Name of team members"
         ]
       },
       {
@@ -2077,7 +2077,7 @@ const data =
         ],
         "fiftyFifty": [
           "Disperses the cloud by air mixing",
-          "None of the above"
+          "Cools the cloud below ignition point "
         ]
       },
       {
@@ -2181,7 +2181,7 @@ const data =
         ],
         "fiftyFifty": [
           "Boiling liquid expanding vapour cloud explosion ",
-          "None of the above"
+          "Boiling liquid explosion vapour cloud expansion"
         ]
       },
       {
@@ -2207,7 +2207,7 @@ const data =
         ],
         "fiftyFifty": [
           " Each and every individual.",
-          "Plant PSR "
+          "Safety dept."
         ]
       },
       {
@@ -2233,7 +2233,7 @@ const data =
         ],
         "fiftyFifty": [
           "A roof which cannot safely support the weight of person",
-          " Sloping roof"
+          " Curved roof"
         ]
       },
       {
@@ -2259,7 +2259,7 @@ const data =
         ],
         "fiftyFifty": [
           "Immediately dangerous to life & Health",
-          "none of the above"
+          "Independent of life & health "
         ]
       },
       {
@@ -2337,7 +2337,7 @@ const data =
         ],
         "fiftyFifty": [
           "Short term Exposure limit",
-          "Standard Toxic Exposure limit "
+          "Safe time Exposure limit"
         ]
       },
       {
@@ -2415,7 +2415,7 @@ const data =
         ],
         "fiftyFifty": [
           "Crawling",
-          "Jumping out"
+          "Running "
         ]
       },
       {
@@ -2441,7 +2441,7 @@ const data =
         ],
         "fiftyFifty": [
           "Auxiliary Fire squad",
-          "Auxiliary  fire Station  "
+          "Assisting Fire Squad"
         ]
       },
       {
@@ -2467,7 +2467,7 @@ const data =
         ],
         "fiftyFifty": [
           "CO2 & CO",
-          "Black Damp"
+          "CO & H2O"
         ]
       },
       {
@@ -2519,7 +2519,7 @@ const data =
         ],
         "fiftyFifty": [
           "68 ",
-          141
+          67
         ]
       },
       {
@@ -2545,7 +2545,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of these",
-          "Wood"
+          "Soft metal"
         ]
       },
       {
@@ -2571,7 +2571,7 @@ const data =
         ],
         "fiftyFifty": [
           "65<Flash Point<93",
-          " Flash Point<23 "
+          "23<Flash Point<93"
         ]
       },
       {
@@ -2597,7 +2597,7 @@ const data =
         ],
         "fiftyFifty": [
           "Transport Emergency Card",
-          "Transport Emergency management Card "
+          " Transport Card "
         ]
       },
       {
@@ -2623,7 +2623,7 @@ const data =
         ],
         "fiftyFifty": [
           "Why Why Method",
-          "Why How method "
+          "Six Sigma method"
         ]
       },
       {
@@ -2649,7 +2649,7 @@ const data =
         ],
         "fiftyFifty": [
           "Distribution Incident",
-          "Major incident"
+          " Serious Incident"
         ]
       },
       {
@@ -2675,7 +2675,7 @@ const data =
         ],
         "fiftyFifty": [
           "Confined space / building where leaks reduce oxygen level in atmosphere ",
-          "Decommissioning activity in close loop"
+          "For purging in process"
         ]
       },
       {
@@ -2701,7 +2701,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cryogenic hand gloves ",
-          "Cotton hand gloves"
+          "Neoprene  "
         ]
       },
       {
@@ -2727,7 +2727,7 @@ const data =
         ],
         "fiftyFifty": [
           "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen). ",
-          "None of the above"
+          "Atmosphere in confined space"
         ]
       },
       {
@@ -2753,7 +2753,7 @@ const data =
         ],
         "fiftyFifty": [
           " Noise Induced Hearing loss",
-          "Notified Hearing Industrial Levels"
+          "Noise Influenced Hearing loss "
         ]
       },
       {
@@ -2805,7 +2805,7 @@ const data =
         ],
         "fiftyFifty": [
           "Breathing Air",
-          "Instrument Air"
+          "Plant air "
         ]
       },
       {
@@ -2831,7 +2831,7 @@ const data =
         ],
         "fiftyFifty": [
           "Failure Mode Effect Analysis ",
-          "Failure Mode Engineering Analysis"
+          "Finite Mode Effect Analysis"
         ]
       },
       {
@@ -2857,7 +2857,7 @@ const data =
         ],
         "fiftyFifty": [
           "TEAL  ",
-          "CHLORINE"
+          "NAPHTHA"
         ]
       },
       {
@@ -2883,7 +2883,7 @@ const data =
         ],
         "fiftyFifty": [
           "Half-Yearly",
-          "Annually"
+          " Monthly "
         ]
       },
       {
@@ -2961,7 +2961,7 @@ const data =
         ],
         "fiftyFifty": [
           "All reactions and side reactions.",
-          "Physical Properties"
+          "Action needed in case of exposure"
         ]
       },
       {
@@ -2987,7 +2987,7 @@ const data =
         ],
         "fiftyFifty": [
           "90 dBA",
-          "95 dBA"
+          "80 dBA"
         ]
       },
       {
@@ -3039,7 +3039,7 @@ const data =
         ],
         "fiftyFifty": [
           "30 minutes",
-          "45 minutes"
+          "1 hours."
         ]
       },
       {
@@ -3091,7 +3091,7 @@ const data =
         ],
         "fiftyFifty": [
           "Higher",
-          "Equal "
+          "None of above"
         ]
       },
       {
@@ -3169,7 +3169,7 @@ const data =
         ],
         "fiftyFifty": [
           "National Fire Protection Association",
-          "National Fire Prevention Agency"
+          "National Fire Protocol Association"
         ]
       },
       {
@@ -3221,7 +3221,7 @@ const data =
         ],
         "fiftyFifty": [
           "Red and White Bands in a Circle ",
-          "Blue and White Bands in a Circle"
+          "Black &Yellow Stripes"
         ]
       },
       {
@@ -3247,7 +3247,7 @@ const data =
         ],
         "fiftyFifty": [
           "Offsite emergency plan",
-          "Onsite Emergency plan "
+          "None of these"
         ]
       },
       {
@@ -3273,7 +3273,7 @@ const data =
         ],
         "fiftyFifty": [
           "Boiling Point",
-          "Dilute Point"
+          "None of these"
         ]
       },
       {
@@ -3299,7 +3299,7 @@ const data =
         ],
         "fiftyFifty": [
           "Green And White Bands in a circle ",
-          "Blue And White Bands in a circle"
+          "None of these"
         ]
       },
       {
@@ -3325,7 +3325,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blue And White Bands in a circle",
-          "Red And White Bands in a circle"
+          "Green And White Bands in a circle "
         ]
       },
       {
@@ -3351,7 +3351,7 @@ const data =
         ],
         "fiftyFifty": [
           "Smothering",
-          " Isolating"
+          "Cooling"
         ]
       },
       {
@@ -3377,7 +3377,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of these",
-          "Convection "
+          "Conduction"
         ]
       },
       {
@@ -3429,7 +3429,7 @@ const data =
         ],
         "fiftyFifty": [
           "within 2 days",
-          " within 24 hours"
+          "within 8 hours "
         ]
       },
       {
@@ -3455,7 +3455,7 @@ const data =
         ],
         "fiftyFifty": [
           "For oxygen -Blue & Acetylene - Maroon",
-          "For oxygen -Maroon & Acetylene - Black"
+          "For oxygen -Yellow & Acetylene - Maroon"
         ]
       },
       {
@@ -3533,7 +3533,7 @@ const data =
         ],
         "fiftyFifty": [
           "Segment Head/ Operating Function Head or Equivalent",
-          "Facility Leader"
+          "Plant HOD"
         ]
       },
       {
@@ -3611,7 +3611,7 @@ const data =
         ],
         "fiftyFifty": [
           "So the maximum risk is controlled and emergency response is prepared accordingly.",
-          " To avoid emergencies/process upset"
+          "To avoid production loss. "
         ]
       },
       {
@@ -3663,7 +3663,7 @@ const data =
         ],
         "fiftyFifty": [
           "Static and Mobile Pressure Vessels (Unfired) Rules",
-          "Static Mobile Pressure Vessel Rules"
+          "Static and Mobile Pressure Vessels (Fired) Rules"
         ]
       },
       {
@@ -3689,7 +3689,7 @@ const data =
         ],
         "fiftyFifty": [
           "OISD 118 Table 1 ",
-          "OISD 118 Table 2"
+          "OISD 119 Table 1"
         ]
       },
       {
@@ -3741,7 +3741,7 @@ const data =
         ],
         "fiftyFifty": [
           " At rated load(SWL) ",
-          "1.5 times the rated load(SWL)"
+          " 2.0 times the rated load(SWL)"
         ]
       },
       {
@@ -3767,7 +3767,7 @@ const data =
         ],
         "fiftyFifty": [
           "OISD 118 Table 4",
-          "OISD 118 Table 2"
+          "OISD 117 Table 3"
         ]
       },
       {
@@ -3871,7 +3871,7 @@ const data =
         ],
         "fiftyFifty": [
           "> 2.5 meter length",
-          "> 2.0 meter length "
+          "> 4.0 meter length"
         ]
       },
       {
@@ -3897,7 +3897,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.5 meter",
-          "1.8 meter"
+          "1 meter "
         ]
       },
       {
@@ -3923,7 +3923,7 @@ const data =
         ],
         "fiftyFifty": [
           "Gas Cylinder Rule Form E ",
-          "SMPV Rule 19"
+          "Gas Cylinder Rule Form F"
         ]
       },
       {
@@ -3949,7 +3949,7 @@ const data =
         ],
         "fiftyFifty": [
           "10 ppm max",
-          "20 ppm max"
+          "500 ppm max"
         ]
       },
       {
@@ -4001,7 +4001,7 @@ const data =
         ],
         "fiftyFifty": [
           "Petroleum contained in a tank irrespective of the quantity of petroleum contained ",
-          "Petroleum contained in a tank above 1000 Lit Capacity"
+          "Petroleum contained in a tank above 500 Lit Capacity"
         ]
       },
       {
@@ -4027,7 +4027,7 @@ const data =
         ],
         "fiftyFifty": [
           "Polypropylene ",
-          "Manila"
+          "Polyester"
         ]
       },
       {
@@ -4053,7 +4053,7 @@ const data =
         ],
         "fiftyFifty": [
           "Shoring ",
-          "Sloping"
+          "Angle of support"
         ]
       },
       {
@@ -4079,7 +4079,7 @@ const data =
         ],
         "fiftyFifty": [
           "Sloping",
-          "Shoring "
+          " none of the above"
         ]
       },
       {
@@ -4105,7 +4105,7 @@ const data =
         ],
         "fiftyFifty": [
           "Project Manager ",
-          "HOD-CTS"
+          "Construction Manager"
         ]
       },
       {
@@ -4157,7 +4157,7 @@ const data =
         ],
         "fiftyFifty": [
           "Form 11",
-          "Form 10"
+          "Form 12"
         ]
       },
       {
@@ -4183,7 +4183,7 @@ const data =
         ],
         "fiftyFifty": [
           "PESO",
-          " Fire  "
+          "HSEF"
         ]
       },
       {
@@ -4235,7 +4235,7 @@ const data =
         ],
         "fiftyFifty": [
           "Explosive",
-          "Corrosive"
+          "Flammable"
         ]
       },
       {
@@ -4261,7 +4261,7 @@ const data =
         ],
         "fiftyFifty": [
           "Miscellaneous substance",
-          "Oxidizing Agent"
+          "Flammable gas"
         ]
       },
       {
@@ -4313,7 +4313,7 @@ const data =
         ],
         "fiftyFifty": [
           "Corrosive",
-          "Flammable gas"
+          "Explosive"
         ]
       },
       {
@@ -4339,7 +4339,7 @@ const data =
         ],
         "fiftyFifty": [
           "2 ppm",
-          "3 ppm"
+          "1 ppm"
         ]
       },
       {
@@ -4365,7 +4365,7 @@ const data =
         ],
         "fiftyFifty": [
           "1 ppm",
-          "3 ppm"
+          "4 ppm"
         ]
       },
       {
@@ -4391,7 +4391,7 @@ const data =
         ],
         "fiftyFifty": [
           "Naphtha -PX - WATER",
-          "Naphtha - PX  "
+          "PX - Naphtha - Ethane"
         ]
       },
       {
@@ -4443,7 +4443,7 @@ const data =
         ],
         "fiftyFifty": [
           "0.02 mj",
-          "20 mj"
+          "0.02 j"
         ]
       },
       {
@@ -4469,7 +4469,7 @@ const data =
         ],
         "fiftyFifty": [
           "0.087 mj",
-          "1.50 mj"
+          "0.078 mj"
         ]
       },
       {
@@ -4495,7 +4495,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of the above",
-          "Splashing of chemical"
+          "High velocity flow"
         ]
       },
       {
@@ -4521,7 +4521,7 @@ const data =
         ],
         "fiftyFifty": [
           250,
-          1400
+          "200 "
         ]
       },
       {
@@ -4573,7 +4573,7 @@ const data =
         ],
         "fiftyFifty": [
           "20 meter",
-          "15 meter"
+          "12.5 meter "
         ]
       },
       {
@@ -4599,7 +4599,7 @@ const data =
         ],
         "fiftyFifty": [
           "Beam",
-          "Heat "
+          "Flame"
         ]
       },
       {
@@ -4625,7 +4625,7 @@ const data =
         ],
         "fiftyFifty": [
           "All the above",
-          "Smothering"
+          "Vapour suppression "
         ]
       },
       {
@@ -4677,7 +4677,7 @@ const data =
         ],
         "fiftyFifty": [
           "4%-74%",
-          "1%-44%"
+          " 2%-10% "
         ]
       },
       {
@@ -4703,7 +4703,7 @@ const data =
         ],
         "fiftyFifty": [
           "Aqueous Film Forming Foam ",
-          "Aqua Fluro Forming Foam"
+          "Aqua Film Forming Foam"
         ]
       },
       {
@@ -4729,7 +4729,7 @@ const data =
         ],
         "fiftyFifty": [
           "60 Minutes",
-          "None of above"
+          "30 Minutes"
         ]
       },
       {
@@ -4755,7 +4755,7 @@ const data =
         ],
         "fiftyFifty": [
           "Examination of Hoists & Lift",
-          "Examination of Monorail"
+          "Examination of Lifting Tools"
         ]
       },
       {
@@ -4807,7 +4807,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.7 Culture",
-          "2.2 People and Competence"
+          "2.4 Organizational Learning"
         ]
       },
       {
@@ -4833,7 +4833,7 @@ const data =
         ],
         "fiftyFifty": [
           "2.4 Organizational Learning",
-          "3.3 Process Safety"
+          "3.1 Risk Assessment and Management"
         ]
       },
       {
@@ -4859,7 +4859,7 @@ const data =
         ],
         "fiftyFifty": [
           "11 in 2021-22",
-          "15 in 2019-20"
+          "18 in 2019-20"
         ]
       },
       {
@@ -4885,7 +4885,7 @@ const data =
         ],
         "fiftyFifty": [
           "Description of Hazardous Chemical at plant site",
-          "Detail of Liasoning arrangement"
+          "Detail of Process Hazard"
         ]
       },
       {
@@ -4911,7 +4911,7 @@ const data =
         ],
         "fiftyFifty": [
           "18 , once in a year",
-          "19, once in a year"
+          "18, once in a six month"
         ]
       },
       {
