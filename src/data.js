@@ -23,33 +23,33 @@ const data =
         ],
         "fiftyFifty": [
           40,
-          30
+          25
         ]
       },
       {
         "id": 2,
-        "question": "What happens if the display copy of the permit is lost ?",
+        "question": "The validity of all types of permits in R CoW",
         "answers": [
           {
-            "text": "The job continues",
+            "text": "7 days with renewal every day for planned working hours",
             "correct": false
           },
           {
-            "text": "The permit is cancelled",
+            "text": "7 days with renewal every shift for planned working hours",
             "correct": true
           },
           {
-            "text": "Shift in charge is informed  ",
+            "text": "7 days with renewal every week for planned working hours",
             "correct": false
           },
           {
-            "text": "None of the above",
+            "text": "End of Day with renewal every shift",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "The permit is cancelled",
-          "The job continues"
+          "7 days with renewal every shift for planned working hours",
+          "End of Day with renewal every shift"
         ]
       },
       {
@@ -75,85 +75,85 @@ const data =
         ],
         "fiftyFifty": [
           "Hot work permit is required",
-          "Cold work permit is required"
+          "Vehicle fitness certificate is required"
         ]
       },
       {
         "id": 4,
-        "question": "Isolation / blind check list is required if  ",
+        "question": "Insulation removal on live equipment to inspect for leaks \u2013 known leak - is classified as ",
         "answers": [
           {
-            "text": "One or more blinds are installed",
+            "text": "Hot work Low Risk  ",
             "correct": false
           },
           {
-            "text": "Two or more blinds are installed",
+            "text": "Cold Work Medium Risk",
             "correct": false
           },
           {
-            "text": "Three or more blinds are installed",
+            "text": "Cold Work High Risk",
             "correct": true
           },
           {
-            "text": "Six or more blinds are installed",
+            "text": "Hot Work Medium Risk",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Three or more blinds are installed",
-          "One or more blinds are installed"
+          "Cold Work High Risk",
+          "Hot Work Medium Risk"
         ]
       },
       {
         "id": 5,
-        "question": "Who are the approving authorities for carrying out Hot Work inside the dyke area of hydrocarbon storage tanks?",
+        "question": "L2 HITRA for Hot Work inside the dyke area of hydrocarbon storage tanks shall have Residual Risk minimum as ",
         "answers": [
           {
-            "text": "Approver I",
+            "text": "Purple",
             "correct": false
           },
           {
-            "text": "Approver I and II",
+            "text": "Turquoise",
             "correct": false
           },
           {
-            "text": "Approver I, II and III",
+            "text": "Blue",
             "correct": true
           },
           {
-            "text": "Shift In charge",
+            "text": "Blue or Turquoise",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Approver I, II and III",
-          "Approver I"
+          "Blue",
+          "Turquoise"
         ]
       },
       {
         "id": 6,
-        "question": "Which type of permit is required for painting a pipeline having surface temperature of less than 50 C?",
+        "question": "Abrasive blasting \u2013 on live equipment requires ",
         "answers": [
           {
-            "text": "HWP",
+            "text": "Hot work Low Risk  ",
             "correct": false
           },
           {
-            "text": "Cold work permit",
+            "text": "How Work Medium Risk",
             "correct": true
           },
           {
-            "text": "Vessel entry permit",
+            "text": "Cold Work Medium Risk",
             "correct": false
           },
           {
-            "text": "No permit is required",
+            "text": "Hot Work High Risk",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Cold work permit",
-          "Vessel entry permit"
+          "How Work Medium Risk",
+          "Hot work Low Risk  "
         ]
       },
       {
@@ -161,7 +161,7 @@ const data =
         "question": "TLV/TWA of Chlorine ",
         "answers": [
           {
-            "text": "0.5 ppm",
+            "text": "0.1 ppm",
             "correct": true
           },
           {
@@ -178,7 +178,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "0.5 ppm",
+          "0.1 ppm",
           "1 ppm"
         ]
       },
@@ -205,7 +205,7 @@ const data =
         ],
         "fiftyFifty": [
           "Hydrogen",
-          "CO2"
+          "CO "
         ]
       },
       {
@@ -213,7 +213,7 @@ const data =
         "question": "MEWP - Expand the terms",
         "answers": [
           {
-            "text": "Manually Elevating Working Platform ",
+            "text": "Manually Elevating Working Platform  ",
             "correct": false
           },
           {
@@ -239,7 +239,7 @@ const data =
         "question": "Nitrogen gas at ambient temp. is ________.",
         "answers": [
           {
-            "text": "Lighter then air ",
+            "text": "Lighter then air  ",
             "correct": true
           },
           {
@@ -256,8 +256,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Lighter then air ",
-          "non applicable"
+          "Lighter then air  ",
+          "equal then air "
         ]
       },
       {
@@ -283,7 +283,7 @@ const data =
         ],
         "fiftyFifty": [
           "White ",
-          "Yellow"
+          "Green"
         ]
       },
       {
@@ -291,7 +291,7 @@ const data =
         "question": "Main Health hazards of Nitrogen gas is ________.",
         "answers": [
           {
-            "text": "  Irritation ",
+            "text": "  Irritation  ",
             "correct": false
           },
           {
@@ -309,7 +309,7 @@ const data =
         ],
         "fiftyFifty": [
           "Asphyxiation",
-          "Toxic"
+          "  Irritation  "
         ]
       },
       {
@@ -317,7 +317,7 @@ const data =
         "question": "Draining of process effluent into the SWD (sewage water drain) is",
         "answers": [
           {
-            "text": "Non-significant aspect  ",
+            "text": "Non-significant aspect   ",
             "correct": false
           },
           {
@@ -335,7 +335,7 @@ const data =
         ],
         "fiftyFifty": [
           "Significant aspect",
-          NaN
+          "Security violation"
         ]
       },
       {
@@ -343,7 +343,7 @@ const data =
         "question": "Which of the following does not constitute an environmental incident?",
         "answers": [
           {
-            "text": "Stack Emission ",
+            "text": "Stack Emission  ",
             "correct": true
           },
           {
@@ -360,8 +360,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Stack Emission ",
-          "Discharge of Domestic sewage into storm water drain"
+          "Stack Emission  ",
+          "Release of HC into atmosphere"
         ]
       },
       {
@@ -387,7 +387,7 @@ const data =
         ],
         "fiftyFifty": [
           2,
-          8
+          4
         ]
       },
       {
@@ -421,7 +421,7 @@ const data =
         "question": "If SLI  is  not working or not available in crane , the load capacity should not exceed _________________ .",
         "answers": [
           {
-            "text": "60% ",
+            "text": "60%  ",
             "correct": true
           },
           {
@@ -438,8 +438,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "60% ",
-          0.7
+          "60%  ",
+          0.85
         ]
       },
       {
@@ -447,7 +447,7 @@ const data =
         "question": "What is maximum permissible loading capacity of mobile crane if Safe Load Indicator is working ?",
         "answers": [
           {
-            "text": "60% ",
+            "text": "60%  ",
             "correct": false
           },
           {
@@ -465,7 +465,7 @@ const data =
         ],
         "fiftyFifty": [
           0.85,
-          0.8
+          0.7
         ]
       },
       {
@@ -473,7 +473,7 @@ const data =
         "question": "Portable ladder shall be placed on  ground with preferable angle.",
         "answers": [
           {
-            "text": " 75 deg. ",
+            "text": " 75 deg.  ",
             "correct": true
           },
           {
@@ -490,7 +490,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " 75 deg. ",
+          " 75 deg.  ",
           "50 deg."
         ]
       },
@@ -499,7 +499,7 @@ const data =
         "question": "Which is an appropriate anchor point for lanyard of full body harness?",
         "answers": [
           {
-            "text": " Sprinkler water pipeline  ",
+            "text": " Sprinkler water pipeline   ",
             "correct": false
           },
           {
@@ -517,7 +517,7 @@ const data =
         ],
         "fiftyFifty": [
           "Permanent structure",
-          "1\" pipe line"
+          " Sprinkler water pipeline   "
         ]
       },
       {
@@ -525,7 +525,7 @@ const data =
         "question": "Which is suitable ladder for working inside substation?",
         "answers": [
           {
-            "text": "FRP ladder ",
+            "text": "FRP ladder  ",
             "correct": true
           },
           {
@@ -542,7 +542,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "FRP ladder ",
+          "FRP ladder  ",
           "Rope ladder"
         ]
       },
@@ -569,7 +569,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of the above",
-          "Security Dept"
+          "SSM"
         ]
       },
       {
@@ -577,7 +577,7 @@ const data =
         "question": "At what height Guard/Top rail is required on platform ?",
         "answers": [
           {
-            "text": "1050 ",
+            "text": "1050  ",
             "correct": true
           },
           {
@@ -594,8 +594,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "1050 ",
-          1150
+          "1050  ",
+          1250
         ]
       },
       {
@@ -603,7 +603,7 @@ const data =
         "question": "At what height knee-rail is required on platform ?",
         "answers": [
           {
-            "text": "425 mm ",
+            "text": "425 mm  ",
             "correct": false
           },
           {
@@ -621,7 +621,7 @@ const data =
         ],
         "fiftyFifty": [
           "525 mm",
-          "425 mm "
+          "425 mm  "
         ]
       },
       {
@@ -629,7 +629,7 @@ const data =
         "question": "Work at height  means-",
         "answers": [
           {
-            "text": "To work above 1.5 meter. from floor level  ",
+            "text": "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury.   ",
             "correct": true
           },
           {
@@ -637,43 +637,43 @@ const data =
             "correct": false
           },
           {
-            "text": "To work above 1.0 meter. from floor level",
+            "text": "To work above 1.8 meter. from floor level",
             "correct": false
           },
           {
-            "text": "All the above",
+            "text": "To work above 1.5 meter. from floor level ",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "To work above 1.5 meter. from floor level  ",
-          "To work above 1.0 meter. from floor level"
+          "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury.   ",
+          "To work above 1.5 meter. from floor level "
         ]
       },
       {
         "id": 26,
-        "question": "Specified length of lanyard mentioned in work at height procedure is",
+        "question": "Full body harness with double lanyard shall be worn when work requires persons closer than ",
         "answers": [
           {
-            "text": "2.5 meter",
+            "text": " 1.5 meters from roof edge without parapets",
             "correct": false
           },
           {
-            "text": "1 meter",
+            "text": "2 meters from roof edge with  parapets ",
             "correct": false
           },
           {
-            "text": "2 meter",
+            "text": "1.8 meters from roof edge without parapets ",
             "correct": true
           },
           {
-            "text": "3 meter",
+            "text": " 2.5 meters from roof edge without parapets",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "2 meter",
-          "2.5 meter"
+          "1.8 meters from roof edge without parapets ",
+          " 1.5 meters from roof edge without parapets"
         ]
       },
       {
@@ -681,7 +681,7 @@ const data =
         "question": "Service to process interconnections devices are provided to prevent _______ .",
         "answers": [
           {
-            "text": " Back flow  ",
+            "text": " Back flow   ",
             "correct": true
           },
           {
@@ -698,7 +698,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Back flow  ",
+          " Back flow   ",
           "Upward flow"
         ]
       },
@@ -707,7 +707,7 @@ const data =
         "question": "Who is final approving authority for interlock Bypass > 24 hrs. and < 7 Days for risk category -4?",
         "answers": [
           {
-            "text": "Shift Engineer  ",
+            "text": "Shift Engineer   ",
             "correct": false
           },
           {
@@ -725,7 +725,7 @@ const data =
         ],
         "fiftyFifty": [
           "Plant HOD",
-          "Shift Engineer  "
+          "Shift Engineer   "
         ]
       },
       {
@@ -733,7 +733,7 @@ const data =
         "question": "Two basic Type of respirators are ",
         "answers": [
           {
-            "text": "Air purifying and Air supplied ",
+            "text": "Air purifying and Air supplied  ",
             "correct": true
           },
           {
@@ -750,7 +750,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Air purifying and Air supplied ",
+          "Air purifying and Air supplied  ",
           "Air filtering and air cleaning "
         ]
       },
@@ -759,7 +759,7 @@ const data =
         "question": "300 bar pressure SCBA cylinder should be replaced if cylinder pressure is less than _____ .",
         "answers": [
           {
-            "text": "300 bar ",
+            "text": "300 bar  ",
             "correct": false
           },
           {
@@ -777,33 +777,33 @@ const data =
         ],
         "fiftyFifty": [
           "270 bar",
-          "45 bar"
+          "300 bar  "
         ]
       },
       {
         "id": 31,
-        "question": "Working duration of SCBA Set with the capacity of 6 litres and pressure of 300 bar is______. ",
+        "question": "Last Lost Work Case in HMD Complex (Upto 24.02.2025)",
         "answers": [
           {
-            "text": " 35 minutes ",
+            "text": "Shipping  ",
             "correct": true
           },
           {
-            "text": "25 minutes",
+            "text": "SBR",
             "correct": false
           },
           {
-            "text": "45 minutes",
+            "text": "Cracker ",
             "correct": false
           },
           {
-            "text": "40 minutes",
+            "text": "MEG",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          " 35 minutes ",
-          "25 minutes"
+          "Shipping  ",
+          "SBR"
         ]
       },
       {
@@ -811,7 +811,7 @@ const data =
         "question": "The acronym CPR in paramedics means _______ .",
         "answers": [
           {
-            "text": " Cardio pulse ratio ",
+            "text": "  Cardio pulse ratio  ",
             "correct": false
           },
           {
@@ -829,7 +829,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cardiopulmonary resuscitation",
-          "Cardio pulmonary ratio"
+          "Cardio prevention ratio"
         ]
       },
       {
@@ -837,7 +837,7 @@ const data =
         "question": "Grounding with earth fault protection is required for protection of ",
         "answers": [
           {
-            "text": "Equipment ",
+            "text": "Equipment  ",
             "correct": false
           },
           {
@@ -855,7 +855,7 @@ const data =
         ],
         "fiftyFifty": [
           "Both of above",
-          "None of above"
+          "Human Being"
         ]
       },
       {
@@ -863,7 +863,7 @@ const data =
         "question": "Which of these is the better conductor?",
         "answers": [
           {
-            "text": " Earth ",
+            "text": " Earth  ",
             "correct": false
           },
           {
@@ -881,7 +881,7 @@ const data =
         ],
         "fiftyFifty": [
           "Copper",
-          "Aluminium"
+          " Earth  "
         ]
       },
       {
@@ -889,7 +889,7 @@ const data =
         "question": "Which type of torch is allowed in operational areas?",
         "answers": [
           {
-            "text": "Having voltage less than 24 V ",
+            "text": "Having voltage less than 24 V  ",
             "correct": false
           },
           {
@@ -907,7 +907,7 @@ const data =
         ],
         "fiftyFifty": [
           "Having voltage less than 4.5 V &  Explosion-proof",
-          "No torch is allowed, only hand-lamps are allowed"
+          "Explosion-proof"
         ]
       },
       {
@@ -915,7 +915,7 @@ const data =
         "question": "The  colour  code  for  the  identification  of location fire  extinguisher  is ",
         "answers": [
           {
-            "text": "Blue and White Bands in a Circle ",
+            "text": "Blue and White Bands in a Circle  ",
             "correct": false
           },
           {
@@ -941,7 +941,7 @@ const data =
         "question": "Level -1 PSSR is required to be done for __________.",
         "answers": [
           {
-            "text": "MOC with  more than Rs 5.0 crore ",
+            "text": "MOC with  more than Rs 5.0 crore  ",
             "correct": true
           },
           {
@@ -953,13 +953,13 @@ const data =
             "correct": false
           },
           {
-            "text": NaN,
+            "text": "MOC for any new equipment start up",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "MOC with  more than Rs 5.0 crore ",
-          NaN
+          "MOC with  more than Rs 5.0 crore  ",
+          "MOC for any new equipment start up"
         ]
       },
       {
@@ -967,7 +967,7 @@ const data =
         "question": "Level -2 PSSR is required to be done for __________.",
         "answers": [
           {
-            "text": "MOC with  more than Rs 5.0 crore ",
+            "text": "MOC with  more than Rs 5.0 crore  ",
             "correct": false
           },
           {
@@ -975,17 +975,17 @@ const data =
             "correct": false
           },
           {
-            "text": "Both A & B",
-            "correct": true
+            "text": "MOC for any new equipment start up",
+            "correct": false
           },
           {
-            "text": NaN,
-            "correct": false
+            "text": "All of Above",
+            "correct": true
           }
         ],
         "fiftyFifty": [
-          "Both A & B",
-          NaN
+          "All of Above",
+          "MOC with  more than Rs 5.0 crore  "
         ]
       },
       {
@@ -993,7 +993,7 @@ const data =
         "question": "Effect of inadvertent mixing of chemicals is available from ",
         "answers": [
           {
-            "text": "Chemical to chemical interaction Metrix ",
+            "text": "Chemical to chemical interaction Metrix  ",
             "correct": true
           },
           {
@@ -1010,7 +1010,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Chemical to chemical interaction Metrix ",
+          "Chemical to chemical interaction Metrix  ",
           "PSSR"
         ]
       },
@@ -1019,7 +1019,7 @@ const data =
         "question": "What is PHR?",
         "answers": [
           {
-            "text": "Process Hazards Review ",
+            "text": "Process Hazards Review  ",
             "correct": true
           },
           {
@@ -1036,7 +1036,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Process Hazards Review ",
+          "Process Hazards Review  ",
           "Process Health Review"
         ]
       },
@@ -1045,7 +1045,7 @@ const data =
         "question": "AS per LOTO procedure ,When the try test (i.e. check of effectiveness of electrical isolation) shall be done?",
         "answers": [
           {
-            "text": "  During the job",
+            "text": "   During the job",
             "correct": false
           },
           {
@@ -1063,7 +1063,7 @@ const data =
         ],
         "fiftyFifty": [
           "Before staring the job",
-          "After completion of job"
+          "   During the job"
         ]
       },
       {
@@ -1071,7 +1071,7 @@ const data =
         "question": "The procedure shall be reviewed not later than . ",
         "answers": [
           {
-            "text": "2 years from the date of the last revision.   ",
+            "text": "2 years from the date of the last revision.    ",
             "correct": false
           },
           {
@@ -1097,7 +1097,7 @@ const data =
         "question": "Who can isolate the Radioactive source like Nucleonic gauge in plant equipment ?",
         "answers": [
           {
-            "text": " Shift in charge ",
+            "text": " Shift in charge  ",
             "correct": false
           },
           {
@@ -1115,7 +1115,7 @@ const data =
         ],
         "fiftyFifty": [
           "Radiation Safety officer (RSO)",
-          "Contractor supervisor"
+          "PTW accepter"
         ]
       },
       {
@@ -1123,7 +1123,7 @@ const data =
         "question": "Grinding machine speed shall be ________. ",
         "answers": [
           {
-            "text": "No criteria ",
+            "text": "No criteria  ",
             "correct": false
           },
           {
@@ -1141,7 +1141,7 @@ const data =
         ],
         "fiftyFifty": [
           "Less or equal to the wheel speed",
-          "more than the wheel speed"
+          "All of the above"
         ]
       },
       {
@@ -1149,7 +1149,7 @@ const data =
         "question": "Lockout means------",
         "answers": [
           {
-            "text": "Placing a notice on the power source to warn others that job is in progress. ",
+            "text": "Placing a notice on the power source to warn others that job is in progress.  ",
             "correct": false
           },
           {
@@ -1157,7 +1157,7 @@ const data =
             "correct": true
           },
           {
-            "text": "Making sure on one can enter your work area.",
+            "text": "Blocking the flow of energy from the control source to the equipment.",
             "correct": false
           },
           {
@@ -1167,7 +1167,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blocking the flow of energy from the power source to the equipment.",
-          "Placing a notice on the power source to warn others that job is in progress. "
+          "Blocking the flow of energy from the control source to the equipment."
         ]
       },
       {
@@ -1175,7 +1175,7 @@ const data =
         "question": "Who is responsible for preparing Job Planning for Line Break activity?",
         "answers": [
           {
-            "text": "Mechanical ",
+            "text": "Mechanical  ",
             "correct": false
           },
           {
@@ -1193,7 +1193,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process",
-          "Mechanical "
+          "Mechanical  "
         ]
       },
       {
@@ -1201,7 +1201,7 @@ const data =
         "question": "Who will ensure that equipment / pipeline etc. are cleared before starting line break job?",
         "answers": [
           {
-            "text": "Shift-in-charge ",
+            "text": "Shift-in-charge  ",
             "correct": true
           },
           {
@@ -1218,8 +1218,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Shift-in-charge ",
-          "Contractor supervisor"
+          "Shift-in-charge  ",
+          "Mechanical Engineer"
         ]
       },
       {
@@ -1227,7 +1227,7 @@ const data =
         "question": "How are the hazards in the job communicated to the working crew before line break activity?",
         "answers": [
           {
-            "text": "By safety video screening ",
+            "text": "Discussing Procedure  ",
             "correct": false
           },
           {
@@ -1245,15 +1245,15 @@ const data =
         ],
         "fiftyFifty": [
           "Tool Box Talk",
-          "Level-2 training"
+          "Discussing Procedure  "
         ]
       },
       {
         "id": 49,
-        "question": "A horizontal rail secured to standards and erected along the exposed edges of scaffolds to prevent workmen from falling.   ",
+        "question": "A horizontal rail secured to standards and erected along the exposed edges of scaffolds to prevent workmen from falling.    ",
         "answers": [
           {
-            "text": "Guard rail ",
+            "text": "Guard rail  ",
             "correct": true
           },
           {
@@ -1270,16 +1270,16 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Guard rail ",
-          "all the above"
+          "Guard rail  ",
+          "Toe rail "
         ]
       },
       {
         "id": 50,
-        "question": "A gas which is resistant to chemical action under normally encountered conditions is called ",
+        "question": "A gas which is resistant to chemical action under normally encountered conditions is called  ",
         "answers": [
           {
-            "text": "Ideal gas ",
+            "text": "Ideal gas  ",
             "correct": false
           },
           {
@@ -1297,41 +1297,119 @@ const data =
         ],
         "fiftyFifty": [
           "Inert gas",
-          "Ideal gas "
+          "Toxic gas"
         ]
       },
       {
         "id": 51,
-        "question": " The ----- shall display the copy of approved HITRA along with PTW at the job location.   ",
+        "question": " ----------performs the isolation in field and confirms the isolation and the lock number through the Handheld device (HHD).  ",
         "answers": [
           {
-            "text": " Issuer ",
+            "text": "Issuer and  Acceptor  ",
             "correct": false
           },
           {
-            "text": "Field Executive",
+            "text": "Field Executive and  Acceptor",
             "correct": false
           },
           {
-            "text": "Acceptor",
+            "text": "The Field Executive and/or electrical engineer",
             "correct": true
           },
           {
-            "text": "Contractor Supervisor",
+            "text": "Verifier",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Acceptor",
-          "Field Executive"
+          "The Field Executive and/or electrical engineer",
+          "Field Executive and  Acceptor"
         ]
       },
       {
         "id": 52,
-        "question": "In HITRA,  Install noise enclosure ---- ",
+        "question": "In HITRA,  Install noise enclosure ----  ",
         "answers": [
           {
-            "text": "Elimination ",
+            "text": "Elimination  ",
+            "correct": false
+          },
+          {
+            "text": "Substitution",
+            "correct": false
+          },
+          {
+            "text": "Engineering control ",
+            "correct": true
+          },
+          {
+            "text": "Administrative control",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Engineering control ",
+          "Elimination  "
+        ]
+      },
+      {
+        "id": 53,
+        "question": "In HITRA,  Automate process ----  ",
+        "answers": [
+          {
+            "text": "Elimination  ",
+            "correct": false
+          },
+          {
+            "text": "Substitution",
+            "correct": true
+          },
+          {
+            "text": "Engineering control ",
+            "correct": false
+          },
+          {
+            "text": "Administrative control",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Substitution",
+          "Engineering control "
+        ]
+      },
+      {
+        "id": 54,
+        "question": "In HITRA,  Implementing permit-to-work system ----  ",
+        "answers": [
+          {
+            "text": "Elimination  ",
+            "correct": false
+          },
+          {
+            "text": "Substitution",
+            "correct": false
+          },
+          {
+            "text": "Engineering control ",
+            "correct": false
+          },
+          {
+            "text": "Administrative control",
+            "correct": true
+          }
+        ],
+        "fiftyFifty": [
+          "Administrative control",
+          "Elimination  "
+        ]
+      },
+      {
+        "id": 55,
+        "question": "In HITRA,  Redesign workplace layout",
+        "answers": [
+          {
+            "text": "Elimination  ",
             "correct": false
           },
           {
@@ -1353,89 +1431,11 @@ const data =
         ]
       },
       {
-        "id": 53,
-        "question": "In HITRA,  Automate process ---- ",
-        "answers": [
-          {
-            "text": "Elimination ",
-            "correct": false
-          },
-          {
-            "text": "Substitution",
-            "correct": true
-          },
-          {
-            "text": "Engineering control ",
-            "correct": false
-          },
-          {
-            "text": "Administrative control",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Substitution",
-          "Administrative control"
-        ]
-      },
-      {
-        "id": 54,
-        "question": "In HITRA,  Implementing permit-to-work system ---- ",
-        "answers": [
-          {
-            "text": "Elimination ",
-            "correct": false
-          },
-          {
-            "text": "Substitution",
-            "correct": false
-          },
-          {
-            "text": "Engineering control ",
-            "correct": false
-          },
-          {
-            "text": "Administrative control",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "Administrative control",
-          "Elimination "
-        ]
-      },
-      {
-        "id": 55,
-        "question": "In HITRA,  Redesign workplace layout",
-        "answers": [
-          {
-            "text": "Elimination ",
-            "correct": false
-          },
-          {
-            "text": "Substitution",
-            "correct": false
-          },
-          {
-            "text": "Engineering control ",
-            "correct": true
-          },
-          {
-            "text": "Administrative control",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Engineering control ",
-          "Administrative control"
-        ]
-      },
-      {
         "id": 56,
-        "question": "In HITRA, Working in pairs is---- ",
+        "question": "In HITRA, Working in pairs is----  ",
         "answers": [
           {
-            "text": "Elimination ",
+            "text": "Elimination  ",
             "correct": false
           },
           {
@@ -1458,54 +1458,54 @@ const data =
       },
       {
         "id": 57,
-        "question": " Work Permit ----- should take required approvals and endorsement of approvers.",
+        "question": "Who shall ensure displaying of the permit and availability of all relevant documents at the work site.",
         "answers": [
           {
-            "text": "Acceptor ",
+            "text": "Issuer  ",
             "correct": false
           },
           {
-            "text": " Issuer",
+            "text": "Acceptor",
             "correct": true
           },
           {
-            "text": "Approval-1",
+            "text": "Verifier",
             "correct": false
           },
           {
-            "text": "Contractor supervisor",
+            "text": "Plant Manager",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          " Issuer",
-          "Contractor supervisor"
+          "Acceptor",
+          "Plant Manager"
         ]
       },
       {
         "id": 58,
-        "question": "The section A,B,C,D,E2 of the work permit is to be usually filled-in by the Work Permit ------- ",
+        "question": "Testing sequence for  CSE Atmosphere  A Test for Combustible gases  B Test for Toxic Gas  C Stop Air Mover  D Test for oxygen  ",
         "answers": [
           {
-            "text": "Acceptor ",
+            "text": "CDAB  ",
             "correct": true
           },
           {
-            "text": "Issuer",
+            "text": "CDBA",
             "correct": false
           },
           {
-            "text": "Approval-1",
+            "text": "CADB",
             "correct": false
           },
           {
-            "text": "Contractor supervisor",
+            "text": "CBDA",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Acceptor ",
-          "Issuer"
+          "CDAB  ",
+          "CADB"
         ]
       },
       {
@@ -1531,7 +1531,7 @@ const data =
         ],
         "fiftyFifty": [
           "Operating Management system",
-          "Operation Managing System"
+          "All of above"
         ]
       },
       {
@@ -1565,7 +1565,7 @@ const data =
         "question": "NRR Means",
         "answers": [
           {
-            "text": " Noise Reduction Rating ",
+            "text": " Noise Reduction Rating  ",
             "correct": true
           },
           {
@@ -1582,138 +1582,138 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Noise Reduction Rating ",
+          " Noise Reduction Rating  ",
           "Noise Rating Rules"
         ]
       },
       {
         "id": 62,
-        "question": "It is a management tool to ensure fair and consistent actions are taken to ensure people working at site are corrected for intentional or unintentional misbehaviour and mistakes.",
+        "question": "HSE related violations are addressed utilizing ",
         "answers": [
           {
-            "text": "LPR-ZT ",
+            "text": "LPR-ZT Process  ",
             "correct": false
           },
           {
-            "text": "Consequence Management",
+            "text": "Progressive Discipline Frame Work for Employee",
             "correct": true
           },
           {
-            "text": "General Safety Rules",
+            "text": "Consequence Management Frame work",
             "correct": false
           },
           {
-            "text": "All the above",
+            "text": "Progressive Discipline Frame Work for Contractor",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Consequence Management",
-          "General Safety Rules"
+          "Progressive Discipline Frame Work for Employee",
+          "Consequence Management Frame work"
         ]
       },
       {
         "id": 63,
-        "question": "In Consequence Management Process, In case of violation observed shall be reported by person who observes violation called--------",
+        "question": ".",
         "answers": [
           {
-            "text": " Interviewer ",
+            "text": "Confined Space Entrant Training Annexure 1A  ",
             "correct": false
           },
           {
-            "text": "Intervener",
+            "text": "Distillation column /Vessel Decommissioning ",
             "correct": true
           },
           {
-            "text": "investigator",
+            "text": "Ventilation Process",
             "correct": false
           },
           {
-            "text": "Observer ",
+            "text": "Continuous and/or Periodic monitoring",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Intervener",
-          " Interviewer "
+          "Distillation column /Vessel Decommissioning ",
+          "Ventilation Process"
         ]
       },
       {
         "id": 64,
-        "question": "The Permit -------shall be responsible for recognizing and evaluating the hazards throughout the hot work, specifying the essential precautions, and authorizing the work. ",
+        "question": "Job Planning is crucial activity for OMS Sub Element",
         "answers": [
           {
-            "text": " Issuer ",
+            "text": "4.5 Control of Work  ",
             "correct": true
           },
           {
-            "text": "acceptor",
+            "text": "4.1 Procedure and Practices",
             "correct": false
           },
           {
-            "text": "Both A and B",
+            "text": "4.6 Continuous and/or Periodic monitoring",
             "correct": false
           },
           {
-            "text": " None ",
+            "text": "3.1 Risk Assessment and Management",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          " Issuer ",
-          "acceptor"
+          "4.5 Control of Work  ",
+          "4.6 Continuous and/or Periodic monitoring"
         ]
       },
       {
         "id": 65,
-        "question": "Who will Ensure that all necessary supporting certificates/checklists, hazard & risk assessment are attached or referred to in the permit. ",
+        "question": "Risk based  SOP Categories as per Site IMS Procedure  at HMD",
         "answers": [
           {
-            "text": " Acceptor ",
+            "text": "  Purple Risk - Blue Risk - Turquoise Risk - White Risk  ",
+            "correct": false
+          },
+          {
+            "text": "Level-1/Level-2/Level-3",
+            "correct": true
+          },
+          {
+            "text": "Vital - Essential - Desirable",
+            "correct": false
+          },
+          {
+            "text": "HSEF - Reliability - Technology",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Level-1/Level-2/Level-3",
+          "Vital - Essential - Desirable"
+        ]
+      },
+      {
+        "id": 66,
+        "question": "Who takes decision to suspend or cancel the work-permit if the requirements are not met or the situation is not conducive to continue the work. ",
+        "answers": [
+          {
+            "text": "  Maintenance Manager",
+            "correct": false
+          },
+          {
+            "text": "Verifier",
+            "correct": false
+          },
+          {
+            "text": "Acceptor",
             "correct": false
           },
           {
             "text": "Issuer",
             "correct": true
-          },
-          {
-            "text": "Production Manager",
-            "correct": false
-          },
-          {
-            "text": "Plant HOD",
-            "correct": false
           }
         ],
         "fiftyFifty": [
           "Issuer",
-          "Production Manager"
-        ]
-      },
-      {
-        "id": 66,
-        "question": "Who will ensure that the contractor declaration form is signed and the persons involved in executing the job are competent for performing the job.",
-        "answers": [
-          {
-            "text": " Maintenance Manager",
-            "correct": false
-          },
-          {
-            "text": "Plant HOD",
-            "correct": false
-          },
-          {
-            "text": " Issuer",
-            "correct": false
-          },
-          {
-            "text": "Acceptor",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "Acceptor",
-          " Maintenance Manager"
+          "  Maintenance Manager"
         ]
       },
       {
@@ -1721,7 +1721,7 @@ const data =
         "question": "A bulb that shatters when bubble inside it disappear(Expansion of liquid) in the event of fire breakdown is called as ",
         "answers": [
           {
-            "text": "Quartzoid bulb ",
+            "text": "Quartzoid bulb  ",
             "correct": true
           },
           {
@@ -1738,8 +1738,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Quartzoid bulb ",
-          "Shatter bulb"
+          "Quartzoid bulb  ",
+          "Orange bulb"
         ]
       },
       {
@@ -1747,7 +1747,7 @@ const data =
         "question": "A fusible plug used in the heat detectors normally have low",
         "answers": [
           {
-            "text": " flash point Dilute point ",
+            "text": "  flash point Dilute point  ",
             "correct": false
           },
           {
@@ -1773,7 +1773,7 @@ const data =
         "question": "Apparel  used for rescue operation in an area of intense heat ,fire, steam, hot liquid is ?",
         "answers": [
           {
-            "text": "Cryogenic suits ",
+            "text": "Cryogenic suits  ",
             "correct": false
           },
           {
@@ -1791,7 +1791,7 @@ const data =
         ],
         "fiftyFifty": [
           "Specialty Thermal Protective Apparel",
-          "Cryogenic suits "
+          "Asbestos suits"
         ]
       },
       {
@@ -1799,7 +1799,7 @@ const data =
         "question": "Assembly  points  in  various  plants  have  been  marked",
         "answers": [
           {
-            "text": "Trapezium ",
+            "text": "Trapezium  ",
             "correct": false
           },
           {
@@ -1817,7 +1817,7 @@ const data =
         ],
         "fiftyFifty": [
           "Concentric circles",
-          "Trapezium "
+          "Squared"
         ]
       },
       {
@@ -1825,7 +1825,7 @@ const data =
         "question": "Example of substitutions in risk assessment is",
         "answers": [
           {
-            "text": "Lock out  ",
+            "text": "Lock out   ",
             "correct": false
           },
           {
@@ -1843,7 +1843,7 @@ const data =
         ],
         "fiftyFifty": [
           "Automate Process",
-          "Install Interlocks"
+          "Lock out   "
         ]
       },
       {
@@ -1851,7 +1851,7 @@ const data =
         "question": "Best  extinguishing  media  for  liquid  hydrocarbon pool  fire  is  ",
         "answers": [
           {
-            "text": " CO2 ",
+            "text": " CO2  ",
             "correct": false
           },
           {
@@ -1869,7 +1869,7 @@ const data =
         ],
         "fiftyFifty": [
           "Foam",
-          "DCP"
+          "Halon"
         ]
       },
       {
@@ -1877,7 +1877,7 @@ const data =
         "question": "BLEVE  can  take  place  in",
         "answers": [
           {
-            "text": "Naphtha ",
+            "text": "Naphtha  ",
             "correct": false
           },
           {
@@ -1895,7 +1895,7 @@ const data =
         ],
         "fiftyFifty": [
           "LPG",
-          "Naphtha "
+          "Chlorine"
         ]
       },
       {
@@ -1921,7 +1921,7 @@ const data =
         ],
         "fiftyFifty": [
           "Less than 23 deg C",
-          "More than 23 deg C"
+          "Less than 25 deg C"
         ]
       },
       {
@@ -1929,7 +1929,7 @@ const data =
         "question": "Classification of fires is based upon",
         "answers": [
           {
-            "text": "  Oxygen levels ",
+            "text": "    Oxygen levels  ",
             "correct": false
           },
           {
@@ -1947,7 +1947,7 @@ const data =
         ],
         "fiftyFifty": [
           "Nature of fuel",
-          "Amount of heat"
+          "None of the above"
         ]
       },
       {
@@ -1955,7 +1955,7 @@ const data =
         "question": "De-energization request after job completion is raised by",
         "answers": [
           {
-            "text": "Plant Electrical ",
+            "text": "Plant Electrical  ",
             "correct": false
           },
           {
@@ -1973,7 +1973,7 @@ const data =
         ],
         "fiftyFifty": [
           "Executing department",
-          "Safety department"
+          "Plant Electrical  "
         ]
       },
       {
@@ -1981,7 +1981,7 @@ const data =
         "question": "Which of these is not a part of Incident Investigation Report ",
         "answers": [
           {
-            "text": "Name of the person involved in the incident ",
+            "text": "Name of the person involved in the incident  ",
             "correct": true
           },
           {
@@ -1998,16 +1998,16 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Name of the person involved in the incident ",
+          "Name of the person involved in the incident  ",
           "Name of team members"
         ]
       },
       {
         "id": 78,
-        "question": "Job preparation checklist before releasing electrical supply to the feeder is checked & filled by ",
+        "question": "Who is responsible for verifying the checkpoints as applicable for releasing the temporary electrical  connection.",
         "answers": [
           {
-            "text": " Plant Electrical ",
+            "text": " Plant Electrical  ",
             "correct": true
           },
           {
@@ -2024,7 +2024,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Plant Electrical ",
+          " Plant Electrical  ",
           "Executing department"
         ]
       },
@@ -2059,7 +2059,7 @@ const data =
         "question": "During a vapour cloud formation, water spray",
         "answers": [
           {
-            "text": "Cools the cloud below ignition point ",
+            "text": "Cools the cloud below ignition point  ",
             "correct": false
           },
           {
@@ -2067,17 +2067,17 @@ const data =
             "correct": true
           },
           {
-            "text": "None of the above",
+            "text": "Extinguish the  Fire",
             "correct": false
           },
           {
-            "text": "All the above",
+            "text": "None of Above",
             "correct": false
           }
         ],
         "fiftyFifty": [
           "Disperses the cloud by air mixing",
-          "Cools the cloud below ignition point "
+          "None of Above"
         ]
       },
       {
@@ -2085,7 +2085,7 @@ const data =
         "question": "Deluge Valve works on the principle of",
         "answers": [
           {
-            "text": "Differential pressure ",
+            "text": "Differential pressure  ",
             "correct": true
           },
           {
@@ -2097,13 +2097,13 @@ const data =
             "correct": false
           },
           {
-            "text": "None of the above",
+            "text": "Temperature Difference",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Differential pressure ",
-          "Cloud identification"
+          "Differential pressure  ",
+          "All the above"
         ]
       },
       {
@@ -2129,7 +2129,7 @@ const data =
         ],
         "fiftyFifty": [
           "None of the above",
-          "Tuesday"
+          " Sunday "
         ]
       },
       {
@@ -2137,7 +2137,7 @@ const data =
         "question": "Escape set is used to ",
         "answers": [
           {
-            "text": "Rescue operations ",
+            "text": "Rescue operations  ",
             "correct": false
           },
           {
@@ -2155,7 +2155,7 @@ const data =
         ],
         "fiftyFifty": [
           " Escape",
-          "Rescue operations "
+          "Rescue operations  "
         ]
       },
       {
@@ -2163,7 +2163,7 @@ const data =
         "question": "Expand BLEVE ?",
         "answers": [
           {
-            "text": "Boiling liquid expanding vapour cloud explosion ",
+            "text": "Boiling liquid expanding vapour cloud explosion  ",
             "correct": true
           },
           {
@@ -2180,16 +2180,16 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Boiling liquid expanding vapour cloud explosion ",
-          "Boiling liquid explosion vapour cloud expansion"
+          "Boiling liquid expanding vapour cloud explosion  ",
+          "Boiling liquification expanding vigorous explosion"
         ]
       },
       {
         "id": 85,
-        "question": "Whose responsibility to  Maintain  Excellent Housekeeping in the Plant area.",
+        "question": "Whose responsibility is to  Maintain  Excellent Housekeeping in the Plant area.",
         "answers": [
           {
-            "text": "Plant PSR ",
+            "text": "Plant PSR  ",
             "correct": false
           },
           {
@@ -2215,7 +2215,7 @@ const data =
         "question": "What is fragile roof",
         "answers": [
           {
-            "text": " Sloping roof",
+            "text": "  Sloping roof",
             "correct": false
           },
           {
@@ -2241,7 +2241,7 @@ const data =
         "question": "IDLH Stands for",
         "answers": [
           {
-            "text": "Independent of life & health ",
+            "text": "Independent of life & health  ",
             "correct": false
           },
           {
@@ -2259,7 +2259,7 @@ const data =
         ],
         "fiftyFifty": [
           "Immediately dangerous to life & Health",
-          "Independent of life & health "
+          "Inactively dangerous to life & health"
         ]
       },
       {
@@ -2267,7 +2267,7 @@ const data =
         "question": "Metal  fire  is  categorized  as    ",
         "answers": [
           {
-            "text": "  Class D  ",
+            "text": "   Class D    ",
             "correct": true
           },
           {
@@ -2284,8 +2284,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "  Class D  ",
-          "Class A"
+          "   Class D    ",
+          "None of the above"
         ]
       },
       {
@@ -2311,7 +2311,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process Hazard Analysis",
-          "Process hazard analyser"
+          "Preventive hazard analysis"
         ]
       },
       {
@@ -2319,7 +2319,7 @@ const data =
         "question": "STEL stands for",
         "answers": [
           {
-            "text": "Standard Toxic Exposure limit ",
+            "text": "Standard Toxic Exposure limit  ",
             "correct": false
           },
           {
@@ -2345,7 +2345,7 @@ const data =
         "question": "Teal fires are classified as ",
         "answers": [
           {
-            "text": " Class A  ",
+            "text": " Class A   ",
             "correct": false
           },
           {
@@ -2363,7 +2363,7 @@ const data =
         ],
         "fiftyFifty": [
           "Class D",
-          " Class A  "
+          " Class A   "
         ]
       },
       {
@@ -2371,7 +2371,7 @@ const data =
         "question": "The  range  of  flammability  indicates",
         "answers": [
           {
-            "text": "Threshold limits ",
+            "text": "Threshold limits  ",
             "correct": false
           },
           {
@@ -2389,7 +2389,7 @@ const data =
         ],
         "fiftyFifty": [
           "Explosive limits",
-          "Threshold limits "
+          "Threshold limits  "
         ]
       },
       {
@@ -2397,7 +2397,7 @@ const data =
         "question": "The  safest  way  to  exit  a  smoke  filled  room  is",
         "answers": [
           {
-            "text": "Running ",
+            "text": "Running  ",
             "correct": false
           },
           {
@@ -2415,7 +2415,7 @@ const data =
         ],
         "fiftyFifty": [
           "Crawling",
-          "Running "
+          "walking"
         ]
       },
       {
@@ -2423,7 +2423,7 @@ const data =
         "question": "The full form of AFS is",
         "answers": [
           {
-            "text": "Auxiliary  fire Station  ",
+            "text": "Auxiliary  fire Station   ",
             "correct": false
           },
           {
@@ -2441,7 +2441,7 @@ const data =
         ],
         "fiftyFifty": [
           "Auxiliary Fire squad",
-          "Assisting Fire Squad"
+          "Active Fire Squad"
         ]
       },
       {
@@ -2449,7 +2449,7 @@ const data =
         "question": "The general products of combustion are ",
         "answers": [
           {
-            "text": " CO ",
+            "text": " CO  ",
             "correct": false
           },
           {
@@ -2475,7 +2475,7 @@ const data =
         "question": "What  is  UVCE  ?",
         "answers": [
           {
-            "text": "Unconfined Vapour Explosion ",
+            "text": "Unconfined Vapour Closed Explosion  ",
             "correct": false
           },
           {
@@ -2493,7 +2493,7 @@ const data =
         ],
         "fiftyFifty": [
           "Unconfined vapour cloud explosion",
-          "Unconfined Vapour Explosion "
+          "None of these"
         ]
       },
       {
@@ -2501,7 +2501,7 @@ const data =
         "question": "The red colour QB is rated for temperature",
         "answers": [
           {
-            "text": "68 ",
+            "text": "68  ",
             "correct": true
           },
           {
@@ -2518,8 +2518,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "68 ",
-          67
+          "68  ",
+          141
         ]
       },
       {
@@ -2527,7 +2527,7 @@ const data =
         "question": "What  is  non  sparking  tools made of ?",
         "answers": [
           {
-            "text": "Teflon ",
+            "text": "Teflon  ",
             "correct": false
           },
           {
@@ -2553,7 +2553,7 @@ const data =
         "question": "What is class C petroleum product ?",
         "answers": [
           {
-            "text": " Flash Point<23 ",
+            "text": " Flash Point<23  ",
             "correct": false
           },
           {
@@ -2571,7 +2571,7 @@ const data =
         ],
         "fiftyFifty": [
           "65<Flash Point<93",
-          "23<Flash Point<93"
+          "None of these"
         ]
       },
       {
@@ -2579,7 +2579,7 @@ const data =
         "question": "What is TREM",
         "answers": [
           {
-            "text": " Transport Card ",
+            "text": " Transport Card  ",
             "correct": false
           },
           {
@@ -2597,7 +2597,7 @@ const data =
         ],
         "fiftyFifty": [
           "Transport Emergency Card",
-          " Transport Card "
+          " Transport Card  "
         ]
       },
       {
@@ -2605,7 +2605,7 @@ const data =
         "question": "The technique used for determining key factors is",
         "answers": [
           {
-            "text": "Why How method ",
+            "text": "Why How method  ",
             "correct": false
           },
           {
@@ -2623,7 +2623,7 @@ const data =
         ],
         "fiftyFifty": [
           "Why Why Method",
-          "Six Sigma method"
+          "Why How method  "
         ]
       },
       {
@@ -2631,7 +2631,7 @@ const data =
         "question": "A tanker carrying Benzene from RIL, Hazira site topples near Ichhapore. This is a ",
         "answers": [
           {
-            "text": "Process Incident ",
+            "text": "Process Incident  ",
             "correct": false
           },
           {
@@ -2649,7 +2649,7 @@ const data =
         ],
         "fiftyFifty": [
           "Distribution Incident",
-          " Serious Incident"
+          "Process Incident  "
         ]
       },
       {
@@ -2657,7 +2657,7 @@ const data =
         "question": "Where the nitrogen connection is not permitted ?",
         "answers": [
           {
-            "text": "Confined space / building where leaks reduce oxygen level in atmosphere ",
+            "text": "Confined space / building where leaks reduce oxygen level in atmosphere  ",
             "correct": true
           },
           {
@@ -2674,7 +2674,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Confined space / building where leaks reduce oxygen level in atmosphere ",
+          "Confined space / building where leaks reduce oxygen level in atmosphere  ",
           "For purging in process"
         ]
       },
@@ -2683,7 +2683,7 @@ const data =
         "question": "Which type hand gloves is required  for  liquid nitrogen handling ?",
         "answers": [
           {
-            "text": "Neoprene  ",
+            "text": "Neoprene   ",
             "correct": false
           },
           {
@@ -2701,15 +2701,15 @@ const data =
         ],
         "fiftyFifty": [
           "Cryogenic hand gloves ",
-          "Neoprene  "
+          "Cotton hand gloves"
         ]
       },
       {
         "id": 105,
-        "question": "Asphyxiant means ",
+        "question": "Asphyxiant means  ",
         "answers": [
           {
-            "text": "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen). ",
+            "text": "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).  ",
             "correct": true
           },
           {
@@ -2726,8 +2726,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen). ",
-          "Atmosphere in confined space"
+          "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).  ",
+          "Normal atmospheric condition"
         ]
       },
       {
@@ -2735,7 +2735,7 @@ const data =
         "question": "NIHL stands for",
         "answers": [
           {
-            "text": "Noise Influenced Hearing loss ",
+            "text": "Noise Influenced Hearing loss  ",
             "correct": false
           },
           {
@@ -2753,7 +2753,7 @@ const data =
         ],
         "fiftyFifty": [
           " Noise Induced Hearing loss",
-          "Noise Influenced Hearing loss "
+          "Noise Influenced Hearing loss  "
         ]
       },
       {
@@ -2761,7 +2761,7 @@ const data =
         "question": "Who is the functional owner of PHA document?",
         "answers": [
           {
-            "text": "HOD \u2013 CTS ",
+            "text": "HOD \u2013 CTS  ",
             "correct": true
           },
           {
@@ -2778,8 +2778,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "HOD \u2013 CTS ",
-          "HOD \u2013 CES"
+          "HOD \u2013 CTS  ",
+          "Manufacturing head"
         ]
       },
       {
@@ -2787,7 +2787,7 @@ const data =
         "question": "Which systems shall not be interconnected to process.",
         "answers": [
           {
-            "text": "Plant air ",
+            "text": "Plant air  ",
             "correct": false
           },
           {
@@ -2805,7 +2805,7 @@ const data =
         ],
         "fiftyFifty": [
           "Breathing Air",
-          "Plant air "
+          " None of the above "
         ]
       },
       {
@@ -2813,7 +2813,7 @@ const data =
         "question": "What is FMEA?",
         "answers": [
           {
-            "text": "Failure Mode Effect Analysis ",
+            "text": "Failure Mode Effect Analysis  ",
             "correct": true
           },
           {
@@ -2830,7 +2830,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Failure Mode Effect Analysis ",
+          "Failure Mode Effect Analysis  ",
           "Finite Mode Effect Analysis"
         ]
       },
@@ -2839,7 +2839,7 @@ const data =
         "question": "Aluminized proximity suits are  used where pyrophoric chemicals or molten materials are handled such as -----------?",
         "answers": [
           {
-            "text": "TEAL  ",
+            "text": "TEAL   ",
             "correct": true
           },
           {
@@ -2856,8 +2856,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "TEAL  ",
-          "NAPHTHA"
+          "TEAL   ",
+          "CHLORINE"
         ]
       },
       {
@@ -2865,7 +2865,7 @@ const data =
         "question": "What is frequency of certification of electrical driven portable equipment's",
         "answers": [
           {
-            "text": " Monthly ",
+            "text": " Monthly  ",
             "correct": false
           },
           {
@@ -2883,7 +2883,7 @@ const data =
         ],
         "fiftyFifty": [
           "Half-Yearly",
-          " Monthly "
+          "Annually"
         ]
       },
       {
@@ -2891,7 +2891,7 @@ const data =
         "question": "What should be rating of protecting ELCB used during operation of the portable and transportable apparatus",
         "answers": [
           {
-            "text": "30 mA ",
+            "text": "30 mA  ",
             "correct": true
           },
           {
@@ -2908,7 +2908,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "30 mA ",
+          "30 mA  ",
           "100 mA"
         ]
       },
@@ -2917,7 +2917,7 @@ const data =
         "question": "What are the 4Ps of the OMS ",
         "answers": [
           {
-            "text": "People, Process, Plant Performance  ",
+            "text": "People, Process, Plant Performance   ",
             "correct": true
           },
           {
@@ -2934,8 +2934,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "People, Process, Plant Performance  ",
-          "Planning, Privilege , Plant, Productivity "
+          "People, Process, Plant Performance   ",
+          "Parameter, Performance, Plant, Productivity"
         ]
       },
       {
@@ -2987,7 +2987,7 @@ const data =
         ],
         "fiftyFifty": [
           "90 dBA",
-          "80 dBA"
+          "85 dBA"
         ]
       },
       {
@@ -3013,7 +3013,7 @@ const data =
         ],
         "fiftyFifty": [
           "When working under single isolation ",
-          "When working in C shift"
+          "All of above"
         ]
       },
       {
@@ -3039,7 +3039,7 @@ const data =
         ],
         "fiftyFifty": [
           "30 minutes",
-          "1 hours."
+          "45 minutes"
         ]
       },
       {
@@ -3065,7 +3065,7 @@ const data =
         ],
         "fiftyFifty": [
           "No horseplay",
-          "No line break without authorization"
+          "No entry in confined space without authorization"
         ]
       },
       {
@@ -3073,7 +3073,7 @@ const data =
         "question": "Fire  point  is  ____________  than  Flash  point",
         "answers": [
           {
-            "text": "Equal ",
+            "text": "Equal  ",
             "correct": false
           },
           {
@@ -3099,7 +3099,7 @@ const data =
         "question": "Fire from a pressurized pipeline leak is termed as ",
         "answers": [
           {
-            "text": " Plane ",
+            "text": " Plane  ",
             "correct": false
           },
           {
@@ -3125,7 +3125,7 @@ const data =
         "question": "In a chlorine emergency kit, ammonia solution is used for",
         "answers": [
           {
-            "text": "Detecting chlorine ",
+            "text": "Detecting chlorine  ",
             "correct": true
           },
           {
@@ -3142,7 +3142,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Detecting chlorine ",
+          "Detecting chlorine  ",
           "None of the above"
         ]
       },
@@ -3151,7 +3151,7 @@ const data =
         "question": "NFPA  stands  for",
         "answers": [
           {
-            "text": "National Fire Prevention Association ",
+            "text": "National Fire Prevention Association  ",
             "correct": false
           },
           {
@@ -3177,7 +3177,7 @@ const data =
         "question": "Pungent  smell  in  LPG  is  due  to",
         "answers": [
           {
-            "text": "Methyl Mercaptan ",
+            "text": "Methyl Mercaptan  ",
             "correct": false
           },
           {
@@ -3195,7 +3195,7 @@ const data =
         ],
         "fiftyFifty": [
           "Ethyl Mercaptan",
-          "Surfactant"
+          "Catalyst"
         ]
       },
       {
@@ -3203,7 +3203,7 @@ const data =
         "question": "The  colour  code  for  the  identification  of location of  MCP  is ",
         "answers": [
           {
-            "text": "Red and White Bands in a Circle ",
+            "text": "Red and White Bands in a Circle  ",
             "correct": true
           },
           {
@@ -3220,7 +3220,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Red and White Bands in a Circle ",
+          "Red and White Bands in a Circle  ",
           "Black &Yellow Stripes"
         ]
       },
@@ -3229,7 +3229,7 @@ const data =
         "question": "The  plan  that  shows  preparedness  for  handling  any  emergency  of  such  magnitude  that  effects  surrounding  population  and  environment  around  an  installation  is  known  as",
         "answers": [
           {
-            "text": "Onsite Emergency plan ",
+            "text": "Onsite Emergency plan  ",
             "correct": false
           },
           {
@@ -3247,7 +3247,7 @@ const data =
         ],
         "fiftyFifty": [
           "Offsite emergency plan",
-          "None of these"
+          "Pre incident plan"
         ]
       },
       {
@@ -3255,7 +3255,7 @@ const data =
         "question": "The oil in a frying pan in kitchen can catch fire due to ",
         "answers": [
           {
-            "text": " Expansion Point ",
+            "text": " Expansion Point  ",
             "correct": false
           },
           {
@@ -3273,7 +3273,7 @@ const data =
         ],
         "fiftyFifty": [
           "Boiling Point",
-          "None of these"
+          "Dilute Point"
         ]
       },
       {
@@ -3281,7 +3281,7 @@ const data =
         "question": "The pictorial  representation of safety shower is",
         "answers": [
           {
-            "text": "Green And White Bands in a circle ",
+            "text": "Green And White Bands in a circle  ",
             "correct": true
           },
           {
@@ -3298,8 +3298,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Green And White Bands in a circle ",
-          "None of these"
+          "Green And White Bands in a circle  ",
+          "Blue And White Bands in a circle"
         ]
       },
       {
@@ -3307,7 +3307,7 @@ const data =
         "question": "The pictorial representation of breathing apparatus",
         "answers": [
           {
-            "text": "Green And White Bands in a circle ",
+            "text": "Green And White Bands in a circle  ",
             "correct": false
           },
           {
@@ -3325,7 +3325,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blue And White Bands in a circle",
-          "Green And White Bands in a circle "
+          "None of these"
         ]
       },
       {
@@ -3333,7 +3333,7 @@ const data =
         "question": "The terminology used for extinguishing fire by cutting out air supply is called. ",
         "answers": [
           {
-            "text": "Starvation ",
+            "text": "Starvation  ",
             "correct": false
           },
           {
@@ -3351,7 +3351,7 @@ const data =
         ],
         "fiftyFifty": [
           "Smothering",
-          "Cooling"
+          " Isolating"
         ]
       },
       {
@@ -3359,7 +3359,7 @@ const data =
         "question": "What are the different modes of heat transfer?",
         "answers": [
           {
-            "text": "Convection ",
+            "text": "Convection  ",
             "correct": false
           },
           {
@@ -3385,7 +3385,7 @@ const data =
         "question": "What is the time frame by which the Final Report (Investigation) of high and medium risk should be completed ?",
         "answers": [
           {
-            "text": "10 days ",
+            "text": "10 days  ",
             "correct": false
           },
           {
@@ -3403,7 +3403,7 @@ const data =
         ],
         "fiftyFifty": [
           "16 days",
-          "10 days "
+          "10 days  "
         ]
       },
       {
@@ -3411,7 +3411,7 @@ const data =
         "question": "What is the time frame for forming an incident investigation team ?",
         "answers": [
           {
-            "text": "within 8 hours ",
+            "text": "within 8 hours  ",
             "correct": false
           },
           {
@@ -3429,7 +3429,7 @@ const data =
         ],
         "fiftyFifty": [
           "within 2 days",
-          "within 8 hours "
+          "within 3 working days"
         ]
       },
       {
@@ -3437,7 +3437,7 @@ const data =
         "question": "Hot work-Gas cutting set hose colour code for _________ .",
         "answers": [
           {
-            "text": "For oxygen - Black & Acetylene - Blue ",
+            "text": "For oxygen - Black & Acetylene - Blue  ",
             "correct": false
           },
           {
@@ -3463,7 +3463,7 @@ const data =
         "question": "Out of this four gas , Which is the permeant gas  ?",
         "answers": [
           {
-            "text": "Chlorine ",
+            "text": "Chlorine  ",
             "correct": true
           },
           {
@@ -3480,8 +3480,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Chlorine ",
-          "Argon"
+          "Chlorine  ",
+          "LPG"
         ]
       },
       {
@@ -3489,7 +3489,7 @@ const data =
         "question": " For lifting  >30 MT by carne , approval is required from ______ .",
         "answers": [
           {
-            "text": "Plant HOD ",
+            "text": "Plant HOD  ",
             "correct": false
           },
           {
@@ -3507,7 +3507,7 @@ const data =
         ],
         "fiftyFifty": [
           "CES Maintenance Head",
-          "Plant HOD "
+          "Head CES fabrication & Rigging Cell"
         ]
       },
       {
@@ -3533,7 +3533,7 @@ const data =
         ],
         "fiftyFifty": [
           "Segment Head/ Operating Function Head or Equivalent",
-          "Plant HOD"
+          "Facility Leader"
         ]
       },
       {
@@ -3567,7 +3567,7 @@ const data =
         "question": "In PIPA, The consolidated list of credible scenario identified by the team shall be reviewed and finalized  by ",
         "answers": [
           {
-            "text": "HSEF department ",
+            "text": "HSEF department  ",
             "correct": false
           },
           {
@@ -3585,7 +3585,7 @@ const data =
         ],
         "fiftyFifty": [
           "Respective plant Manager and Fire Chief.",
-          "Fire Department"
+          "All the above"
         ]
       },
       {
@@ -3593,7 +3593,7 @@ const data =
         "question": "Why do we define maximum inventories of chemical in PT documents?",
         "answers": [
           {
-            "text": "To avoid production loss. ",
+            "text": "To avoid production loss.  ",
             "correct": false
           },
           {
@@ -3611,7 +3611,7 @@ const data =
         ],
         "fiftyFifty": [
           "So the maximum risk is controlled and emergency response is prepared accordingly.",
-          "To avoid production loss. "
+          "To avoid production loss.  "
         ]
       },
       {
@@ -3619,7 +3619,7 @@ const data =
         "question": "Recently RIL HMD has taken License for Hydrogen Filling - where this facility is located",
         "answers": [
           {
-            "text": "PE 1 ",
+            "text": "PE 1  ",
             "correct": true
           },
           {
@@ -3636,7 +3636,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "PE 1 ",
+          "PE 1  ",
           "CRACKER"
         ]
       },
@@ -3663,7 +3663,85 @@ const data =
         ],
         "fiftyFifty": [
           "Static and Mobile Pressure Vessels (Unfired) Rules",
-          "Static and Mobile Pressure Vessels (Fired) Rules"
+          "Static Mobile Pressure Vessel Rules"
+        ]
+      },
+      {
+        "id": 142,
+        "question": "Theme for Annual Safety Campaign 2025",
+        "answers": [
+          {
+            "text": "Safety and Health Crucial for Viksit Bharat  ",
+            "correct": false
+          },
+          {
+            "text": "Safety and Wellbeing Crucial for Viksit Bharat",
+            "correct": true
+          },
+          {
+            "text": "Safety and Wellbeing for Viksit Bharat",
+            "correct": false
+          },
+          {
+            "text": "Safety and Wellness Crucial for Viksit Bharat",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Safety and Wellbeing Crucial for Viksit Bharat",
+          "Safety and Wellbeing for Viksit Bharat"
+        ]
+      },
+      {
+        "id": 143,
+        "question": "What is the Lost work case frequency Rate ?",
+        "answers": [
+          {
+            "text": "Lost work case divided by total millions of man hours",
+            "correct": true
+          },
+          {
+            "text": "Lost work case divided by contractor millions man hours",
+            "correct": false
+          },
+          {
+            "text": "Lost work case divided by RIL millions man hours",
+            "correct": false
+          },
+          {
+            "text": "Lost work case divided by total man hours.",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Lost work case divided by total millions of man hours",
+          "Lost work case divided by contractor millions man hours"
+        ]
+      },
+      {
+        "id": 144,
+        "question": "RIL Hazira Weekly Learning Communication E Magazine",
+        "answers": [
+          {
+            "text": "HSE Performance Magazine  ",
+            "correct": false
+          },
+          {
+            "text": "Goal Zero",
+            "correct": true
+          },
+          {
+            "text": "Zero Goal",
+            "correct": false
+          },
+          {
+            "text": "Sanskruti",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "Goal Zero",
+          "Sanskruti"
         ]
       },
       {
@@ -3679,7 +3757,7 @@ const data =
             "correct": false
           },
           {
-            "text": "OISD 118 Table 1 ",
+            "text": "OISD 118 Table 1  ",
             "correct": true
           },
           {
@@ -3688,8 +3766,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "OISD 118 Table 1 ",
-          "OISD 119 Table 1"
+          "OISD 118 Table 1  ",
+          "OISD 117 Table 1"
         ]
       },
       {
@@ -3697,7 +3775,7 @@ const data =
         "question": "What is the safe working criteria for better ventilation in confined space w.r.t air replacement ? ",
         "answers": [
           {
-            "text": "4 times of total volume in one hours ",
+            "text": "4 times of total volume in one hours  ",
             "correct": false
           },
           {
@@ -3715,7 +3793,7 @@ const data =
         ],
         "fiftyFifty": [
           "6 times of total volume in one hours",
-          "4 times of total volume in one hours "
+          "4 times of total volume in one hours  "
         ]
       },
       {
@@ -3723,7 +3801,7 @@ const data =
         "question": "At what load deflection test of over head hoisting system shall be done ?",
         "answers": [
           {
-            "text": " At rated load(SWL) ",
+            "text": " At rated load(SWL)  ",
             "correct": true
           },
           {
@@ -3740,7 +3818,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " At rated load(SWL) ",
+          " At rated load(SWL)  ",
           " 2.0 times the rated load(SWL)"
         ]
       },
@@ -3767,7 +3845,7 @@ const data =
         ],
         "fiftyFifty": [
           "OISD 118 Table 4",
-          "OISD 117 Table 3"
+          "OISD 118 Table 1"
         ]
       },
       {
@@ -3775,7 +3853,7 @@ const data =
         "question": "The warning barrication should be ________________away  from edge of the excavation ",
         "answers": [
           {
-            "text": " 3 feet ",
+            "text": " 3 feet  ",
             "correct": false
           },
           {
@@ -3801,7 +3879,7 @@ const data =
         "question": "What is the minimum depth of excavation, when the work at height procedure must be complied ?",
         "answers": [
           {
-            "text": "More than 16 feet ",
+            "text": "More than 16 feet  ",
             "correct": false
           },
           {
@@ -3819,33 +3897,33 @@ const data =
         ],
         "fiftyFifty": [
           "More than 7 feet",
-          "More than 4 feet"
+          "More than 5 feet"
         ]
       },
       {
         "id": 7,
-        "question": "Up to what distance safety net shall be extended out from the open edge of roof or building , as per fragile roof procedure?",
+        "question": "Effective working duration of SCBA Set with 6 Lit Capacity Cylinder with 300 Bar pressure. Pl explain the basis of Answer Given",
         "answers": [
           {
-            "text": "1.5 meter ",
+            "text": "30 Minutes  ",
             "correct": false
           },
           {
-            "text": "2.0 meter",
+            "text": "45 Minutes",
             "correct": false
           },
           {
-            "text": "2.5 meter",
+            "text": "35 Minutes",
             "correct": true
           },
           {
-            "text": "3.0meter",
+            "text": "40 Minutes",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "2.5 meter",
-          "3.0meter"
+          "35 Minutes",
+          "40 Minutes"
         ]
       },
       {
@@ -3853,7 +3931,7 @@ const data =
         "question": "Monkey ladder cage guard is required , if the monkey ladder length is ________?",
         "answers": [
           {
-            "text": "> 2.0 meter length ",
+            "text": "> 2.0 meter length  ",
             "correct": false
           },
           {
@@ -3871,7 +3949,7 @@ const data =
         ],
         "fiftyFifty": [
           "> 2.5 meter length",
-          "> 4.0 meter length"
+          "> 2.0 meter length  "
         ]
       },
       {
@@ -3879,7 +3957,7 @@ const data =
         "question": "How much area around scaffolding should be barricading during scaffolding erection, dismantling and use?",
         "answers": [
           {
-            "text": "1 meter ",
+            "text": "1 meter  ",
             "correct": false
           },
           {
@@ -3897,7 +3975,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.5 meter",
-          "1 meter "
+          "1.8 meter"
         ]
       },
       {
@@ -3905,7 +3983,7 @@ const data =
         "question": "Recently RIL -HMD has taken license for Hydrogen Filling facility - It is covered under which regulation",
         "answers": [
           {
-            "text": "Gas Cylinder Rule Form E ",
+            "text": "Gas Cylinder Rule Form E  ",
             "correct": true
           },
           {
@@ -3922,7 +4000,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Gas Cylinder Rule Form E ",
+          "Gas Cylinder Rule Form E  ",
           "Gas Cylinder Rule Form F"
         ]
       },
@@ -3931,7 +4009,7 @@ const data =
         "question": "Allowable CO content in respirator air is __________",
         "answers": [
           {
-            "text": "1000 ppm max ",
+            "text": "5 ppm max  ",
             "correct": false
           },
           {
@@ -3943,13 +4021,13 @@ const data =
             "correct": false
           },
           {
-            "text": "500 ppm max",
+            "text": "0 ppm max",
             "correct": false
           }
         ],
         "fiftyFifty": [
           "10 ppm max",
-          "500 ppm max"
+          "5 ppm max  "
         ]
       },
       {
@@ -3991,7 +4069,7 @@ const data =
             "correct": false
           },
           {
-            "text": "Petroleum contained in a tank irrespective of the quantity of petroleum contained ",
+            "text": "Petroleum contained in a tank irrespective of the quantity of  petroleum contained ",
             "correct": true
           },
           {
@@ -4000,42 +4078,42 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Petroleum contained in a tank irrespective of the quantity of petroleum contained ",
+          "Petroleum contained in a tank irrespective of the quantity of  petroleum contained ",
           "Petroleum contained in a tank above 500 Lit Capacity"
         ]
       },
       {
         "id": 14,
-        "question": "Lanyards and lifeline of full body harness should not be made of which material ?",
+        "question": "As per Gas group classification, Which gas is not classified in Gas Group IIC",
         "answers": [
           {
-            "text": "Polypropylene ",
+            "text": "ETHANE  ",
             "correct": true
           },
           {
-            "text": "Manila",
+            "text": "Hydrogen",
             "correct": false
           },
           {
-            "text": " Nylon",
+            "text": " ACETYLENE",
             "correct": false
           },
           {
-            "text": "Polyester",
+            "text": "CARBON DISULPHIDE",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Polypropylene ",
-          "Polyester"
+          "ETHANE  ",
+          "Hydrogen"
         ]
       },
       {
         "id": 15,
-        "question": " A structure that supports the sides of an excavation and protects against cave \u2013in is called--- ",
+        "question": " A structure that supports the sides of an excavation and protects against cave \u2013in is called---  ",
         "answers": [
           {
-            "text": "Shoring ",
+            "text": "Shoring  ",
             "correct": true
           },
           {
@@ -4052,7 +4130,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Shoring ",
+          "Shoring  ",
           "Angle of support"
         ]
       },
@@ -4061,7 +4139,7 @@ const data =
         "question": "Cutting of the edge back in inclined manner that it will not slide in the trench or excavated area.\u00a0",
         "answers": [
           {
-            "text": "Shoring ",
+            "text": "Shoring  ",
             "correct": false
           },
           {
@@ -4079,7 +4157,7 @@ const data =
         ],
         "fiftyFifty": [
           "Sloping",
-          " none of the above"
+          "Shoring  "
         ]
       },
       {
@@ -4087,7 +4165,7 @@ const data =
         "question": "Who is responsible for ensuring drain & isolation facility provision in new projects?",
         "answers": [
           {
-            "text": "Project Manager ",
+            "text": "Project Manager  ",
             "correct": true
           },
           {
@@ -4104,8 +4182,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Project Manager ",
-          "Construction Manager"
+          "Project Manager  ",
+          "Safety Head"
         ]
       },
       {
@@ -4157,7 +4235,7 @@ const data =
         ],
         "fiftyFifty": [
           "Form 11",
-          "Form 12"
+          "Form 9"
         ]
       },
       {
@@ -4165,7 +4243,7 @@ const data =
         "question": "Filling of any cylinder (except sample bombs) in plant is not allowed without proper permission and license from Department of ----",
         "answers": [
           {
-            "text": " Fire  ",
+            "text": "Factory Inspector  ",
             "correct": false
           },
           {
@@ -4183,7 +4261,7 @@ const data =
         ],
         "fiftyFifty": [
           "PESO",
-          "HSEF"
+          "CES"
         ]
       },
       {
@@ -4266,28 +4344,28 @@ const data =
       },
       {
         "id": 24,
-        "question": "What is the Lost work case frequency Rate ?",
+        "question": "How Many Days are lost in case of Fatality",
         "answers": [
           {
-            "text": "Lost work case divided by total millions of man hours",
+            "text": 6000,
             "correct": true
           },
           {
-            "text": "Lost work case divided by contractor millions man hours",
+            "text": 3000,
             "correct": false
           },
           {
-            "text": "Lost work case divided by RIL millions man hours",
+            "text": "Decided based in severity of Incident",
             "correct": false
           },
           {
-            "text": "Lost work case divided by total man hours.",
+            "text": "As per Factory Inspector Guideline",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Lost work case divided by total millions of man hours",
-          "Lost work case divided by RIL millions man hours"
+          6000,
+          "Decided based in severity of Incident"
         ]
       },
       {
@@ -4313,7 +4391,7 @@ const data =
         ],
         "fiftyFifty": [
           "Corrosive",
-          "Explosive"
+          "Toxic"
         ]
       },
       {
@@ -4339,7 +4417,7 @@ const data =
         ],
         "fiftyFifty": [
           "2 ppm",
-          "1 ppm"
+          "4 ppm"
         ]
       },
       {
@@ -4370,10 +4448,10 @@ const data =
       },
       {
         "id": 28,
-        "question": "RIL HMD Ownership Cross country Pipeline carries which material currently",
+        "question": "RIL HMD Ownership Cross country  Pipeline carries which material currently",
         "answers": [
           {
-            "text": "Naphtha - PX  ",
+            "text": "Naphtha - PX   ",
             "correct": false
           },
           {
@@ -4391,7 +4469,7 @@ const data =
         ],
         "fiftyFifty": [
           "Naphtha -PX - WATER",
-          "PX - Naphtha - Ethane"
+          "Naphtha - Water - NG"
         ]
       },
       {
@@ -4443,33 +4521,33 @@ const data =
         ],
         "fiftyFifty": [
           "0.02 mj",
-          "0.02 j"
+          "2.0 mj"
         ]
       },
       {
         "id": 31,
-        "question": "What is minimum ignition energy required for Ethylene Oxide ?",
+        "question": "Highest Number of Lost work Incident Free Days achieved in Complex are How Many ? And When?",
         "answers": [
           {
-            "text": "0.078 mj",
+            "text": "451 ; 2021-22",
             "correct": false
           },
           {
-            "text": "1.50 mj",
+            "text": "479 ; 2023-24",
             "correct": false
           },
           {
-            "text": "30 mj",
+            "text": "331 ; 2022-23",
             "correct": false
           },
           {
-            "text": "0.087 mj",
+            "text": "379 ; 2023-24",
             "correct": true
           }
         ],
         "fiftyFifty": [
-          "0.087 mj",
-          "0.078 mj"
+          "379 ; 2023-24",
+          "479 ; 2023-24"
         ]
       },
       {
@@ -4495,7 +4573,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of the above",
-          "High velocity flow"
+          "Agitation at high speed"
         ]
       },
       {
@@ -4503,7 +4581,7 @@ const data =
         "question": "Expansion ratio of LPG from liquid phase to vapour phase is",
         "answers": [
           {
-            "text": "200 ",
+            "text": "200  ",
             "correct": false
           },
           {
@@ -4511,7 +4589,7 @@ const data =
             "correct": false
           },
           {
-            "text": 250,
+            "text": 270,
             "correct": true
           },
           {
@@ -4520,34 +4598,34 @@ const data =
           }
         ],
         "fiftyFifty": [
-          250,
-          "200 "
+          270,
+          20
         ]
       },
       {
         "id": 34,
-        "question": "Expansion ratio of water to steam is",
+        "question": "which  OMS SE is not high impact element",
         "answers": [
           {
-            "text": "1200 ",
+            "text": "4.5 Control of Work  ",
             "correct": false
           },
           {
-            "text": 200,
+            "text": "4.1 Procedure and Practices",
             "correct": false
           },
           {
-            "text": 1700,
+            "text": "1.4 Resources and Implementation",
             "correct": true
           },
           {
-            "text": 1450,
+            "text": "2.2 People and Competence",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          1700,
-          "1200 "
+          "1.4 Resources and Implementation",
+          "2.2 People and Competence"
         ]
       },
       {
@@ -4555,7 +4633,7 @@ const data =
         "question": "The maximum height for storage tank as per PESO/standards is ",
         "answers": [
           {
-            "text": "12.5 meter ",
+            "text": "12.5 meter  ",
             "correct": false
           },
           {
@@ -4573,7 +4651,7 @@ const data =
         ],
         "fiftyFifty": [
           "20 meter",
-          "12.5 meter "
+          "12.5 meter  "
         ]
       },
       {
@@ -4581,7 +4659,7 @@ const data =
         "question": "For large warehouse protection these type of detectors are used",
         "answers": [
           {
-            "text": "Heat ",
+            "text": "Heat  ",
             "correct": false
           },
           {
@@ -4599,7 +4677,7 @@ const data =
         ],
         "fiftyFifty": [
           "Beam",
-          "Flame"
+          "None of the above"
         ]
       },
       {
@@ -4607,7 +4685,7 @@ const data =
         "question": "Hazmat foam is used for",
         "answers": [
           {
-            "text": "Vapour suppression ",
+            "text": "Vapour suppression  ",
             "correct": false
           },
           {
@@ -4625,33 +4703,33 @@ const data =
         ],
         "fiftyFifty": [
           "All the above",
-          "Vapour suppression "
+          "Vapour suppression  "
         ]
       },
       {
         "id": 38,
-        "question": "RIL  Hazira  is  having  Mutual  Aid  agreement  with  the  following  industries",
+        "question": "LWC Happened  in Cracker Plant was classified in",
         "answers": [
           {
-            "text": "ONGC ",
+            "text": "RWC - FAC - Process Fire - PSI Tier 2",
             "correct": false
           },
           {
-            "text": "NTPC",
+            "text": "MTC - FAC - Process Fire - PSI Tier 2",
             "correct": false
           },
           {
-            "text": "KRIBHCO",
+            "text": "LWC - MTC - Process Fire - PSI Tier 1",
             "correct": false
           },
           {
-            "text": "All of these",
+            "text": "LWC -FAC - Process Fire - PSI Tier 1",
             "correct": true
           }
         ],
         "fiftyFifty": [
-          "All of these",
-          "ONGC "
+          "LWC -FAC - Process Fire - PSI Tier 1",
+          "LWC - MTC - Process Fire - PSI Tier 1"
         ]
       },
       {
@@ -4659,7 +4737,7 @@ const data =
         "question": "The Flammability limit of Hydrogen is",
         "answers": [
           {
-            "text": " 2%-10% ",
+            "text": " 2%-10%  ",
             "correct": false
           },
           {
@@ -4677,7 +4755,7 @@ const data =
         ],
         "fiftyFifty": [
           "4%-74%",
-          " 2%-10% "
+          "1%-44%"
         ]
       },
       {
@@ -4685,7 +4763,7 @@ const data =
         "question": "What  is  the  full  form  of  AFFF  ?",
         "answers": [
           {
-            "text": "Aqueous Film Forming Foam ",
+            "text": "Aqueous Film Forming Foam  ",
             "correct": true
           },
           {
@@ -4702,7 +4780,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Aqueous Film Forming Foam ",
+          "Aqueous Film Forming Foam  ",
           "Aqua Film Forming Foam"
         ]
       },
@@ -4729,7 +4807,7 @@ const data =
         ],
         "fiftyFifty": [
           "60 Minutes",
-          "30 Minutes"
+          "None of above"
         ]
       },
       {
@@ -4755,7 +4833,7 @@ const data =
         ],
         "fiftyFifty": [
           "Examination of Hoists & Lift",
-          "Examination of Lifting Tools"
+          "Examination of Centrifuges"
         ]
       },
       {
@@ -4807,7 +4885,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.7 Culture",
-          "2.4 Organizational Learning"
+          "8.2 Assurance and Audit"
         ]
       },
       {
@@ -4823,17 +4901,17 @@ const data =
             "correct": false
           },
           {
-            "text": "2.4 Organizational Learning",
+            "text": "2.4 Organizational  Learning",
             "correct": true
           },
           {
-            "text": "8.3 Performance Review",
+            "text": "8.3 Performance  Review",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "2.4 Organizational Learning",
-          "3.1 Risk Assessment and Management"
+          "2.4 Organizational  Learning",
+          "8.3 Performance  Review"
         ]
       },
       {
@@ -4849,7 +4927,7 @@ const data =
             "correct": false
           },
           {
-            "text": "18 in 2019-20",
+            "text": "18 in 2022-23",
             "correct": false
           },
           {
@@ -4859,38 +4937,38 @@ const data =
         ],
         "fiftyFifty": [
           "11 in 2021-22",
-          "18 in 2019-20"
+          "18 in 2022-23"
         ]
       },
       {
         "id": 47,
-        "question": "As per Gujarat Factory Rules 1963 - On Site Emergency Plan Chapter 7 describes ",
+        "question": "Third Party Safety Audit is conducted as per which standard ? At what frequency ?",
         "answers": [
           {
-            "text": "Detail of Process Hazard",
+            "text": "Factory Act Codes and Practices - IS 14489 :2018 - Every Year  ",
             "correct": false
           },
           {
-            "text": "Detail about the Site",
+            "text": "Safety Codes and Practices - IS 14489 :2018 - Every Year",
             "correct": false
           },
           {
-            "text": "Description of Hazardous Chemical at plant site",
+            "text": "Occupational Health and Safety Audit - Code of Practices - IS 14489 :2018 - Every Year",
             "correct": true
           },
           {
-            "text": "Detail of Liasoning arrangement",
+            "text": "OHSA- Code of Practices - IS 14489 :2018 - Every Year",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Description of Hazardous Chemical at plant site",
-          "Detail of Process Hazard"
+          "Occupational Health and Safety Audit - Code of Practices - IS 14489 :2018 - Every Year",
+          "Factory Act Codes and Practices - IS 14489 :2018 - Every Year  "
         ]
       },
       {
         "id": 48,
-        "question": "Fill in the Blanks As per SMPV Rules No. ________ : Relief valves shall be tested by a Competent Person for correct operation at least _____ and a record of such test shall be maintained.",
+        "question": "Fill in the Blanks  As per SMPV Rules No. ________ : Relief valves shall be tested by a Competent Person for correct operation at least _____ and a record of such test shall be maintained.",
         "answers": [
           {
             "text": "19, Once in two year",
@@ -4911,7 +4989,7 @@ const data =
         ],
         "fiftyFifty": [
           "18 , once in a year",
-          "18, once in a six month"
+          "19, Once in two year"
         ]
       },
       {
@@ -4919,25 +4997,25 @@ const data =
         "question": "As per RIL Specification what shall be composition of IFR Suit used in Reliance ",
         "answers": [
           {
-            "text": "93% Nomex  5% Kelver 2% Q140",
+            "text": "93% Nomex   5% Kelver  2% Q140",
             "correct": false
           },
           {
-            "text": "93% META ARAMID 5% PARA ARAMID  2% ANTISTATIC ",
+            "text": "98% META ARAMID  +PARA ARAMID,  2% ANTISTATIC ",
             "correct": true
           },
           {
-            "text": "92% NOMEX 6% PARA ARAMID  2% ANTISTATIC ",
+            "text": "92% NOMEX  6% PARA ARAMID   2% ANTISTATIC ",
             "correct": false
           },
           {
-            "text": "93% Nomex  5% PARA ARAMID 2% Q140",
+            "text": "93% Nomex   5% PARA ARAMID  2% Q140",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "93% META ARAMID 5% PARA ARAMID  2% ANTISTATIC ",
-          "93% Nomex  5% Kelver 2% Q140"
+          "98% META ARAMID  +PARA ARAMID,  2% ANTISTATIC ",
+          "93% Nomex   5% PARA ARAMID  2% Q140"
         ]
       },
       {
@@ -4945,25 +5023,103 @@ const data =
         "question": "As per RIL Specifications what shall be weight of Helmet and which is the standard for Helmet",
         "answers": [
           {
-            "text": "Weight : 400 GMS ( + or - 20 GMS)   Standard : IS 2925 : 1984 ",
+            "text": "Weight : 400 GMS ( + or - 20 GMS)    Standard : IS 2925 : 1984 ",
             "correct": true
           },
           {
-            "text": "Weight : 400 GMS ( + or - 10 GMS)   Standard : IS 2925 : 1983 ",
+            "text": "Weight : 400 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 ",
             "correct": false
           },
           {
-            "text": "Weight : 350 GMS ( + or - 10 GMS)   Standard : IS 2925 : 1983 ",
+            "text": "Weight : 350 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 ",
             "correct": false
           },
           {
-            "text": "Weight : 400 GMS ( + or - 30 GMS)   Standard : IS 2925 : 1983 ",
+            "text": "Weight : 400 GMS ( + or - 30 GMS)    Standard : IS 2925 : 1983 ",
             "correct": false
           }
         ],
         "fiftyFifty": [
-          "Weight : 400 GMS ( + or - 20 GMS)   Standard : IS 2925 : 1984 ",
-          "Weight : 350 GMS ( + or - 10 GMS)   Standard : IS 2925 : 1983 "
+          "Weight : 400 GMS ( + or - 20 GMS)    Standard : IS 2925 : 1984 ",
+          "Weight : 400 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 "
+        ]
+      },
+      {
+        "id": 51,
+        "question": "Lifelines shall be designed to support (OSHA        \t\t  1926.104)",
+        "answers": [
+          {
+            "text": "2500 Kgs per person",
+            "correct": false
+          },
+          {
+            "text": "2100 Kgs per person",
+            "correct": false
+          },
+          {
+            "text": "2300 Kgs PER Person",
+            "correct": true
+          },
+          {
+            "text": "2000 Kgs per person",
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          "2300 Kgs PER Person",
+          "2100 Kgs per person"
+        ]
+      },
+      {
+        "id": 52,
+        "question": "What is the Last issue of Weekly Goal Zero Series ",
+        "answers": [
+          {
+            "text": 123,
+            "correct": false
+          },
+          {
+            "text": 124,
+            "correct": false
+          },
+          {
+            "text": 125,
+            "correct": true
+          },
+          {
+            "text": 126,
+            "correct": false
+          }
+        ],
+        "fiftyFifty": [
+          125,
+          124
+        ]
+      },
+      {
+        "id": 53,
+        "question": "Which is classified not in dangerous occurances as per GFR",
+        "answers": [
+          {
+            "text": "Bursting of a plant used for containing of supplying steam under pressure",
+            "correct": false
+          },
+          {
+            "text": "Collapse or failure of a crane",
+            "correct": false
+          },
+          {
+            "text": "Explosion, fire, bursting out. leakage, or escape of any molten metal",
+            "correct": false
+          },
+          {
+            "text": "Multiple  Fatalities ",
+            "correct": true
+          }
+        ],
+        "fiftyFifty": [
+          "Multiple  Fatalities ",
+          "Collapse or failure of a crane"
         ]
       }
     ];
