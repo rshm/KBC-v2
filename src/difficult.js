@@ -23,7 +23,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "OISD 118 Table 1\n",
-                "OISD 117 Table 1"
+                "OISD 118 Table 2"
             ]
         },
         {
@@ -49,7 +49,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "6 times of total volume in one hours",
-                "4 times of total volume in one hours\n"
+                "8 times of total volume in one hours"
             ]
         },
         {
@@ -75,7 +75,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 " At rated load(SWL)\n",
-                " 2.0 times the rated load(SWL)"
+                "1.5 times the rated load(SWL)"
             ]
         },
         {
@@ -127,7 +127,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 " 6 feet",
-                " 3 feet\n"
+                "1 feet"
             ]
         },
         {
@@ -153,7 +153,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "More than 7 feet",
-                "More than 5 feet"
+                "More than 16 feet\n"
             ]
         },
         {
@@ -179,7 +179,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "35 Minutes",
-                "45 Minutes"
+                "40 Minutes"
             ]
         },
         {
@@ -387,7 +387,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Shoring\n",
-                "Sloping"
+                "Angle of support"
             ]
         },
         {
@@ -439,7 +439,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Project Manager\n",
-                "Safety Head"
+                "HOD-CTS"
             ]
         },
         {
@@ -465,7 +465,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Mater Degree in Chemistry or a Degree in Chemical Engineering with 7 years of experience",
-                "Mater Degree in Chemistry or a Degree in Chemical Engineering with 5 years of experience"
+                "Bachelor Degree in Chemistry or Degree in Chemical Engineering with 7 Years of experience"
             ]
         },
         {
@@ -543,7 +543,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Section 36",
-                "Section 42"
+                "Section 34"
             ]
         },
         {
@@ -621,7 +621,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 6000,
-                3000
+                "As per Factory Inspector Guideline"
             ]
         },
         {
@@ -647,7 +647,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Corrosive",
-                "Flammable gas"
+                "Explosive"
             ]
         },
         {
@@ -673,7 +673,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "2 ppm",
-                "3 ppm"
+                "4 ppm"
             ]
         },
         {
@@ -699,7 +699,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "1 ppm",
-                "4 ppm"
+                "3 ppm"
             ]
         },
         {
@@ -725,7 +725,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Naphtha -PX - WATER",
-                "Naphtha - Water - NG"
+                "Naphtha - PX \n"
             ]
         },
         {
@@ -777,7 +777,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "0.02 mj",
-                "0.02 j"
+                "2.0 mj"
             ]
         },
         {
@@ -803,7 +803,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "379 ; 2023-24",
-                "479 ; 2023-24"
+                "451 ; 2021-22"
             ]
         },
         {
@@ -829,7 +829,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "All of the above",
-                "High velocity flow"
+                "Splashing of chemical"
             ]
         },
         {
@@ -855,7 +855,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 270,
-                "200\n"
+                1400
             ]
         },
         {
@@ -907,7 +907,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "20 meter",
-                "17 meter"
+                "12.5 meter\n"
             ]
         },
         {
@@ -933,7 +933,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Beam",
-                "Heat\n"
+                "None of the above"
             ]
         },
         {
@@ -959,7 +959,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "All the above",
-                "Smothering"
+                "Vapour suppression\n"
             ]
         },
         {
@@ -985,7 +985,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "LWC -FAC - Process Fire - PSI Tier 1",
-                "LWC - MTC - Process Fire - PSI Tier 1"
+                "MTC - FAC - Process Fire - PSI Tier 2"
             ]
         },
         {
@@ -1011,7 +1011,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "4%-74%",
-                "1%-44%"
+                " 3%-15%"
             ]
         },
         {
@@ -1063,7 +1063,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "60 Minutes",
-                "30 Minutes"
+                "None of above"
             ]
         },
         {
@@ -1071,7 +1071,7 @@ const difficult =
             "question": "Gujarat Factory Rules Form 9 is filled for",
             "answers": [
                 {
-                    "text": "Examination of Hoists & Lift",
+                    "text": "Examination of Lift",
                     "correct": true
                 },
                 {
@@ -1088,8 +1088,8 @@ const difficult =
                 }
             ],
             "fiftyFifty": [
-                "Examination of Hoists & Lift",
-                "Examination of Monorail"
+                "Examination of Lift",
+                "Examination of Centrifuges"
             ]
         },
         {
@@ -1115,7 +1115,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 0.04,
-                0.069
+                0.053
             ]
         },
         {
@@ -1141,7 +1141,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "1.7 Culture",
-                "2.2 People and Competence"
+                "2.4 Organizational Learning"
             ]
         },
         {
@@ -1167,7 +1167,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "2.4 Organizational\nLearning",
-                "8.3 Performance\nReview"
+                "3.3 Process Safety"
             ]
         },
         {
@@ -1193,7 +1193,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "11 in 2021-22",
-                "13 in 2021-22"
+                "18 in 2022-23"
             ]
         },
         {
@@ -1219,7 +1219,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "Occupational Health and Safety Audit - Code of Practices - IS 14489 :2018 - Every Year",
-                "Factory Act Codes and Practices - IS 14489 :2018 - Every Year\n"
+                "Safety Codes and Practices - IS 14489 :2018 - Every Year"
             ]
         },
         {
@@ -1245,7 +1245,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 "18 , once in a year",
-                "18, once in a six month"
+                "19, once in a year"
             ]
         },
         {
@@ -1349,7 +1349,7 @@ const difficult =
             ],
             "fiftyFifty": [
                 125,
-                123
+                126
             ]
         },
         {

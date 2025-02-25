@@ -23,7 +23,7 @@ const data =
         ],
         "fiftyFifty": [
           40,
-          35
+          30
         ]
       },
       {
@@ -49,7 +49,7 @@ const data =
         ],
         "fiftyFifty": [
           "7 days with renewal every shift for planned working hours",
-          "7 days with renewal every day for planned working hours"
+          "7 days with renewal every week for planned working hours"
         ]
       },
       {
@@ -75,15 +75,15 @@ const data =
         ],
         "fiftyFifty": [
           "Hot work permit is required",
-          "Confined Space entry permit is required"
+          "Vehicle fitness certificate is required"
         ]
       },
       {
         "id": 4,
-        "question": "Insulation removal on live equipment to inspect for leaks-known leak - is classified as ",
+        "question": "Insulation removal on live equipment to inspect for leaks \u2013 known leak - is classified as ",
         "answers": [
           {
-            "text": "Hot work Low Risk",
+            "text": "Hot work Low Risk\n",
             "correct": false
           },
           {
@@ -127,19 +127,19 @@ const data =
         ],
         "fiftyFifty": [
           "Blue",
-          "Purple"
+          "Turquoise"
         ]
       },
       {
         "id": 6,
-        "question": "Abrasive blasting-on live equipment requires ",
+        "question": "Abrasive blasting \u2013 on live equipment requires ",
         "answers": [
           {
-            "text": "Hot work Low Risk",
+            "text": "Hot work Low Risk\n",
             "correct": false
           },
           {
-            "text": "How Work Medium Risk",
+            "text": "Hot Work Medium Risk",
             "correct": true
           },
           {
@@ -152,8 +152,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "How Work Medium Risk",
-          "Cold Work Medium Risk"
+          "Hot Work Medium Risk",
+          "Hot work Low Risk\n"
         ]
       },
       {
@@ -205,7 +205,7 @@ const data =
         ],
         "fiftyFifty": [
           "Hydrogen",
-          "CH4"
+          "CO2"
         ]
       },
       {
@@ -213,7 +213,7 @@ const data =
         "question": "MEWP - Expand the terms",
         "answers": [
           {
-            "text": "Manually Elevating Working Platform",
+            "text": "Manually Elevating Working Platform\n",
             "correct": false
           },
           {
@@ -231,7 +231,7 @@ const data =
         ],
         "fiftyFifty": [
           "Mobile Elevated Working Platform",
-          "None of above"
+          "Motor  Elevating  Working Platform"
         ]
       },
       {
@@ -239,7 +239,7 @@ const data =
         "question": "Nitrogen gas at ambient temp. is ________.",
         "answers": [
           {
-            "text": "Lighter then air",
+            "text": "Lighter then air\n",
             "correct": true
           },
           {
@@ -256,8 +256,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Lighter then air",
-          "Heavier then air"
+          "Lighter then air\n",
+          "equal then air "
         ]
       },
       {
@@ -291,7 +291,7 @@ const data =
         "question": "Main Health hazards of Nitrogen gas is ________.",
         "answers": [
           {
-            "text": "  Irritation",
+            "text": "  Irritation\n",
             "correct": false
           },
           {
@@ -309,7 +309,7 @@ const data =
         ],
         "fiftyFifty": [
           "Asphyxiation",
-          "Explosion"
+          "  Irritation\n"
         ]
       },
       {
@@ -317,7 +317,7 @@ const data =
         "question": "Draining of process effluent into the SWD (sewage water drain) is",
         "answers": [
           {
-            "text": "Non-significant aspect ",
+            "text": "Non-significant aspect \n",
             "correct": false
           },
           {
@@ -335,7 +335,7 @@ const data =
         ],
         "fiftyFifty": [
           "Significant aspect",
-          "Security violation"
+          "Non-significant aspect \n"
         ]
       },
       {
@@ -343,7 +343,7 @@ const data =
         "question": "Which of the following does not constitute an environmental incident?",
         "answers": [
           {
-            "text": "Stack Emission",
+            "text": "Stack Emission\n",
             "correct": true
           },
           {
@@ -360,8 +360,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Stack Emission",
-          "Release of HC into atmosphere"
+          "Stack Emission\n",
+          "Discharge of Domestic sewage into storm water drain"
         ]
       },
       {
@@ -387,7 +387,7 @@ const data =
         ],
         "fiftyFifty": [
           2,
-          4
+          8
         ]
       },
       {
@@ -413,7 +413,7 @@ const data =
         ],
         "fiftyFifty": [
           "36 Km/Hr",
-          "40 Km/Hr."
+          "20 Km/Hr."
         ]
       },
       {
@@ -421,7 +421,7 @@ const data =
         "question": "If SLI  is  not working or not available in crane , the load capacity should not exceed _________________ .",
         "answers": [
           {
-            "text": "60%",
+            "text": "60%\n",
             "correct": true
           },
           {
@@ -438,7 +438,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "60%",
+          "60%\n",
           0.85
         ]
       },
@@ -447,7 +447,7 @@ const data =
         "question": "What is maximum permissible loading capacity of mobile crane if Safe Load Indicator is working ?",
         "answers": [
           {
-            "text": "60%",
+            "text": "60%\n",
             "correct": false
           },
           {
@@ -465,7 +465,7 @@ const data =
         ],
         "fiftyFifty": [
           0.85,
-          0.7
+          0.8
         ]
       },
       {
@@ -473,7 +473,7 @@ const data =
         "question": "Portable ladder shall be placed on  ground with preferable angle.",
         "answers": [
           {
-            "text": " 75 deg.",
+            "text": " 75 deg.\n",
             "correct": true
           },
           {
@@ -490,7 +490,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " 75 deg.",
+          " 75 deg.\n",
           "50 deg."
         ]
       },
@@ -499,7 +499,7 @@ const data =
         "question": "Which is an appropriate anchor point for lanyard of full body harness?",
         "answers": [
           {
-            "text": " Sprinkler water pipeline ",
+            "text": " Sprinkler water pipeline \n",
             "correct": false
           },
           {
@@ -511,13 +511,13 @@ const data =
             "correct": true
           },
           {
-            "text": "1 pipe line",
+            "text": "1\" pipe line",
             "correct": false
           }
         ],
         "fiftyFifty": [
           "Permanent structure",
-          "1 pipe line"
+          "Impulse tube line"
         ]
       },
       {
@@ -525,7 +525,7 @@ const data =
         "question": "Which is suitable ladder for working inside substation?",
         "answers": [
           {
-            "text": "FRP ladder",
+            "text": "FRP ladder\n",
             "correct": true
           },
           {
@@ -542,8 +542,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "FRP ladder",
-          "Wooden ladder"
+          "FRP ladder\n",
+          "Monkey ladder made with mild steel"
         ]
       },
       {
@@ -577,7 +577,7 @@ const data =
         "question": "At what height Guard/Top rail is required on platform ?",
         "answers": [
           {
-            "text": "1050",
+            "text": "1050\n",
             "correct": true
           },
           {
@@ -594,8 +594,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "1050",
-          950
+          "1050\n",
+          1250
         ]
       },
       {
@@ -603,7 +603,7 @@ const data =
         "question": "At what height knee-rail is required on platform ?",
         "answers": [
           {
-            "text": "425 mm",
+            "text": "425 mm\n",
             "correct": false
           },
           {
@@ -629,7 +629,7 @@ const data =
         "question": "Work at height  means-",
         "answers": [
           {
-            "text": "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury. ",
+            "text": "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury. \n",
             "correct": true
           },
           {
@@ -646,7 +646,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury. ",
+          "work in any place where, if precautions were not taken, A person should fall a distance liable to cause personal injury. \n",
           "To work above 1.8 meter. from floor level"
         ]
       },
@@ -673,7 +673,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.8 meters from roof edge without parapets ",
-          " 2.5 meters from roof edge without parapets"
+          "2 meters from roof edge with  parapets "
         ]
       },
       {
@@ -681,7 +681,7 @@ const data =
         "question": "Service to process interconnections devices are provided to prevent _______ .",
         "answers": [
           {
-            "text": " Back flow ",
+            "text": " Back flow \n",
             "correct": true
           },
           {
@@ -698,7 +698,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Back flow ",
+          " Back flow \n",
           "Leftward flow"
         ]
       },
@@ -707,7 +707,7 @@ const data =
         "question": "Who is final approving authority for interlock Bypass > 24 hrs. and < 7 Days for risk category -4?",
         "answers": [
           {
-            "text": "Shift Engineer ",
+            "text": "Shift Engineer \n",
             "correct": false
           },
           {
@@ -725,7 +725,7 @@ const data =
         ],
         "fiftyFifty": [
           "Plant HOD",
-          "Production Manager"
+          "Shift Engineer \n"
         ]
       },
       {
@@ -733,7 +733,7 @@ const data =
         "question": "Two basic Type of respirators are ",
         "answers": [
           {
-            "text": "Air purifying and Air supplied",
+            "text": "Air purifying and Air supplied\n",
             "correct": true
           },
           {
@@ -750,7 +750,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Air purifying and Air supplied",
+          "Air purifying and Air supplied\n",
           "Air filtering and air cleaning "
         ]
       },
@@ -759,7 +759,7 @@ const data =
         "question": "300 bar pressure SCBA cylinder should be replaced if cylinder pressure is less than _____ .",
         "answers": [
           {
-            "text": "300 bar",
+            "text": "300 bar\n",
             "correct": false
           },
           {
@@ -777,7 +777,7 @@ const data =
         ],
         "fiftyFifty": [
           "270 bar",
-          "45 bar"
+          "300 bar\n"
         ]
       },
       {
@@ -785,7 +785,7 @@ const data =
         "question": "Last Lost Work Case in HMD Complex (Upto 24.02.2025)",
         "answers": [
           {
-            "text": "Shipping",
+            "text": "Shipping\n",
             "correct": true
           },
           {
@@ -802,8 +802,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Shipping",
-          "Cracker "
+          "Shipping\n",
+          "MEG"
         ]
       },
       {
@@ -811,7 +811,7 @@ const data =
         "question": "The acronym CPR in paramedics means _______ .",
         "answers": [
           {
-            "text": "Cardio pulse ratio",
+            "text": "\nCardio pulse ratio\n",
             "correct": false
           },
           {
@@ -829,7 +829,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cardiopulmonary resuscitation",
-          "Cardio pulse ratio"
+          "Cardio pulmonary ratio"
         ]
       },
       {
@@ -837,7 +837,7 @@ const data =
         "question": "Grounding with earth fault protection is required for protection of ",
         "answers": [
           {
-            "text": "Equipment",
+            "text": "Equipment\n",
             "correct": false
           },
           {
@@ -855,7 +855,7 @@ const data =
         ],
         "fiftyFifty": [
           "Both of above",
-          "None of above"
+          "Equipment\n"
         ]
       },
       {
@@ -863,7 +863,7 @@ const data =
         "question": "Which of these is the better conductor?",
         "answers": [
           {
-            "text": " Earth",
+            "text": " Earth\n",
             "correct": false
           },
           {
@@ -881,7 +881,7 @@ const data =
         ],
         "fiftyFifty": [
           "Copper",
-          "GI"
+          "Aluminium"
         ]
       },
       {
@@ -889,7 +889,7 @@ const data =
         "question": "Which type of torch is allowed in operational areas?",
         "answers": [
           {
-            "text": "Having voltage less than 24 V",
+            "text": "Having voltage less than 24 V\n",
             "correct": false
           },
           {
@@ -907,7 +907,7 @@ const data =
         ],
         "fiftyFifty": [
           "Having voltage less than 4.5 V &  Explosion-proof",
-          "No torch is allowed, only hand-lamps are allowed"
+          "Having voltage less than 24 V\n"
         ]
       },
       {
@@ -915,7 +915,7 @@ const data =
         "question": "The  colour  code  for  the  identification  of location fire  extinguisher  is ",
         "answers": [
           {
-            "text": "Blue and White Bands in a Circle",
+            "text": "Blue and White Bands in a Circle\n",
             "correct": false
           },
           {
@@ -933,7 +933,7 @@ const data =
         ],
         "fiftyFifty": [
           "Black & Yellow Stripes",
-          "Blue and White Bands in a Circle"
+          "Blue and White Bands in a Circle\n"
         ]
       },
       {
@@ -941,7 +941,7 @@ const data =
         "question": "Level -1 PSSR is required to be done for __________.",
         "answers": [
           {
-            "text": "MOC with  more than Rs 5.0 crore",
+            "text": "MOC with  more than Rs 5.0 crore\n",
             "correct": true
           },
           {
@@ -958,8 +958,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "MOC with  more than Rs 5.0 crore",
-          "Both A & B"
+          "MOC with  more than Rs 5.0 crore\n",
+          " MOC with less than Rs 5.0 crore"
         ]
       },
       {
@@ -967,7 +967,7 @@ const data =
         "question": "Level -2 PSSR is required to be done for __________.",
         "answers": [
           {
-            "text": "MOC with  more than Rs 5.0 crore",
+            "text": "MOC with  more than Rs 5.0 crore\n",
             "correct": false
           },
           {
@@ -985,7 +985,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of Above",
-          "MOC for any new equipment start up"
+          "MOC with  more than Rs 5.0 crore\n"
         ]
       },
       {
@@ -993,7 +993,7 @@ const data =
         "question": "Effect of inadvertent mixing of chemicals is available from ",
         "answers": [
           {
-            "text": "Chemical to chemical interaction Metrix",
+            "text": "Chemical to chemical interaction Metrix\n",
             "correct": true
           },
           {
@@ -1010,8 +1010,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Chemical to chemical interaction Metrix",
-          "MIQA"
+          "Chemical to chemical interaction Metrix\n",
+          "PSSR"
         ]
       },
       {
@@ -1019,7 +1019,7 @@ const data =
         "question": "What is PHR?",
         "answers": [
           {
-            "text": "Process Hazards Review",
+            "text": "Process Hazards Review\n",
             "correct": true
           },
           {
@@ -1036,8 +1036,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Process Hazards Review",
-          "None of the above"
+          "Process Hazards Review\n",
+          "Process Health Review"
         ]
       },
       {
@@ -1045,11 +1045,11 @@ const data =
         "question": "AS per LOTO procedure ,When the try test (i.e. check of effectiveness of electrical isolation) shall be done?",
         "answers": [
           {
-            "text": " During the job",
+            "text": " \nDuring the job",
             "correct": false
           },
           {
-            "text": "Before staring the job",
+            "text": "Before starting the job",
             "correct": true
           },
           {
@@ -1062,7 +1062,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Before staring the job",
+          "Before starting the job",
           "No body can do try test"
         ]
       },
@@ -1071,7 +1071,7 @@ const data =
         "question": "The procedure shall be reviewed not later than . ",
         "answers": [
           {
-            "text": "2 years from the date of the last revision.  ",
+            "text": "2 years from the date of the last revision. \n ",
             "correct": false
           },
           {
@@ -1089,7 +1089,7 @@ const data =
         ],
         "fiftyFifty": [
           "3 years from the date of the last revision. ",
-          "5 years from the date of the last revision. "
+          "4 years from the date of the last revision. "
         ]
       },
       {
@@ -1097,7 +1097,7 @@ const data =
         "question": "Who can isolate the Radioactive source like Nucleonic gauge in plant equipment ?",
         "answers": [
           {
-            "text": " Shift in charge",
+            "text": " Shift in charge\n",
             "correct": false
           },
           {
@@ -1115,7 +1115,7 @@ const data =
         ],
         "fiftyFifty": [
           "Radiation Safety officer (RSO)",
-          " Shift in charge"
+          " Shift in charge\n"
         ]
       },
       {
@@ -1123,7 +1123,7 @@ const data =
         "question": "Grinding machine speed shall be ________. ",
         "answers": [
           {
-            "text": "No criteria",
+            "text": "No criteria\n",
             "correct": false
           },
           {
@@ -1141,7 +1141,7 @@ const data =
         ],
         "fiftyFifty": [
           "Less or equal to the wheel speed",
-          "No criteria"
+          "No criteria\n"
         ]
       },
       {
@@ -1149,7 +1149,7 @@ const data =
         "question": "Lockout means------",
         "answers": [
           {
-            "text": "Placing a notice on the power source to warn others that job is in progress.",
+            "text": "Placing a notice on the power source to warn others that job is in progress.\n",
             "correct": false
           },
           {
@@ -1175,7 +1175,7 @@ const data =
         "question": "Who is responsible for preparing Job Planning for Line Break activity?",
         "answers": [
           {
-            "text": "Mechanical",
+            "text": "Mechanical\n",
             "correct": false
           },
           {
@@ -1193,7 +1193,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process",
-          "Mechanical"
+          "Mechanical\n"
         ]
       },
       {
@@ -1201,7 +1201,7 @@ const data =
         "question": "Who will ensure that equipment / pipeline etc. are cleared before starting line break job?",
         "answers": [
           {
-            "text": "Shift-in-charge",
+            "text": "Shift-in-charge\n",
             "correct": true
           },
           {
@@ -1218,8 +1218,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Shift-in-charge",
-          "CTS engineer"
+          "Shift-in-charge\n",
+          "Mechanical Engineer"
         ]
       },
       {
@@ -1227,7 +1227,7 @@ const data =
         "question": "How are the hazards in the job communicated to the working crew before line break activity?",
         "answers": [
           {
-            "text": "Discussing Procedure",
+            "text": "Discussing Procedure\n",
             "correct": false
           },
           {
@@ -1245,15 +1245,15 @@ const data =
         ],
         "fiftyFifty": [
           "Tool Box Talk",
-          "Discussing Procedure"
+          "Level-2 training"
         ]
       },
       {
         "id": 49,
-        "question": "A horizontal rail secured to standards and erected along the exposed edges of scaffolds to prevent workmen from falling.  ",
+        "question": "A horizontal rail secured to standards and erected along the exposed edges of scaffolds to prevent workmen from falling.  \n",
         "answers": [
           {
-            "text": "Guard rail",
+            "text": "Guard rail\n",
             "correct": true
           },
           {
@@ -1270,16 +1270,16 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Guard rail",
-          "all the above"
+          "Guard rail\n",
+          "Toe rail "
         ]
       },
       {
         "id": 50,
-        "question": "A gas which is resistant to chemical action under normally encountered conditions is called",
+        "question": "A gas which is resistant to chemical action under normally encountered conditions is called\n",
         "answers": [
           {
-            "text": "Ideal gas",
+            "text": "Ideal gas\n",
             "correct": false
           },
           {
@@ -1297,15 +1297,15 @@ const data =
         ],
         "fiftyFifty": [
           "Inert gas",
-          "Flammable gas"
+          "Toxic gas"
         ]
       },
       {
         "id": 51,
-        "question": " ----------performs the isolation in field and confirms the isolation and the lock number through the Handheld device (HHD).",
+        "question": " ----------performs the isolation in field and confirms the isolation and the lock number through the Handheld device (HHD).\n",
         "answers": [
           {
-            "text": "Issuer and  Acceptor",
+            "text": "Issuer and  Acceptor\n",
             "correct": false
           },
           {
@@ -1323,15 +1323,15 @@ const data =
         ],
         "fiftyFifty": [
           "The Field Executive and/or electrical engineer",
-          "Field Executive and  Acceptor"
+          "Verifier"
         ]
       },
       {
         "id": 52,
-        "question": "In HITRA,  Install noise enclosure ----",
+        "question": "In HITRA,  Install noise enclosure ----\n",
         "answers": [
           {
-            "text": "Elimination",
+            "text": "Elimination\n",
             "correct": false
           },
           {
@@ -1349,15 +1349,15 @@ const data =
         ],
         "fiftyFifty": [
           "Engineering control ",
-          "Elimination"
+          "Elimination\n"
         ]
       },
       {
         "id": 53,
-        "question": "In HITRA,  Automate process ----",
+        "question": "In HITRA,  Automate process ----\n",
         "answers": [
           {
-            "text": "Elimination",
+            "text": "Elimination\n",
             "correct": false
           },
           {
@@ -1375,15 +1375,15 @@ const data =
         ],
         "fiftyFifty": [
           "Substitution",
-          "Elimination"
+          "Engineering control "
         ]
       },
       {
         "id": 54,
-        "question": "In HITRA,  Implementing permit-to-work system ----",
+        "question": "In HITRA,  Implementing permit-to-work system ----\n",
         "answers": [
           {
-            "text": "Elimination",
+            "text": "Elimination\n",
             "correct": false
           },
           {
@@ -1401,7 +1401,7 @@ const data =
         ],
         "fiftyFifty": [
           "Administrative control",
-          "Substitution"
+          "Engineering control "
         ]
       },
       {
@@ -1409,7 +1409,7 @@ const data =
         "question": "In HITRA,  Redesign workplace layout",
         "answers": [
           {
-            "text": "Elimination",
+            "text": "Elimination\n",
             "correct": false
           },
           {
@@ -1432,10 +1432,10 @@ const data =
       },
       {
         "id": 56,
-        "question": "In HITRA, Working in pairs is----",
+        "question": "In HITRA, Working in pairs is----\n",
         "answers": [
           {
-            "text": "Elimination",
+            "text": "Elimination\n",
             "correct": false
           },
           {
@@ -1453,7 +1453,7 @@ const data =
         ],
         "fiftyFifty": [
           "Administrative control",
-          "Substitution"
+          "Engineering control "
         ]
       },
       {
@@ -1461,7 +1461,7 @@ const data =
         "question": "Who shall ensure displaying of the permit and availability of all relevant documents at the work site.",
         "answers": [
           {
-            "text": "Issuer",
+            "text": "Issuer\n",
             "correct": false
           },
           {
@@ -1479,15 +1479,15 @@ const data =
         ],
         "fiftyFifty": [
           "Acceptor",
-          "Issuer"
+          "Issuer\n"
         ]
       },
       {
         "id": 58,
-        "question": "Testing sequence for  CSE Atmosphere A. Test for Combustible gases\nB Test for Toxic Gas\nC Stop Air Mover\nD Test for oxygen",
+        "question": "Testing sequence for  CSE Atmosphere\nA Test for Combustible gases\nB Test for Toxic Gas\nC Stop Air Mover\nD Test for oxygen\n",
         "answers": [
           {
-            "text": "CDAB",
+            "text": "CDAB\n",
             "correct": true
           },
           {
@@ -1504,8 +1504,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "CDAB",
-          "CBDA"
+          "CDAB\n",
+          "CADB"
         ]
       },
       {
@@ -1531,7 +1531,7 @@ const data =
         ],
         "fiftyFifty": [
           "Operating Management system",
-          "Operation Managing System"
+          "All of above"
         ]
       },
       {
@@ -1557,7 +1557,7 @@ const data =
         ],
         "fiftyFifty": [
           8,
-          7
+          9
         ]
       },
       {
@@ -1565,7 +1565,7 @@ const data =
         "question": "NRR Means",
         "answers": [
           {
-            "text": " Noise Reduction Rating",
+            "text": " Noise Reduction Rating\n",
             "correct": true
           },
           {
@@ -1582,7 +1582,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Noise Reduction Rating",
+          " Noise Reduction Rating\n",
           "Nuremburg Rating Rules"
         ]
       },
@@ -1591,7 +1591,7 @@ const data =
         "question": "HSE related violations are addressed utilizing ",
         "answers": [
           {
-            "text": "LPR-ZT Process",
+            "text": "LPR-ZT Process\n",
             "correct": false
           },
           {
@@ -1609,15 +1609,15 @@ const data =
         ],
         "fiftyFifty": [
           "Progressive Discipline Frame Work for Employee",
-          "LPR-ZT Process"
+          "Consequence Management Frame work"
         ]
       },
       {
         "id": 63,
-        "question": ".",
+        "question": "Changes made in Confined Space Entry Procedure Post VCM IHC are related to",
         "answers": [
           {
-            "text": "Confined Space Entrant Training Annexure 1A",
+            "text": "Confined Space Entrant Training Annexure 1A\n",
             "correct": false
           },
           {
@@ -1643,7 +1643,7 @@ const data =
         "question": "Job Planning is crucial activity for OMS Sub Element",
         "answers": [
           {
-            "text": "4.5 Control of Work",
+            "text": "4.5 Control of Work\n",
             "correct": true
           },
           {
@@ -1660,8 +1660,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "4.5 Control of Work",
-          "4.6 Continuous and/or Periodic monitoring"
+          "4.5 Control of Work\n",
+          "3.1 Risk Assessment and Management"
         ]
       },
       {
@@ -1669,7 +1669,7 @@ const data =
         "question": "Risk based  SOP Categories as per Site IMS Procedure  at HMD",
         "answers": [
           {
-            "text": "Purple Risk - Blue Risk - Turquoise Risk - White Risk",
+            "text": "\nPurple Risk - Blue Risk - Turquoise Risk - White Risk\n",
             "correct": false
           },
           {
@@ -1687,7 +1687,7 @@ const data =
         ],
         "fiftyFifty": [
           "Level-1/Level-2/Level-3",
-          "Vital - Essential - Desirable"
+          "\nPurple Risk - Blue Risk - Turquoise Risk - White Risk\n"
         ]
       },
       {
@@ -1695,7 +1695,7 @@ const data =
         "question": "Who takes decision to suspend or cancel the work-permit if the requirements are not met or the situation is not conducive to continue the work. ",
         "answers": [
           {
-            "text": "Maintenance Manager",
+            "text": "\nMaintenance Manager",
             "correct": false
           },
           {
@@ -1713,7 +1713,7 @@ const data =
         ],
         "fiftyFifty": [
           "Issuer",
-          "Maintenance Manager"
+          "Acceptor"
         ]
       },
       {
@@ -1721,7 +1721,7 @@ const data =
         "question": "A bulb that shatters when bubble inside it disappear(Expansion of liquid) in the event of fire breakdown is called as ",
         "answers": [
           {
-            "text": "Quartzoid bulb",
+            "text": "Quartzoid bulb\n",
             "correct": true
           },
           {
@@ -1738,7 +1738,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Quartzoid bulb",
+          "Quartzoid bulb\n",
           "Argon bulb"
         ]
       },
@@ -1747,7 +1747,7 @@ const data =
         "question": "A fusible plug used in the heat detectors normally have low",
         "answers": [
           {
-            "text": "flash point Dilute point",
+            "text": "\nflash point Dilute point\n",
             "correct": false
           },
           {
@@ -1765,7 +1765,7 @@ const data =
         ],
         "fiftyFifty": [
           "Melting point",
-          "Boiling point"
+          "none of these"
         ]
       },
       {
@@ -1773,7 +1773,7 @@ const data =
         "question": "Apparel  used for rescue operation in an area of intense heat ,fire, steam, hot liquid is ?",
         "answers": [
           {
-            "text": "Cryogenic suits",
+            "text": "Cryogenic suits\n",
             "correct": false
           },
           {
@@ -1791,7 +1791,7 @@ const data =
         ],
         "fiftyFifty": [
           "Specialty Thermal Protective Apparel",
-          "Asbestos suits"
+          "Cryogenic suits\n"
         ]
       },
       {
@@ -1799,7 +1799,7 @@ const data =
         "question": "Assembly  points  in  various  plants  have  been  marked",
         "answers": [
           {
-            "text": "Trapezium",
+            "text": "Trapezium\n",
             "correct": false
           },
           {
@@ -1817,7 +1817,7 @@ const data =
         ],
         "fiftyFifty": [
           "Concentric circles",
-          "Triangle"
+          "Trapezium\n"
         ]
       },
       {
@@ -1825,7 +1825,7 @@ const data =
         "question": "Example of substitutions in risk assessment is",
         "answers": [
           {
-            "text": "Lock out ",
+            "text": "Lock out \n",
             "correct": false
           },
           {
@@ -1843,7 +1843,7 @@ const data =
         ],
         "fiftyFifty": [
           "Automate Process",
-          "Lock out "
+          "Install Interlocks"
         ]
       },
       {
@@ -1851,7 +1851,7 @@ const data =
         "question": "Best  extinguishing  media  for  liquid  hydrocarbon pool  fire  is  ",
         "answers": [
           {
-            "text": " CO2",
+            "text": " CO2\n",
             "correct": false
           },
           {
@@ -1869,7 +1869,7 @@ const data =
         ],
         "fiftyFifty": [
           "Foam",
-          "Halon"
+          "DCP"
         ]
       },
       {
@@ -1877,7 +1877,7 @@ const data =
         "question": "BLEVE  can  take  place  in",
         "answers": [
           {
-            "text": "Naphtha",
+            "text": "Naphtha\n",
             "correct": false
           },
           {
@@ -1895,7 +1895,7 @@ const data =
         ],
         "fiftyFifty": [
           "LPG",
-          "Naphtha"
+          "Chlorine"
         ]
       },
       {
@@ -1929,7 +1929,7 @@ const data =
         "question": "Classification of fires is based upon",
         "answers": [
           {
-            "text": "Oxygen levels",
+            "text": "\n\nOxygen levels\n",
             "correct": false
           },
           {
@@ -1947,7 +1947,7 @@ const data =
         ],
         "fiftyFifty": [
           "Nature of fuel",
-          "Oxygen levels"
+          "Amount of heat"
         ]
       },
       {
@@ -1955,7 +1955,7 @@ const data =
         "question": "De-energization request after job completion is raised by",
         "answers": [
           {
-            "text": "Plant Electrical",
+            "text": "Plant Electrical\n",
             "correct": false
           },
           {
@@ -1973,7 +1973,7 @@ const data =
         ],
         "fiftyFifty": [
           "Executing department",
-          "Safety department"
+          "Area operator"
         ]
       },
       {
@@ -1981,7 +1981,7 @@ const data =
         "question": "Which of these is not a part of Incident Investigation Report ",
         "answers": [
           {
-            "text": "Name of the person involved in the incident",
+            "text": "Name of the person involved in the incident\n",
             "correct": true
           },
           {
@@ -1998,8 +1998,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Name of the person involved in the incident",
-          " Photographs "
+          "Name of the person involved in the incident\n",
+          "Name of team members"
         ]
       },
       {
@@ -2007,7 +2007,7 @@ const data =
         "question": "Who is responsible for verifying the checkpoints as applicable for releasing the temporary electrical  connection.",
         "answers": [
           {
-            "text": " Plant Electrical",
+            "text": " Plant Electrical\n",
             "correct": true
           },
           {
@@ -2024,8 +2024,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Plant Electrical",
-          "Executing department"
+          " Plant Electrical\n",
+          "Area operator"
         ]
       },
       {
@@ -2051,7 +2051,7 @@ const data =
         ],
         "fiftyFifty": [
           "Fire Officer",
-          "All the above"
+          " SSM"
         ]
       },
       {
@@ -2059,7 +2059,7 @@ const data =
         "question": "During a vapour cloud formation, water spray",
         "answers": [
           {
-            "text": "Cools the cloud below ignition point",
+            "text": "Cools the cloud below ignition point\n",
             "correct": false
           },
           {
@@ -2077,7 +2077,7 @@ const data =
         ],
         "fiftyFifty": [
           "Disperses the cloud by air mixing",
-          "Cools the cloud below ignition point"
+          "None of Above"
         ]
       },
       {
@@ -2085,7 +2085,7 @@ const data =
         "question": "Deluge Valve works on the principle of",
         "answers": [
           {
-            "text": "Differential pressure",
+            "text": "Differential pressure\n",
             "correct": true
           },
           {
@@ -2102,8 +2102,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Differential pressure",
-          "Cloud identification"
+          "Differential pressure\n",
+          "All the above"
         ]
       },
       {
@@ -2137,7 +2137,7 @@ const data =
         "question": "Escape set is used to ",
         "answers": [
           {
-            "text": "Rescue operations",
+            "text": "Rescue operations\n",
             "correct": false
           },
           {
@@ -2155,7 +2155,7 @@ const data =
         ],
         "fiftyFifty": [
           " Escape",
-          "Practice"
+          "Rescue operations\n"
         ]
       },
       {
@@ -2163,7 +2163,7 @@ const data =
         "question": "Expand BLEVE ?",
         "answers": [
           {
-            "text": "Boiling liquid expanding vapour cloud explosion",
+            "text": "Boiling liquid expanding vapour cloud explosion\n",
             "correct": true
           },
           {
@@ -2180,7 +2180,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Boiling liquid expanding vapour cloud explosion",
+          "Boiling liquid expanding vapour cloud explosion\n",
           "Boiling liquid explosion vapour cloud expansion"
         ]
       },
@@ -2189,7 +2189,7 @@ const data =
         "question": "Whose responsibility is to  Maintain  Excellent Housekeeping in the Plant area.",
         "answers": [
           {
-            "text": "Plant PSR",
+            "text": "Plant PSR\n",
             "correct": false
           },
           {
@@ -2207,7 +2207,7 @@ const data =
         ],
         "fiftyFifty": [
           " Each and every individual.",
-          "Plant PSR"
+          "Plant PSR\n"
         ]
       },
       {
@@ -2215,7 +2215,7 @@ const data =
         "question": "What is fragile roof",
         "answers": [
           {
-            "text": "Sloping roof",
+            "text": "\nSloping roof",
             "correct": false
           },
           {
@@ -2241,7 +2241,7 @@ const data =
         "question": "IDLH Stands for",
         "answers": [
           {
-            "text": "Independent of life & health",
+            "text": "Independent of life & health\n",
             "correct": false
           },
           {
@@ -2259,7 +2259,7 @@ const data =
         ],
         "fiftyFifty": [
           "Immediately dangerous to life & Health",
-          "Independent of life & health"
+          "none of the above"
         ]
       },
       {
@@ -2267,7 +2267,7 @@ const data =
         "question": "Metal  fire  is  categorized  as    ",
         "answers": [
           {
-            "text": " Class D",
+            "text": "\n Class D\n\n",
             "correct": true
           },
           {
@@ -2284,7 +2284,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          " Class D",
+          "\n Class D\n\n",
           "Class A"
         ]
       },
@@ -2311,7 +2311,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process Hazard Analysis",
-          "Preventive hazard analysis"
+          " Periodic health analysis"
         ]
       },
       {
@@ -2319,7 +2319,7 @@ const data =
         "question": "STEL stands for",
         "answers": [
           {
-            "text": "Standard Toxic Exposure limit",
+            "text": "Standard Toxic Exposure limit\n",
             "correct": false
           },
           {
@@ -2337,7 +2337,7 @@ const data =
         ],
         "fiftyFifty": [
           "Short term Exposure limit",
-          "Standard Toxic Exposure limit"
+          "None of these"
         ]
       },
       {
@@ -2345,7 +2345,7 @@ const data =
         "question": "Teal fires are classified as ",
         "answers": [
           {
-            "text": " Class A",
+            "text": " Class A\n ",
             "correct": false
           },
           {
@@ -2371,7 +2371,7 @@ const data =
         "question": "The  range  of  flammability  indicates",
         "answers": [
           {
-            "text": "Threshold limits",
+            "text": "Threshold limits\n",
             "correct": false
           },
           {
@@ -2389,7 +2389,7 @@ const data =
         ],
         "fiftyFifty": [
           "Explosive limits",
-          "Threshold limits"
+          "Threshold limits\n"
         ]
       },
       {
@@ -2397,7 +2397,7 @@ const data =
         "question": "The  safest  way  to  exit  a  smoke  filled  room  is",
         "answers": [
           {
-            "text": "Running",
+            "text": "Running\n",
             "correct": false
           },
           {
@@ -2423,7 +2423,7 @@ const data =
         "question": "The full form of AFS is",
         "answers": [
           {
-            "text": "Auxiliary  fire Station",
+            "text": "Auxiliary  fire Station\n ",
             "correct": false
           },
           {
@@ -2441,7 +2441,7 @@ const data =
         ],
         "fiftyFifty": [
           "Auxiliary Fire squad",
-          "Assisting Fire Squad"
+          "Active Fire Squad"
         ]
       },
       {
@@ -2449,7 +2449,7 @@ const data =
         "question": "The general products of combustion are ",
         "answers": [
           {
-            "text": " CO",
+            "text": " CO\n",
             "correct": false
           },
           {
@@ -2467,7 +2467,7 @@ const data =
         ],
         "fiftyFifty": [
           "CO2 & CO",
-          " CO"
+          " CO\n"
         ]
       },
       {
@@ -2475,7 +2475,7 @@ const data =
         "question": "What  is  UVCE  ?",
         "answers": [
           {
-            "text": "Unconfined Vapour Closed Explosion",
+            "text": "Unconfined Vapour Closed Explosion\n",
             "correct": false
           },
           {
@@ -2493,7 +2493,7 @@ const data =
         ],
         "fiftyFifty": [
           "Unconfined vapour cloud explosion",
-          "None of these"
+          "Unconfined Vapour Closed Explosion\n"
         ]
       },
       {
@@ -2501,7 +2501,7 @@ const data =
         "question": "The red colour QB is rated for temperature",
         "answers": [
           {
-            "text": "68",
+            "text": "68\n",
             "correct": true
           },
           {
@@ -2518,8 +2518,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "68",
-          141
+          "68\n",
+          67
         ]
       },
       {
@@ -2527,7 +2527,7 @@ const data =
         "question": "What  is  non  sparking  tools made of ?",
         "answers": [
           {
-            "text": "Teflon",
+            "text": "Teflon\n",
             "correct": false
           },
           {
@@ -2545,7 +2545,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of these",
-          "Teflon"
+          "Soft metal"
         ]
       },
       {
@@ -2553,7 +2553,7 @@ const data =
         "question": "What is class C petroleum product ?",
         "answers": [
           {
-            "text": " Flash Point<23",
+            "text": " Flash Point<23\n",
             "correct": false
           },
           {
@@ -2571,7 +2571,7 @@ const data =
         ],
         "fiftyFifty": [
           "65<Flash Point<93",
-          " Flash Point<23"
+          "None of these"
         ]
       },
       {
@@ -2579,7 +2579,7 @@ const data =
         "question": "What is TREM",
         "answers": [
           {
-            "text": " Transport Card",
+            "text": " Transport Card\n",
             "correct": false
           },
           {
@@ -2597,7 +2597,7 @@ const data =
         ],
         "fiftyFifty": [
           "Transport Emergency Card",
-          "Transport Management Card"
+          "Transport Emergency management Card "
         ]
       },
       {
@@ -2605,7 +2605,7 @@ const data =
         "question": "The technique used for determining key factors is",
         "answers": [
           {
-            "text": "Why How method",
+            "text": "Why How method\n",
             "correct": false
           },
           {
@@ -2623,7 +2623,7 @@ const data =
         ],
         "fiftyFifty": [
           "Why Why Method",
-          "Why How method"
+          "Why How method\n"
         ]
       },
       {
@@ -2631,7 +2631,7 @@ const data =
         "question": "A tanker carrying Benzene from RIL, Hazira site topples near Ichhapore. This is a ",
         "answers": [
           {
-            "text": "Process Incident",
+            "text": "Process Incident\n",
             "correct": false
           },
           {
@@ -2649,7 +2649,7 @@ const data =
         ],
         "fiftyFifty": [
           "Distribution Incident",
-          "Process Incident"
+          "Major incident"
         ]
       },
       {
@@ -2657,7 +2657,7 @@ const data =
         "question": "Where the nitrogen connection is not permitted ?",
         "answers": [
           {
-            "text": "Confined space / building where leaks reduce oxygen level in atmosphere",
+            "text": "Confined space / building where leaks reduce oxygen level in atmosphere\n",
             "correct": true
           },
           {
@@ -2674,8 +2674,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Confined space / building where leaks reduce oxygen level in atmosphere",
-          "For purging in process"
+          "Confined space / building where leaks reduce oxygen level in atmosphere\n",
+          "All of above"
         ]
       },
       {
@@ -2683,7 +2683,7 @@ const data =
         "question": "Which type hand gloves is required  for  liquid nitrogen handling ?",
         "answers": [
           {
-            "text": "Neoprene ",
+            "text": "Neoprene \n",
             "correct": false
           },
           {
@@ -2701,15 +2701,15 @@ const data =
         ],
         "fiftyFifty": [
           "Cryogenic hand gloves ",
-          "Neoprene "
+          "Cotton hand gloves"
         ]
       },
       {
         "id": 105,
-        "question": "Asphyxiant means",
+        "question": "Asphyxiant means\n",
         "answers": [
           {
-            "text": "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).",
+            "text": "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).\n",
             "correct": true
           },
           {
@@ -2726,8 +2726,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).",
-          "Atmosphere in confined space"
+          "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).\n",
+          "Normal atmospheric condition"
         ]
       },
       {
@@ -2735,7 +2735,7 @@ const data =
         "question": "NIHL stands for",
         "answers": [
           {
-            "text": "Noise Influenced Hearing loss",
+            "text": "Noise Influenced Hearing loss\n",
             "correct": false
           },
           {
@@ -2753,7 +2753,7 @@ const data =
         ],
         "fiftyFifty": [
           " Noise Induced Hearing loss",
-          "Notified Hearing Industrial Levels"
+          "Noise Influenced Hearing loss\n"
         ]
       },
       {
@@ -2761,15 +2761,15 @@ const data =
         "question": "Who is the functional owner of PHA document?",
         "answers": [
           {
-            "text": "HOD-CTS",
+            "text": "HOD \u2013 CTS\n",
             "correct": true
           },
           {
-            "text": "HOD-CES",
+            "text": "HOD \u2013 CES",
             "correct": false
           },
           {
-            "text": "HOD-Plant ",
+            "text": "HOD \u2013 Plant ",
             "correct": false
           },
           {
@@ -2778,8 +2778,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "HOD-CTS",
-          "HOD-CES"
+          "HOD \u2013 CTS\n",
+          "Manufacturing head"
         ]
       },
       {
@@ -2787,7 +2787,7 @@ const data =
         "question": "Which systems shall not be interconnected to process.",
         "answers": [
           {
-            "text": "Plant air",
+            "text": "Plant air\n",
             "correct": false
           },
           {
@@ -2805,7 +2805,7 @@ const data =
         ],
         "fiftyFifty": [
           "Breathing Air",
-          "Instrument Air"
+          "Plant air\n"
         ]
       },
       {
@@ -2813,7 +2813,7 @@ const data =
         "question": "What is FMEA?",
         "answers": [
           {
-            "text": "Failure Mode Effect Analysis",
+            "text": "Failure Mode Effect Analysis\n",
             "correct": true
           },
           {
@@ -2830,7 +2830,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Failure Mode Effect Analysis",
+          "Failure Mode Effect Analysis\n",
           "Failure Mode Engineering Analysis"
         ]
       },
@@ -2839,7 +2839,7 @@ const data =
         "question": "Aluminized proximity suits are  used where pyrophoric chemicals or molten materials are handled such as -----------?",
         "answers": [
           {
-            "text": "TEAL ",
+            "text": "TEAL \n",
             "correct": true
           },
           {
@@ -2856,8 +2856,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "TEAL ",
-          "CHLORINE"
+          "TEAL \n",
+          "NAPHTHA"
         ]
       },
       {
@@ -2865,7 +2865,7 @@ const data =
         "question": "What is frequency of certification of electrical driven portable equipment's",
         "answers": [
           {
-            "text": " Monthly",
+            "text": " Monthly\n",
             "correct": false
           },
           {
@@ -2883,7 +2883,7 @@ const data =
         ],
         "fiftyFifty": [
           "Half-Yearly",
-          "Quarterly"
+          " Monthly\n"
         ]
       },
       {
@@ -2891,7 +2891,7 @@ const data =
         "question": "What should be rating of protecting ELCB used during operation of the portable and transportable apparatus",
         "answers": [
           {
-            "text": "30 mA",
+            "text": "30 mA\n",
             "correct": true
           },
           {
@@ -2908,8 +2908,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "30 mA",
-          "60 mA"
+          "30 mA\n",
+          "Not required"
         ]
       },
       {
@@ -2917,7 +2917,7 @@ const data =
         "question": "What are the 4Ps of the OMS ",
         "answers": [
           {
-            "text": "People, Process, Plant Performance ",
+            "text": "People, Process, Plant Performance \n",
             "correct": true
           },
           {
@@ -2934,8 +2934,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "People, Process, Plant Performance ",
-          "Planning, Privilege , Plant, Productivity "
+          "People, Process, Plant Performance \n",
+          "People, Performance, Plant, Productivity"
         ]
       },
       {
@@ -2961,7 +2961,7 @@ const data =
         ],
         "fiftyFifty": [
           "All reactions and side reactions.",
-          "Physical Properties"
+          "Action needed in case of exposure"
         ]
       },
       {
@@ -2987,7 +2987,7 @@ const data =
         ],
         "fiftyFifty": [
           "90 dBA",
-          "95 dBA"
+          "85 dBA"
         ]
       },
       {
@@ -3065,7 +3065,7 @@ const data =
         ],
         "fiftyFifty": [
           "No horseplay",
-          "No Violation of work permit condition ."
+          "No entry in confined space without authorization"
         ]
       },
       {
@@ -3073,7 +3073,7 @@ const data =
         "question": "Fire  point  is  ____________  than  Flash  point",
         "answers": [
           {
-            "text": "Equal",
+            "text": "Equal\n",
             "correct": false
           },
           {
@@ -3091,7 +3091,7 @@ const data =
         ],
         "fiftyFifty": [
           "Higher",
-          "Equal"
+          "Equal\n"
         ]
       },
       {
@@ -3099,7 +3099,7 @@ const data =
         "question": "Fire from a pressurized pipeline leak is termed as ",
         "answers": [
           {
-            "text": " Plane",
+            "text": " Plane\n",
             "correct": false
           },
           {
@@ -3125,7 +3125,7 @@ const data =
         "question": "In a chlorine emergency kit, ammonia solution is used for",
         "answers": [
           {
-            "text": "Detecting chlorine",
+            "text": "Detecting chlorine\n",
             "correct": true
           },
           {
@@ -3142,7 +3142,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Detecting chlorine",
+          "Detecting chlorine\n",
           "None of the above"
         ]
       },
@@ -3151,7 +3151,7 @@ const data =
         "question": "NFPA  stands  for",
         "answers": [
           {
-            "text": "National Fire Prevention Association",
+            "text": "National Fire Prevention Association\n",
             "correct": false
           },
           {
@@ -3169,7 +3169,7 @@ const data =
         ],
         "fiftyFifty": [
           "National Fire Protection Association",
-          "National Fire Prevention Association"
+          "National Fire Prevention Agency"
         ]
       },
       {
@@ -3177,7 +3177,7 @@ const data =
         "question": "Pungent  smell  in  LPG  is  due  to",
         "answers": [
           {
-            "text": "Methyl Mercaptan",
+            "text": "Methyl Mercaptan\n",
             "correct": false
           },
           {
@@ -3195,7 +3195,7 @@ const data =
         ],
         "fiftyFifty": [
           "Ethyl Mercaptan",
-          "Methyl Mercaptan"
+          "Methyl Mercaptan\n"
         ]
       },
       {
@@ -3203,7 +3203,7 @@ const data =
         "question": "The  colour  code  for  the  identification  of location of  MCP  is ",
         "answers": [
           {
-            "text": "Red and White Bands in a Circle",
+            "text": "Red and White Bands in a Circle\n",
             "correct": true
           },
           {
@@ -3220,7 +3220,7 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Red and White Bands in a Circle",
+          "Red and White Bands in a Circle\n",
           "Blue and White Bands in a Circle"
         ]
       },
@@ -3229,7 +3229,7 @@ const data =
         "question": "The  plan  that  shows  preparedness  for  handling  any  emergency  of  such  magnitude  that  effects  surrounding  population  and  environment  around  an  installation  is  known  as",
         "answers": [
           {
-            "text": "Onsite Emergency plan",
+            "text": "Onsite Emergency plan\n",
             "correct": false
           },
           {
@@ -3247,7 +3247,7 @@ const data =
         ],
         "fiftyFifty": [
           "Offsite emergency plan",
-          "Onsite Emergency plan"
+          "None of these"
         ]
       },
       {
@@ -3255,7 +3255,7 @@ const data =
         "question": "The oil in a frying pan in kitchen can catch fire due to ",
         "answers": [
           {
-            "text": " Expansion Point",
+            "text": " Expansion Point\n",
             "correct": false
           },
           {
@@ -3273,7 +3273,7 @@ const data =
         ],
         "fiftyFifty": [
           "Boiling Point",
-          " Expansion Point"
+          "Dilute Point"
         ]
       },
       {
@@ -3281,7 +3281,7 @@ const data =
         "question": "The pictorial  representation of safety shower is",
         "answers": [
           {
-            "text": "Green And White Bands in a circle",
+            "text": "Green And White Bands in a circle\n",
             "correct": true
           },
           {
@@ -3298,8 +3298,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Green And White Bands in a circle",
-          "Blue And White Bands in a circle"
+          "Green And White Bands in a circle\n",
+          "Red And White Bands in a circle"
         ]
       },
       {
@@ -3307,7 +3307,7 @@ const data =
         "question": "The pictorial representation of breathing apparatus",
         "answers": [
           {
-            "text": "Green And White Bands in a circle",
+            "text": "Green And White Bands in a circle\n",
             "correct": false
           },
           {
@@ -3325,7 +3325,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blue And White Bands in a circle",
-          "None of these"
+          "Green And White Bands in a circle\n"
         ]
       },
       {
@@ -3333,7 +3333,7 @@ const data =
         "question": "The terminology used for extinguishing fire by cutting out air supply is called. ",
         "answers": [
           {
-            "text": "Starvation",
+            "text": "Starvation\n",
             "correct": false
           },
           {
@@ -3351,7 +3351,7 @@ const data =
         ],
         "fiftyFifty": [
           "Smothering",
-          "Starvation"
+          " Isolating"
         ]
       },
       {
@@ -3359,7 +3359,7 @@ const data =
         "question": "What are the different modes of heat transfer?",
         "answers": [
           {
-            "text": "Convection",
+            "text": "Convection\n",
             "correct": false
           },
           {
@@ -3377,7 +3377,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of these",
-          "Radiation"
+          "Conduction"
         ]
       },
       {
@@ -3385,7 +3385,7 @@ const data =
         "question": "What is the time frame by which the Final Report (Investigation) of high and medium risk should be completed ?",
         "answers": [
           {
-            "text": "10 days",
+            "text": "10 days\n",
             "correct": false
           },
           {
@@ -3411,7 +3411,7 @@ const data =
         "question": "What is the time frame for forming an incident investigation team ?",
         "answers": [
           {
-            "text": "within 8 hours",
+            "text": "within 8 hours\n",
             "correct": false
           },
           {
@@ -3437,7 +3437,7 @@ const data =
         "question": "Hot work-Gas cutting set hose colour code for _________ .",
         "answers": [
           {
-            "text": "For oxygen - Black & Acetylene - Blue",
+            "text": "For oxygen - Black & Acetylene - Blue\n",
             "correct": false
           },
           {
@@ -3455,15 +3455,15 @@ const data =
         ],
         "fiftyFifty": [
           "For oxygen -Blue & Acetylene - Maroon",
-          "For oxygen -Maroon & Acetylene - Black"
+          "For oxygen - Black & Acetylene - Blue\n"
         ]
       },
       {
         "id": 134,
-        "question": "Out of this four gas , Which is the permeant gas  ?",
+        "question": "Out of this four gas , Which is the permenant gas  ?",
         "answers": [
           {
-            "text": "Chlorine",
+            "text": "Chlorine\n",
             "correct": true
           },
           {
@@ -3480,16 +3480,16 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Chlorine",
+          "Chlorine\n",
           "CNG"
         ]
       },
       {
         "id": 135,
-        "question": " For lifting  >30 MT by carne , approval is required from ______ .",
+        "question": " For lifting  >30 MT by crane , approval is required from ______ .",
         "answers": [
           {
-            "text": "Plant HOD",
+            "text": "Plant HOD\n",
             "correct": false
           },
           {
@@ -3507,7 +3507,7 @@ const data =
         ],
         "fiftyFifty": [
           "CES Maintenance Head",
-          "Plant HOD"
+          "HSEF Head"
         ]
       },
       {
@@ -3533,7 +3533,7 @@ const data =
         ],
         "fiftyFifty": [
           "Segment Head/ Operating Function Head or Equivalent",
-          "Reliance Entity Leader"
+          "Plant HOD"
         ]
       },
       {
@@ -3567,7 +3567,7 @@ const data =
         "question": "In PIPA, The consolidated list of credible scenario identified by the team shall be reviewed and finalized  by ",
         "answers": [
           {
-            "text": "HSEF department",
+            "text": "HSEF department\n",
             "correct": false
           },
           {
@@ -3585,7 +3585,7 @@ const data =
         ],
         "fiftyFifty": [
           "Respective plant Manager and Fire Chief.",
-          "HSEF department"
+          "All the above"
         ]
       },
       {
@@ -3593,7 +3593,7 @@ const data =
         "question": "Why do we define maximum inventories of chemical in PT documents?",
         "answers": [
           {
-            "text": "To avoid production loss.",
+            "text": "To avoid production loss.\n",
             "correct": false
           },
           {
@@ -3611,7 +3611,7 @@ const data =
         ],
         "fiftyFifty": [
           "So the maximum risk is controlled and emergency response is prepared accordingly.",
-          "To avoid production loss."
+          " To avoid emergencies/process upset"
         ]
       },
       {
@@ -3619,7 +3619,7 @@ const data =
         "question": "Recently RIL HMD has taken License for Hydrogen Filling - where this facility is located",
         "answers": [
           {
-            "text": "PE 1",
+            "text": "PE 1\n",
             "correct": true
           },
           {
@@ -3636,8 +3636,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "PE 1",
-          "PP"
+          "PE 1\n",
+          "PE 2"
         ]
       },
       {
@@ -3671,7 +3671,7 @@ const data =
         "question": "Theme for Annual Safety Campaign 2025",
         "answers": [
           {
-            "text": "Safety and Health Crucial for Viksit Bharat",
+            "text": "Safety and Health Crucial for Viksit Bharat\n",
             "correct": false
           },
           {
@@ -3689,7 +3689,7 @@ const data =
         ],
         "fiftyFifty": [
           "Safety and Wellbeing Crucial for Viksit Bharat",
-          "Safety and Wellness Crucial for Viksit Bharat"
+          "Safety and Health Crucial for Viksit Bharat\n"
         ]
       },
       {
@@ -3715,7 +3715,7 @@ const data =
         ],
         "fiftyFifty": [
           "Lost work case divided by total millions of man hours",
-          "Lost work case divided by total man hours."
+          "Lost work case divided by RIL millions man hours"
         ]
       },
       {
@@ -3723,7 +3723,7 @@ const data =
         "question": "RIL Hazira Weekly Learning Communication E Magazine",
         "answers": [
           {
-            "text": "HSE Performance Magazine",
+            "text": "HSE Performance Magazine\n",
             "correct": false
           },
           {
@@ -3741,7 +3741,7 @@ const data =
         ],
         "fiftyFifty": [
           "Goal Zero",
-          "Zero Goal"
+          "Sanskruti"
         ]
       }
     ];
