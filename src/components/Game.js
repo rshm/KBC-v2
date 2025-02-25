@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { MDBRow, MDBCol, MDBListGroup, MDBBtn } from "mdb-react-ui-kit";
 import Quiz from "./Quiz";
 import { data, prizeMoney } from "../data";
+import {difficult} from "../difficult"; // Import difficult questions
 import Timer from "./Timer";
 import { FaPhoneAlt, FaPlay, FaPause } from "react-icons/fa";
 import { TbRewindBackward50 } from "react-icons/tb";
@@ -14,7 +15,7 @@ const shuffleArray = (array) => {
     return array;
 };
 
-const Game = ({ name, setName, timeOut , setTimeOut }) => {
+const Game = ({ name, setName, timeOut, setTimeOut }) => {
     const [questionNumber, setQuestionNumber] = useState(1);
     const [earned, setEarned] = useState("Suraksha Sadhak");
     const [shuffledData, setShuffledData] = useState([]);
@@ -29,13 +30,15 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
 
     useEffect(() => {
         if (name) {
-            setShuffledData(shuffleArray([...data]));
+            const easyQuestions = shuffleArray([...data]).slice(0, 7); // First 7 from data
+            const hardQuestions = shuffleArray([...difficult]).slice(0, 8); // Remaining 8 from difficult.json
+            setShuffledData([...easyQuestions, ...hardQuestions]); // Combine them
         }
     }, [name]);
 
     useEffect(() => {
         if (questionNumber > 1) {
-            setEarned(prizeMoney.find((item) => item.id === questionNumber - 1).amount);
+            setEarned(prizeMoney.find((item) => item.id === questionNumber - 1)?.amount);
         }
     }, [questionNumber]);
 
@@ -146,22 +149,23 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
                         <span className="mb-2">
                             <MDBBtn
                                 style={{ float: "right" }}
-                                className="mx-2"
+                                className="mx-1"
                                 onClick={handleStartQuestion}
                             >
                                 Options
                             </MDBBtn>
                             <MDBBtn
                                 style={{ float: "right" }}
-                                className="mx-2"
+                                className="mx-1"
                                 color="light"
                                 onClick={() => resetGame()}
                             >
                                 Quit
                             </MDBBtn>
+
                             <MDBBtn
                                 style={{ float: "right" }}
-                                className="mx-2"
+                                className="mx-1"
                                 onClick={() => {
                                     setName(null);
                                     setQuestionNumber(1);
@@ -174,7 +178,7 @@ const Game = ({ name, setName, timeOut , setTimeOut }) => {
 
                             <MDBBtn
                                 style={{ float: "right" }}
-                                className="mx-2"
+                                className="mx-1"
                                 onClick={() => {
                                     setScClicked(true);
                                 }}

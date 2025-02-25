@@ -80,7 +80,7 @@ const data =
       },
       {
         "id": 4,
-        "question": "Insulation removal on live equipment to inspect for leaks 2013 known leak - is classified as ",
+        "question": "Insulation removal on live equipment to inspect for leaks-known leak - is classified as ",
         "answers": [
           {
             "text": "Hot work Low Risk",
@@ -101,7 +101,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cold Work High Risk",
-          "Cold Work Medium Risk"
+          "Hot Work Medium Risk"
         ]
       },
       {
@@ -132,7 +132,7 @@ const data =
       },
       {
         "id": 6,
-        "question": "Abrasive blasting 2013 on live equipment requires ",
+        "question": "Abrasive blasting-on live equipment requires ",
         "answers": [
           {
             "text": "Hot work Low Risk",
@@ -179,7 +179,7 @@ const data =
         ],
         "fiftyFifty": [
           "0.1 ppm",
-          "5 ppm"
+          "1 ppm"
         ]
       },
       {
@@ -205,7 +205,7 @@ const data =
         ],
         "fiftyFifty": [
           "Hydrogen",
-          "CO "
+          "CH4"
         ]
       },
       {
@@ -257,7 +257,7 @@ const data =
         ],
         "fiftyFifty": [
           "Lighter then air",
-          "non applicable"
+          "Heavier then air"
         ]
       },
       {
@@ -309,7 +309,7 @@ const data =
         ],
         "fiftyFifty": [
           "Asphyxiation",
-          "Toxic"
+          "Explosion"
         ]
       },
       {
@@ -335,7 +335,7 @@ const data =
         ],
         "fiftyFifty": [
           "Significant aspect",
-          "Non-significant aspect "
+          "Security violation"
         ]
       },
       {
@@ -361,7 +361,7 @@ const data =
         ],
         "fiftyFifty": [
           "Stack Emission",
-          "All the above"
+          "Release of HC into atmosphere"
         ]
       },
       {
@@ -387,7 +387,7 @@ const data =
         ],
         "fiftyFifty": [
           2,
-          6
+          4
         ]
       },
       {
@@ -413,7 +413,7 @@ const data =
         ],
         "fiftyFifty": [
           "36 Km/Hr",
-          "20 Km/Hr."
+          "40 Km/Hr."
         ]
       },
       {
@@ -491,7 +491,7 @@ const data =
         ],
         "fiftyFifty": [
           " 75 deg.",
-          " 45 deg."
+          "50 deg."
         ]
       },
       {
@@ -517,7 +517,7 @@ const data =
         ],
         "fiftyFifty": [
           "Permanent structure",
-          "Impulse tube line"
+          "1 pipe line"
         ]
       },
       {
@@ -543,7 +543,7 @@ const data =
         ],
         "fiftyFifty": [
           "FRP ladder",
-          "Monkey ladder made with mild steel"
+          "Wooden ladder"
         ]
       },
       {
@@ -569,7 +569,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of the above",
-          "Fire Dept.  "
+          "SSM"
         ]
       },
       {
@@ -595,7 +595,7 @@ const data =
         ],
         "fiftyFifty": [
           "1050",
-          1250
+          950
         ]
       },
       {
@@ -621,7 +621,7 @@ const data =
         ],
         "fiftyFifty": [
           "525 mm",
-          "425 mm"
+          "500 mm"
         ]
       },
       {
@@ -673,7 +673,7 @@ const data =
         ],
         "fiftyFifty": [
           "1.8 meters from roof edge without parapets ",
-          "2 meters from roof edge with  parapets "
+          " 2.5 meters from roof edge without parapets"
         ]
       },
       {
@@ -699,7 +699,7 @@ const data =
         ],
         "fiftyFifty": [
           " Back flow ",
-          "Forward flow "
+          "Leftward flow"
         ]
       },
       {
@@ -725,7 +725,7 @@ const data =
         ],
         "fiftyFifty": [
           "Plant HOD",
-          "Maintenance Manager"
+          "Production Manager"
         ]
       },
       {
@@ -777,7 +777,7 @@ const data =
         ],
         "fiftyFifty": [
           "270 bar",
-          "250 bar"
+          "45 bar"
         ]
       },
       {
@@ -803,7 +803,7 @@ const data =
         ],
         "fiftyFifty": [
           "Shipping",
-          "SBR"
+          "Cracker "
         ]
       },
       {
@@ -811,7 +811,7 @@ const data =
         "question": "The acronym CPR in paramedics means _______ .",
         "answers": [
           {
-            "text": "  Cardio pulse ratio",
+            "text": "Cardio pulse ratio",
             "correct": false
           },
           {
@@ -829,7 +829,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cardiopulmonary resuscitation",
-          "Cardio pulmonary ratio"
+          "Cardio pulse ratio"
         ]
       },
       {
@@ -907,7 +907,7 @@ const data =
         ],
         "fiftyFifty": [
           "Having voltage less than 4.5 V &  Explosion-proof",
-          "Having voltage less than 24 V"
+          "No torch is allowed, only hand-lamps are allowed"
         ]
       },
       {
@@ -933,7 +933,7 @@ const data =
         ],
         "fiftyFifty": [
           "Black & Yellow Stripes",
-          "Green And White Bands in a circle"
+          "Blue and White Bands in a Circle"
         ]
       },
       {
@@ -959,7 +959,7 @@ const data =
         ],
         "fiftyFifty": [
           "MOC with  more than Rs 5.0 crore",
-          " MOC with less than Rs 5.0 crore"
+          "Both A & B"
         ]
       },
       {
@@ -985,7 +985,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of Above",
-          "MOC with  more than Rs 5.0 crore"
+          "MOC for any new equipment start up"
         ]
       },
       {
@@ -1011,7 +1011,7 @@ const data =
         ],
         "fiftyFifty": [
           "Chemical to chemical interaction Metrix",
-          "PSSR"
+          "MIQA"
         ]
       },
       {
@@ -1045,7 +1045,7 @@ const data =
         "question": "AS per LOTO procedure ,When the try test (i.e. check of effectiveness of electrical isolation) shall be done?",
         "answers": [
           {
-            "text": "   During the job",
+            "text": " During the job",
             "correct": false
           },
           {
@@ -1063,7 +1063,7 @@ const data =
         ],
         "fiftyFifty": [
           "Before staring the job",
-          "After completion of job"
+          "No body can do try test"
         ]
       },
       {
@@ -1071,7 +1071,7 @@ const data =
         "question": "The procedure shall be reviewed not later than . ",
         "answers": [
           {
-            "text": "2 years from the date of the last revision. ",
+            "text": "2 years from the date of the last revision.  ",
             "correct": false
           },
           {
@@ -1115,7 +1115,7 @@ const data =
         ],
         "fiftyFifty": [
           "Radiation Safety officer (RSO)",
-          "Contractor supervisor"
+          " Shift in charge"
         ]
       },
       {
@@ -1167,7 +1167,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blocking the flow of energy from the power source to the equipment.",
-          "Placing a notice on the power source to warn others that job is in progress."
+          "Blocking the flow of energy from the control source to the equipment."
         ]
       },
       {
@@ -1193,7 +1193,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process",
-          "CTS"
+          "Mechanical"
         ]
       },
       {
@@ -1245,7 +1245,7 @@ const data =
         ],
         "fiftyFifty": [
           "Tool Box Talk",
-          "Level-2 training"
+          "Discussing Procedure"
         ]
       },
       {
@@ -1271,7 +1271,7 @@ const data =
         ],
         "fiftyFifty": [
           "Guard rail",
-          "Knee rail"
+          "all the above"
         ]
       },
       {
@@ -1297,7 +1297,7 @@ const data =
         ],
         "fiftyFifty": [
           "Inert gas",
-          "Ideal gas"
+          "Flammable gas"
         ]
       },
       {
@@ -1375,7 +1375,7 @@ const data =
         ],
         "fiftyFifty": [
           "Substitution",
-          "Administrative control"
+          "Elimination"
         ]
       },
       {
@@ -1479,12 +1479,12 @@ const data =
         ],
         "fiftyFifty": [
           "Acceptor",
-          "Plant Manager"
+          "Issuer"
         ]
       },
       {
         "id": 58,
-        "question": "Testing sequence for  CSE Atmosphere  A Test for Combustible gases  B Test for Toxic Gas  C Stop Air Mover  D Test for oxygen",
+        "question": "Testing sequence for  CSE Atmosphere A. Test for Combustible gases\nB Test for Toxic Gas\nC Stop Air Mover\nD Test for oxygen",
         "answers": [
           {
             "text": "CDAB",
@@ -1531,7 +1531,7 @@ const data =
         ],
         "fiftyFifty": [
           "Operating Management system",
-          "Operation Management system"
+          "Operation Managing System"
         ]
       },
       {
@@ -1583,7 +1583,7 @@ const data =
         ],
         "fiftyFifty": [
           " Noise Reduction Rating",
-          "Noise Rating Rules"
+          "Nuremburg Rating Rules"
         ]
       },
       {
@@ -1609,7 +1609,7 @@ const data =
         ],
         "fiftyFifty": [
           "Progressive Discipline Frame Work for Employee",
-          "Progressive Discipline Frame Work for Contractor"
+          "LPR-ZT Process"
         ]
       },
       {
@@ -1669,7 +1669,7 @@ const data =
         "question": "Risk based  SOP Categories as per Site IMS Procedure  at HMD",
         "answers": [
           {
-            "text": "  Purple Risk - Blue Risk - Turquoise Risk - White Risk",
+            "text": "Purple Risk - Blue Risk - Turquoise Risk - White Risk",
             "correct": false
           },
           {
@@ -1695,7 +1695,7 @@ const data =
         "question": "Who takes decision to suspend or cancel the work-permit if the requirements are not met or the situation is not conducive to continue the work. ",
         "answers": [
           {
-            "text": "  Maintenance Manager",
+            "text": "Maintenance Manager",
             "correct": false
           },
           {
@@ -1713,7 +1713,7 @@ const data =
         ],
         "fiftyFifty": [
           "Issuer",
-          "Acceptor"
+          "Maintenance Manager"
         ]
       },
       {
@@ -1739,7 +1739,7 @@ const data =
         ],
         "fiftyFifty": [
           "Quartzoid bulb",
-          "Orange bulb"
+          "Argon bulb"
         ]
       },
       {
@@ -1747,7 +1747,7 @@ const data =
         "question": "A fusible plug used in the heat detectors normally have low",
         "answers": [
           {
-            "text": "  flash point Dilute point",
+            "text": "flash point Dilute point",
             "correct": false
           },
           {
@@ -1765,7 +1765,7 @@ const data =
         ],
         "fiftyFifty": [
           "Melting point",
-          "  flash point Dilute point"
+          "Boiling point"
         ]
       },
       {
@@ -1791,7 +1791,7 @@ const data =
         ],
         "fiftyFifty": [
           "Specialty Thermal Protective Apparel",
-          "All of them"
+          "Asbestos suits"
         ]
       },
       {
@@ -1843,7 +1843,7 @@ const data =
         ],
         "fiftyFifty": [
           "Automate Process",
-          "Install Interlocks"
+          "Lock out "
         ]
       },
       {
@@ -1869,7 +1869,7 @@ const data =
         ],
         "fiftyFifty": [
           "Foam",
-          " CO2"
+          "Halon"
         ]
       },
       {
@@ -1895,7 +1895,7 @@ const data =
         ],
         "fiftyFifty": [
           "LPG",
-          "Chlorine"
+          "Naphtha"
         ]
       },
       {
@@ -1929,7 +1929,7 @@ const data =
         "question": "Classification of fires is based upon",
         "answers": [
           {
-            "text": "    Oxygen levels",
+            "text": "Oxygen levels",
             "correct": false
           },
           {
@@ -1947,7 +1947,7 @@ const data =
         ],
         "fiftyFifty": [
           "Nature of fuel",
-          "    Oxygen levels"
+          "Oxygen levels"
         ]
       },
       {
@@ -1973,7 +1973,7 @@ const data =
         ],
         "fiftyFifty": [
           "Executing department",
-          "Plant Electrical"
+          "Safety department"
         ]
       },
       {
@@ -2025,7 +2025,7 @@ const data =
         ],
         "fiftyFifty": [
           " Plant Electrical",
-          "Safety department"
+          "Executing department"
         ]
       },
       {
@@ -2155,7 +2155,7 @@ const data =
         ],
         "fiftyFifty": [
           " Escape",
-          "None of the above"
+          "Practice"
         ]
       },
       {
@@ -2207,7 +2207,7 @@ const data =
         ],
         "fiftyFifty": [
           " Each and every individual.",
-          "Manufacturing Head"
+          "Plant PSR"
         ]
       },
       {
@@ -2215,7 +2215,7 @@ const data =
         "question": "What is fragile roof",
         "answers": [
           {
-            "text": "  Sloping roof",
+            "text": "Sloping roof",
             "correct": false
           },
           {
@@ -2233,7 +2233,7 @@ const data =
         ],
         "fiftyFifty": [
           "A roof which cannot safely support the weight of person",
-          "  Sloping roof"
+          " Curved roof"
         ]
       },
       {
@@ -2259,7 +2259,7 @@ const data =
         ],
         "fiftyFifty": [
           "Immediately dangerous to life & Health",
-          "Inactively dangerous to life & health"
+          "Independent of life & health"
         ]
       },
       {
@@ -2267,7 +2267,7 @@ const data =
         "question": "Metal  fire  is  categorized  as    ",
         "answers": [
           {
-            "text": "Class D",
+            "text": " Class D",
             "correct": true
           },
           {
@@ -2284,8 +2284,8 @@ const data =
           }
         ],
         "fiftyFifty": [
-          "Class D",
-          "None of the above"
+          " Class D",
+          "Class A"
         ]
       },
       {
@@ -2311,7 +2311,7 @@ const data =
         ],
         "fiftyFifty": [
           "Process Hazard Analysis",
-          " Periodic health analysis"
+          "Preventive hazard analysis"
         ]
       },
       {
@@ -2337,7 +2337,7 @@ const data =
         ],
         "fiftyFifty": [
           "Short term Exposure limit",
-          "None of these"
+          "Standard Toxic Exposure limit"
         ]
       },
       {
@@ -2389,7 +2389,7 @@ const data =
         ],
         "fiftyFifty": [
           "Explosive limits",
-          "None of these"
+          "Threshold limits"
         ]
       },
       {
@@ -2415,7 +2415,7 @@ const data =
         ],
         "fiftyFifty": [
           "Crawling",
-          "Running"
+          "walking"
         ]
       },
       {
@@ -2441,7 +2441,7 @@ const data =
         ],
         "fiftyFifty": [
           "Auxiliary Fire squad",
-          "Auxiliary  fire Station"
+          "Assisting Fire Squad"
         ]
       },
       {
@@ -2467,7 +2467,7 @@ const data =
         ],
         "fiftyFifty": [
           "CO2 & CO",
-          "CO & H2O"
+          " CO"
         ]
       },
       {
@@ -2493,7 +2493,7 @@ const data =
         ],
         "fiftyFifty": [
           "Unconfined vapour cloud explosion",
-          "Unlimited vapour cloud explosion"
+          "None of these"
         ]
       },
       {
@@ -2519,7 +2519,7 @@ const data =
         ],
         "fiftyFifty": [
           "68",
-          67
+          141
         ]
       },
       {
@@ -2623,7 +2623,7 @@ const data =
         ],
         "fiftyFifty": [
           "Why Why Method",
-          "Six Sigma method"
+          "Why How method"
         ]
       },
       {
@@ -2649,7 +2649,7 @@ const data =
         ],
         "fiftyFifty": [
           "Distribution Incident",
-          "Major incident"
+          "Process Incident"
         ]
       },
       {
@@ -2675,7 +2675,7 @@ const data =
         ],
         "fiftyFifty": [
           "Confined space / building where leaks reduce oxygen level in atmosphere",
-          "Decommissioning activity in close loop"
+          "For purging in process"
         ]
       },
       {
@@ -2701,7 +2701,7 @@ const data =
         ],
         "fiftyFifty": [
           "Cryogenic hand gloves ",
-          "Cotton hand gloves"
+          "Neoprene "
         ]
       },
       {
@@ -2727,7 +2727,7 @@ const data =
         ],
         "fiftyFifty": [
           "A vapour or gas that can cause unconsciousness or death by Suffocation (i.e. lack of oxygen).",
-          "Normal atmospheric condition"
+          "Atmosphere in confined space"
         ]
       },
       {
@@ -2779,7 +2779,7 @@ const data =
         ],
         "fiftyFifty": [
           "HOD-CTS",
-          "Manufacturing head"
+          "HOD-CES"
         ]
       },
       {
@@ -2805,7 +2805,7 @@ const data =
         ],
         "fiftyFifty": [
           "Breathing Air",
-          "Plant air"
+          "Instrument Air"
         ]
       },
       {
@@ -2831,7 +2831,7 @@ const data =
         ],
         "fiftyFifty": [
           "Failure Mode Effect Analysis",
-          "Finite Mode Effect Analysis"
+          "Failure Mode Engineering Analysis"
         ]
       },
       {
@@ -2883,7 +2883,7 @@ const data =
         ],
         "fiftyFifty": [
           "Half-Yearly",
-          " Monthly"
+          "Quarterly"
         ]
       },
       {
@@ -2935,7 +2935,7 @@ const data =
         ],
         "fiftyFifty": [
           "People, Process, Plant Performance ",
-          "Parameter, Performance, Plant, Productivity"
+          "Planning, Privilege , Plant, Productivity "
         ]
       },
       {
@@ -2961,7 +2961,7 @@ const data =
         ],
         "fiftyFifty": [
           "All reactions and side reactions.",
-          "Action needed in case of exposure"
+          "Physical Properties"
         ]
       },
       {
@@ -2987,7 +2987,7 @@ const data =
         ],
         "fiftyFifty": [
           "90 dBA",
-          "85 dBA"
+          "95 dBA"
         ]
       },
       {
@@ -3013,7 +3013,7 @@ const data =
         ],
         "fiftyFifty": [
           "When working under single isolation ",
-          "When working in C shift"
+          "All of above"
         ]
       },
       {
@@ -3065,7 +3065,7 @@ const data =
         ],
         "fiftyFifty": [
           "No horseplay",
-          "No line break without authorization"
+          "No Violation of work permit condition ."
         ]
       },
       {
@@ -3091,7 +3091,7 @@ const data =
         ],
         "fiftyFifty": [
           "Higher",
-          "None of above"
+          "Equal"
         ]
       },
       {
@@ -3117,7 +3117,7 @@ const data =
         ],
         "fiftyFifty": [
           "Jet",
-          " Plane"
+          "None Of Above"
         ]
       },
       {
@@ -3143,7 +3143,7 @@ const data =
         ],
         "fiftyFifty": [
           "Detecting chlorine",
-          "Both the above"
+          "None of the above"
         ]
       },
       {
@@ -3221,7 +3221,7 @@ const data =
         ],
         "fiftyFifty": [
           "Red and White Bands in a Circle",
-          "Green And White Bands in a circle"
+          "Blue and White Bands in a Circle"
         ]
       },
       {
@@ -3247,7 +3247,7 @@ const data =
         ],
         "fiftyFifty": [
           "Offsite emergency plan",
-          "Pre incident plan"
+          "Onsite Emergency plan"
         ]
       },
       {
@@ -3273,7 +3273,7 @@ const data =
         ],
         "fiftyFifty": [
           "Boiling Point",
-          "None of these"
+          " Expansion Point"
         ]
       },
       {
@@ -3299,7 +3299,7 @@ const data =
         ],
         "fiftyFifty": [
           "Green And White Bands in a circle",
-          "Red And White Bands in a circle"
+          "Blue And White Bands in a circle"
         ]
       },
       {
@@ -3325,7 +3325,7 @@ const data =
         ],
         "fiftyFifty": [
           "Blue And White Bands in a circle",
-          "Red And White Bands in a circle"
+          "None of these"
         ]
       },
       {
@@ -3377,7 +3377,7 @@ const data =
         ],
         "fiftyFifty": [
           "All of these",
-          "Conduction"
+          "Radiation"
         ]
       },
       {
@@ -3403,7 +3403,7 @@ const data =
         ],
         "fiftyFifty": [
           "16 days",
-          "10 days"
+          "18 days"
         ]
       },
       {
@@ -3429,7 +3429,7 @@ const data =
         ],
         "fiftyFifty": [
           "within 2 days",
-          "within 3 working days"
+          " within 24 hours"
         ]
       },
       {
@@ -3481,7 +3481,7 @@ const data =
         ],
         "fiftyFifty": [
           "Chlorine",
-          "LPG"
+          "CNG"
         ]
       },
       {
@@ -3507,7 +3507,7 @@ const data =
         ],
         "fiftyFifty": [
           "CES Maintenance Head",
-          "HSEF Head"
+          "Plant HOD"
         ]
       },
       {
@@ -3533,7 +3533,7 @@ const data =
         ],
         "fiftyFifty": [
           "Segment Head/ Operating Function Head or Equivalent",
-          "Plant HOD"
+          "Reliance Entity Leader"
         ]
       },
       {
@@ -3559,7 +3559,7 @@ const data =
         ],
         "fiftyFifty": [
           "Nitrile rubber Hand gloves",
-          "PVC Hand Gloves"
+          "Lather Hand gloves"
         ]
       },
       {
@@ -3611,7 +3611,7 @@ const data =
         ],
         "fiftyFifty": [
           "So the maximum risk is controlled and emergency response is prepared accordingly.",
-          "To generate revenue"
+          "To avoid production loss."
         ]
       },
       {
@@ -3637,7 +3637,7 @@ const data =
         ],
         "fiftyFifty": [
           "PE 1",
-          "PE 2"
+          "PP"
         ]
       },
       {
@@ -3663,7 +3663,7 @@ const data =
         ],
         "fiftyFifty": [
           "Static and Mobile Pressure Vessels (Unfired) Rules",
-          "Static Mobile Pressure Vessel Rules"
+          "Static Mobile Pressurised Vessel Rules"
         ]
       },
       {
@@ -3689,7 +3689,7 @@ const data =
         ],
         "fiftyFifty": [
           "Safety and Wellbeing Crucial for Viksit Bharat",
-          "Safety and Health Crucial for Viksit Bharat"
+          "Safety and Wellness Crucial for Viksit Bharat"
         ]
       },
       {
@@ -3715,7 +3715,7 @@ const data =
         ],
         "fiftyFifty": [
           "Lost work case divided by total millions of man hours",
-          "Lost work case divided by RIL millions man hours"
+          "Lost work case divided by total man hours."
         ]
       },
       {
@@ -3742,1384 +3742,6 @@ const data =
         "fiftyFifty": [
           "Goal Zero",
           "Zero Goal"
-        ]
-      },
-      {
-        "id": 1,
-        "question": "Separation Distances between block/facilities are mentioned in",
-        "answers": [
-          {
-            "text": "OISD 119 Table 1",
-            "correct": false
-          },
-          {
-            "text": "OISD 118 Table 2",
-            "correct": false
-          },
-          {
-            "text": "OISD 118 Table 1",
-            "correct": true
-          },
-          {
-            "text": "OISD 117 Table 1",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "OISD 118 Table 1",
-          "OISD 117 Table 1"
-        ]
-      },
-      {
-        "id": 2,
-        "question": "What is the safe working criteria for better ventilation in confined space w.r.t air replacement ? ",
-        "answers": [
-          {
-            "text": "4 times of total volume in one hours",
-            "correct": false
-          },
-          {
-            "text": "6 times of total volume in one hours",
-            "correct": true
-          },
-          {
-            "text": "3 times of total volume in one hours",
-            "correct": false
-          },
-          {
-            "text": "8 times of total volume in one hours",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "6 times of total volume in one hours",
-          "4 times of total volume in one hours"
-        ]
-      },
-      {
-        "id": 3,
-        "question": "At what load deflection test of over head hoisting system shall be done ?",
-        "answers": [
-          {
-            "text": " At rated load(SWL)",
-            "correct": true
-          },
-          {
-            "text": "1.5 times the rated load(SWL)",
-            "correct": false
-          },
-          {
-            "text": " 2.0 times the rated load(SWL)",
-            "correct": false
-          },
-          {
-            "text": "2.5 times the rated load(SWL)",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          " At rated load(SWL)",
-          "1.5 times the rated load(SWL)"
-        ]
-      },
-      {
-        "id": 4,
-        "question": "Separation Distances between Storage Tank within a Dyke are mentioned in",
-        "answers": [
-          {
-            "text": "OISD 118 Table 1",
-            "correct": false
-          },
-          {
-            "text": "OISD 118 Table 4",
-            "correct": true
-          },
-          {
-            "text": "OISD 118 Table 2",
-            "correct": false
-          },
-          {
-            "text": "OISD 117 Table 3",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "OISD 118 Table 4",
-          "OISD 118 Table 1"
-        ]
-      },
-      {
-        "id": 5,
-        "question": "The warning barrication should be ________________away  from edge of the excavation ",
-        "answers": [
-          {
-            "text": " 3 feet",
-            "correct": false
-          },
-          {
-            "text": "7 feet",
-            "correct": false
-          },
-          {
-            "text": " 6 feet",
-            "correct": true
-          },
-          {
-            "text": "1 feet",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          " 6 feet",
-          "7 feet"
-        ]
-      },
-      {
-        "id": 6,
-        "question": "What is the minimum depth of excavation, when the work at height procedure must be complied ?",
-        "answers": [
-          {
-            "text": "More than 16 feet",
-            "correct": false
-          },
-          {
-            "text": "More than 7 feet",
-            "correct": true
-          },
-          {
-            "text": "More than 4 feet",
-            "correct": false
-          },
-          {
-            "text": "More than 5 feet",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "More than 7 feet",
-          "More than 16 feet"
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Effective working duration of SCBA Set with 6 Lit Capacity Cylinder with 300 Bar pressure. Pl explain the basis of Answer Given",
-        "answers": [
-          {
-            "text": "30 Minutes",
-            "correct": false
-          },
-          {
-            "text": "45 Minutes",
-            "correct": false
-          },
-          {
-            "text": "35 Minutes",
-            "correct": true
-          },
-          {
-            "text": "40 Minutes",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "35 Minutes",
-          "40 Minutes"
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Monkey ladder cage guard is required , if the monkey ladder length is ________?",
-        "answers": [
-          {
-            "text": "> 2.0 meter length",
-            "correct": false
-          },
-          {
-            "text": "> 2.5 meter length",
-            "correct": true
-          },
-          {
-            "text": "> 3.0 meter length",
-            "correct": false
-          },
-          {
-            "text": "> 4.0 meter length",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "> 2.5 meter length",
-          "> 2.0 meter length"
-        ]
-      },
-      {
-        "id": 9,
-        "question": "How much area around scaffolding should be barricading during scaffolding erection, dismantling and use?",
-        "answers": [
-          {
-            "text": "1 meter",
-            "correct": false
-          },
-          {
-            "text": "1.5 meter",
-            "correct": true
-          },
-          {
-            "text": "2.0 meter",
-            "correct": false
-          },
-          {
-            "text": "1.8 meter",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "1.5 meter",
-          "1 meter"
-        ]
-      },
-      {
-        "id": 10,
-        "question": "Recently RIL -HMD has taken license for Hydrogen Filling facility - It is covered under which regulation",
-        "answers": [
-          {
-            "text": "Gas Cylinder Rule Form E",
-            "correct": true
-          },
-          {
-            "text": "Gas Cylinder Rule Form F",
-            "correct": false
-          },
-          {
-            "text": "SMPV Rule 19",
-            "correct": false
-          },
-          {
-            "text": "Gas Cylinder Rule EF",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Gas Cylinder Rule Form E",
-          "SMPV Rule 19"
-        ]
-      },
-      {
-        "id": 11,
-        "question": "Allowable CO content in respirator air is __________",
-        "answers": [
-          {
-            "text": "5 ppm max",
-            "correct": false
-          },
-          {
-            "text": "10 ppm max",
-            "correct": true
-          },
-          {
-            "text": "20 ppm max",
-            "correct": false
-          },
-          {
-            "text": "0 ppm max",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "10 ppm max",
-          "5 ppm max"
-        ]
-      },
-      {
-        "id": 12,
-        "question": "In Risk Register, out of mentioned barrier family, which barrier is not Mitigative Barrier ?",
-        "answers": [
-          {
-            "text": "Secondary containment (Bund, Dyke etc)",
-            "correct": false
-          },
-          {
-            "text": "Emergency Response System (UPS etc)",
-            "correct": false
-          },
-          {
-            "text": "F&G Detectors, Sprinkler System",
-            "correct": false
-          },
-          {
-            "text": "Process Control System (BPCS etc)",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "Process Control System (BPCS etc)",
-          "Secondary containment (Bund, Dyke etc)"
-        ]
-      },
-      {
-        "id": 13,
-        "question": "With Respect to Petroleum Rules \"Petroleum in bulk\" means",
-        "answers": [
-          {
-            "text": "Petroleum contained in a tank above 500 Lit Capacity",
-            "correct": false
-          },
-          {
-            "text": "Petroleum contained in a tank above 1000 Lit Capacity",
-            "correct": false
-          },
-          {
-            "text": "Petroleum contained in a tank irrespective of the quantity of  petroleum contained ",
-            "correct": true
-          },
-          {
-            "text": "Petroleum contained in a tank above 100 Lit Capacity",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Petroleum contained in a tank irrespective of the quantity of  petroleum contained ",
-          "Petroleum contained in a tank above 100 Lit Capacity"
-        ]
-      },
-      {
-        "id": 14,
-        "question": "As per Gas group classification, Which gas is not classified in Gas Group IIC",
-        "answers": [
-          {
-            "text": "ETHANE",
-            "correct": true
-          },
-          {
-            "text": "Hydrogen",
-            "correct": false
-          },
-          {
-            "text": " ACETYLENE",
-            "correct": false
-          },
-          {
-            "text": "CARBON DISULPHIDE",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "ETHANE",
-          " ACETYLENE"
-        ]
-      },
-      {
-        "id": 15,
-        "question": " A structure that supports the sides of an excavation and protects against cave-in is called---",
-        "answers": [
-          {
-            "text": "Shoring",
-            "correct": true
-          },
-          {
-            "text": "Sloping",
-            "correct": false
-          },
-          {
-            "text": "Angle of support",
-            "correct": false
-          },
-          {
-            "text": " none of the above",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Shoring",
-          "Sloping"
-        ]
-      },
-      {
-        "id": 16,
-        "question": "Cutting of the edge back in inclined manner that it will not slide in the trench or excavated area.",
-        "answers": [
-          {
-            "text": "Shoring",
-            "correct": false
-          },
-          {
-            "text": "Sloping",
-            "correct": true
-          },
-          {
-            "text": "Angle of support",
-            "correct": false
-          },
-          {
-            "text": " none of the above",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Sloping",
-          " none of the above"
-        ]
-      },
-      {
-        "id": 17,
-        "question": "Who is responsible for ensuring drain & isolation facility provision in new projects?",
-        "answers": [
-          {
-            "text": "Project Manager",
-            "correct": true
-          },
-          {
-            "text": "Construction Manager",
-            "correct": false
-          },
-          {
-            "text": "HOD-CTS",
-            "correct": false
-          },
-          {
-            "text": "Safety Head",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Project Manager",
-          "Safety Head"
-        ]
-      },
-      {
-        "id": 18,
-        "question": "Minimum Qualification for Competent persons under Section 36 - Factories Act 1948",
-        "answers": [
-          {
-            "text": "Bachelor Degree in Chemistry or Degree in Chemical Engineering with 5 Years of experience",
-            "correct": false
-          },
-          {
-            "text": "Mater Degree in Chemistry or a Degree in Chemical Engineering with 5 years of experience",
-            "correct": false
-          },
-          {
-            "text": "Bachelor Degree in Chemistry or Degree in Chemical Engineering with 7 Years of experience",
-            "correct": false
-          },
-          {
-            "text": "Mater Degree in Chemistry or a Degree in Chemical Engineering with 7 years of experience",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "Mater Degree in Chemistry or a Degree in Chemical Engineering with 7 years of experience",
-          "Mater Degree in Chemistry or a Degree in Chemical Engineering with 5 years of experience"
-        ]
-      },
-      {
-        "id": 19,
-        "question": "What form to be required for certification of pressure vessel as  per Gujarat factory rules 61",
-        "answers": [
-          {
-            "text": "Form 9",
-            "correct": false
-          },
-          {
-            "text": "Form 10",
-            "correct": false
-          },
-          {
-            "text": "Form 11",
-            "correct": true
-          },
-          {
-            "text": "Form 12",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Form 11",
-          "Form 9"
-        ]
-      },
-      {
-        "id": 20,
-        "question": "Filling of any cylinder (except sample bombs) in plant is not allowed without proper permission and license from Department of ----",
-        "answers": [
-          {
-            "text": "Factory Inspector",
-            "correct": false
-          },
-          {
-            "text": "PESO",
-            "correct": true
-          },
-          {
-            "text": "HSEF",
-            "correct": false
-          },
-          {
-            "text": "CES",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "PESO",
-          "CES"
-        ]
-      },
-      {
-        "id": 21,
-        "question": "Under which section certificate of competent person is required for entering in confined space jobs.",
-        "answers": [
-          {
-            "text": "Section 34",
-            "correct": false
-          },
-          {
-            "text": "Section 35",
-            "correct": false
-          },
-          {
-            "text": "Section 36",
-            "correct": true
-          },
-          {
-            "text": "Section 42",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Section 36",
-          "Section 35"
-        ]
-      },
-      {
-        "id": 22,
-        "question": "As per UN Classification Class 1 product is ________.",
-        "answers": [
-          {
-            "text": "Corrosive",
-            "correct": false
-          },
-          {
-            "text": "Flammable",
-            "correct": false
-          },
-          {
-            "text": "Explosive",
-            "correct": true
-          },
-          {
-            "text": "Toxic",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Explosive",
-          "Toxic"
-        ]
-      },
-      {
-        "id": 23,
-        "question": "As per UN Classification Class 9 product is ________.",
-        "answers": [
-          {
-            "text": "Flammable gas",
-            "correct": false
-          },
-          {
-            "text": "Miscellaneous substance",
-            "correct": true
-          },
-          {
-            "text": "Oxidizing Agent",
-            "correct": false
-          },
-          {
-            "text": "Flammable liquid",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Miscellaneous substance",
-          "Flammable liquid"
-        ]
-      },
-      {
-        "id": 24,
-        "question": "How Many Days are lost in case of Fatality",
-        "answers": [
-          {
-            "text": 6000,
-            "correct": true
-          },
-          {
-            "text": 3000,
-            "correct": false
-          },
-          {
-            "text": "Decided based in severity of Incident",
-            "correct": false
-          },
-          {
-            "text": "As per Factory Inspector Guideline",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          6000,
-          "As per Factory Inspector Guideline"
-        ]
-      },
-      {
-        "id": 25,
-        "question": "As per UN Classification Class 8 product is ________.",
-        "answers": [
-          {
-            "text": "Flammable gas",
-            "correct": false
-          },
-          {
-            "text": "Corrosive",
-            "correct": true
-          },
-          {
-            "text": "Explosive",
-            "correct": false
-          },
-          {
-            "text": "Toxic",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Corrosive",
-          "Flammable gas"
-        ]
-      },
-      {
-        "id": 26,
-        "question": "The TLV of Butadiene is ______ .",
-        "answers": [
-          {
-            "text": "1 ppm",
-            "correct": false
-          },
-          {
-            "text": "2 ppm",
-            "correct": true
-          },
-          {
-            "text": "3 ppm",
-            "correct": false
-          },
-          {
-            "text": "4 ppm",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "2 ppm",
-          "3 ppm"
-        ]
-      },
-      {
-        "id": 27,
-        "question": "The TLV of Ethylene Oxide is",
-        "answers": [
-          {
-            "text": "1 ppm",
-            "correct": true
-          },
-          {
-            "text": "2 ppm",
-            "correct": false
-          },
-          {
-            "text": "3 ppm",
-            "correct": false
-          },
-          {
-            "text": "4 ppm",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "1 ppm",
-          "2 ppm"
-        ]
-      },
-      {
-        "id": 28,
-        "question": "RIL HMD Ownership Cross country  Pipeline carries which material currently",
-        "answers": [
-          {
-            "text": "Naphtha - PX ",
-            "correct": false
-          },
-          {
-            "text": "Naphtha -PX - WATER",
-            "correct": true
-          },
-          {
-            "text": "PX - Naphtha - Ethane",
-            "correct": false
-          },
-          {
-            "text": "Naphtha - Water - NG",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Naphtha -PX - WATER",
-          "Naphtha - Water - NG"
-        ]
-      },
-      {
-        "id": 29,
-        "question": "What is the Explosive range (LEL-UEL) of Ethylene Oxide ?",
-        "answers": [
-          {
-            "text": "1.0 & to 10 %",
-            "correct": false
-          },
-          {
-            "text": "1.5% to 75%",
-            "correct": false
-          },
-          {
-            "text": "3.0 % to 100 %",
-            "correct": true
-          },
-          {
-            "text": "Non of the above",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "3.0 % to 100 %",
-          "1.5% to 75%"
-        ]
-      },
-      {
-        "id": 30,
-        "question": "What is minimum ignition energy required for Hydrogen Gas ?",
-        "answers": [
-          {
-            "text": "0.02 j",
-            "correct": false
-          },
-          {
-            "text": "2.0 mj",
-            "correct": false
-          },
-          {
-            "text": "0.02 mj",
-            "correct": true
-          },
-          {
-            "text": "20 mj",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "0.02 mj",
-          "2.0 mj"
-        ]
-      },
-      {
-        "id": 31,
-        "question": "Highest Number of Lost work Incident Free Days achieved in Complex are How Many ? And When?",
-        "answers": [
-          {
-            "text": "451 ; 2021-22",
-            "correct": false
-          },
-          {
-            "text": "479 ; 2023-24",
-            "correct": false
-          },
-          {
-            "text": "331 ; 2022-23",
-            "correct": false
-          },
-          {
-            "text": "379 ; 2023-24",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "379 ; 2023-24",
-          "479 ; 2023-24"
-        ]
-      },
-      {
-        "id": 32,
-        "question": "In any process which of following may cause generation of static electricity ?",
-        "answers": [
-          {
-            "text": "Splashing of chemical",
-            "correct": false
-          },
-          {
-            "text": "High velocity flow",
-            "correct": false
-          },
-          {
-            "text": "Agitation at high speed",
-            "correct": false
-          },
-          {
-            "text": "All of the above",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "All of the above",
-          "High velocity flow"
-        ]
-      },
-      {
-        "id": 33,
-        "question": "Expansion ratio of LPG from liquid phase to vapour phase is",
-        "answers": [
-          {
-            "text": "200",
-            "correct": false
-          },
-          {
-            "text": 20,
-            "correct": false
-          },
-          {
-            "text": 270,
-            "correct": true
-          },
-          {
-            "text": 1400,
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          270,
-          20
-        ]
-      },
-      {
-        "id": 34,
-        "question": "which  OMS SE is not high impact element",
-        "answers": [
-          {
-            "text": "4.5 Control of Work",
-            "correct": false
-          },
-          {
-            "text": "4.1 Procedure and Practices",
-            "correct": false
-          },
-          {
-            "text": "1.4 Resources and Implementation",
-            "correct": true
-          },
-          {
-            "text": "2.2 People and Competence",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "1.4 Resources and Implementation",
-          "4.1 Procedure and Practices"
-        ]
-      },
-      {
-        "id": 35,
-        "question": "The maximum height for storage tank as per PESO/standards is ",
-        "answers": [
-          {
-            "text": "12.5 meter",
-            "correct": false
-          },
-          {
-            "text": "17 meter",
-            "correct": false
-          },
-          {
-            "text": "15 meter",
-            "correct": false
-          },
-          {
-            "text": "20 meter",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "20 meter",
-          "12.5 meter"
-        ]
-      },
-      {
-        "id": 36,
-        "question": "For large warehouse protection these type of detectors are used",
-        "answers": [
-          {
-            "text": "Heat",
-            "correct": false
-          },
-          {
-            "text": "Flame",
-            "correct": false
-          },
-          {
-            "text": "Beam",
-            "correct": true
-          },
-          {
-            "text": "None of the above",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Beam",
-          "Heat"
-        ]
-      },
-      {
-        "id": 37,
-        "question": "Hazmat foam is used for",
-        "answers": [
-          {
-            "text": "Vapour suppression",
-            "correct": false
-          },
-          {
-            "text": "Smothering",
-            "correct": false
-          },
-          {
-            "text": "Cut off oxygen supply",
-            "correct": false
-          },
-          {
-            "text": "All the above",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "All the above",
-          "Cut off oxygen supply"
-        ]
-      },
-      {
-        "id": 38,
-        "question": "LWC Happened  in Cracker Plant was classified in",
-        "answers": [
-          {
-            "text": "RWC - FAC - Process Fire - PSI Tier 2",
-            "correct": false
-          },
-          {
-            "text": "MTC - FAC - Process Fire - PSI Tier 2",
-            "correct": false
-          },
-          {
-            "text": "LWC - MTC - Process Fire - PSI Tier 1",
-            "correct": false
-          },
-          {
-            "text": "LWC -FAC - Process Fire - PSI Tier 1",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "LWC -FAC - Process Fire - PSI Tier 1",
-          "MTC - FAC - Process Fire - PSI Tier 2"
-        ]
-      },
-      {
-        "id": 39,
-        "question": "The Flammability limit of Hydrogen is",
-        "answers": [
-          {
-            "text": " 2%-10%",
-            "correct": false
-          },
-          {
-            "text": "4%-74%",
-            "correct": true
-          },
-          {
-            "text": "1%-44%",
-            "correct": false
-          },
-          {
-            "text": " 3%-15%",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "4%-74%",
-          " 3%-15%"
-        ]
-      },
-      {
-        "id": 40,
-        "question": "What  is  the  full  form  of  AFFF  ?",
-        "answers": [
-          {
-            "text": "Aqueous Film Forming Foam",
-            "correct": true
-          },
-          {
-            "text": "Aqua Film Forming Foam",
-            "correct": false
-          },
-          {
-            "text": "Aqua Fluro Forming Foam",
-            "correct": false
-          },
-          {
-            "text": "None of these",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Aqueous Film Forming Foam",
-          "Aqua Film Forming Foam"
-        ]
-      },
-      {
-        "id": 41,
-        "question": "How many max minutes before the start-up of the HWP should the Gas test be valid.",
-        "answers": [
-          {
-            "text": "30 Minutes",
-            "correct": false
-          },
-          {
-            "text": "45 Minutes",
-            "correct": false
-          },
-          {
-            "text": "60 Minutes",
-            "correct": true
-          },
-          {
-            "text": "None of above",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "60 Minutes",
-          "None of above"
-        ]
-      },
-      {
-        "id": 42,
-        "question": "Gujarat Factory Rules Form 9 is filled for",
-        "answers": [
-          {
-            "text": "Examination of Hoists & Lift",
-            "correct": true
-          },
-          {
-            "text": "Examination of Lifting Tools",
-            "correct": false
-          },
-          {
-            "text": "Examination of Centrifuges",
-            "correct": false
-          },
-          {
-            "text": "Examination of Monorail",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Examination of Hoists & Lift",
-          "Examination of Centrifuges"
-        ]
-      },
-      {
-        "id": 43,
-        "question": "Lowest LWCFR Achieved in HMD Last 10 Years",
-        "answers": [
-          {
-            "text": 0.04,
-            "correct": true
-          },
-          {
-            "text": 0.053,
-            "correct": false
-          },
-          {
-            "text": 0.069,
-            "correct": false
-          },
-          {
-            "text": 0.023,
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          0.04,
-          0.023
-        ]
-      },
-      {
-        "id": 44,
-        "question": "Which OMS Sub Element is not directly related to any of PSM Elements",
-        "answers": [
-          {
-            "text": "1.7 Culture",
-            "correct": true
-          },
-          {
-            "text": "8.2 Assurance and Audit",
-            "correct": false
-          },
-          {
-            "text": "2.2 People and Competence",
-            "correct": false
-          },
-          {
-            "text": "2.4 Organizational Learning",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "1.7 Culture",
-          "2.4 Organizational Learning"
-        ]
-      },
-      {
-        "id": 45,
-        "question": "Benchmark good operating practices from across the RIL Group and/or external sources to identify opportunities for risk reduction and operating performance improvement. - This Group Essential is part of which OMS Sub Element",
-        "answers": [
-          {
-            "text": "3.1 Risk Assessment and Management",
-            "correct": false
-          },
-          {
-            "text": "3.3 Process Safety",
-            "correct": false
-          },
-          {
-            "text": "2.4 Organizational  Learning",
-            "correct": true
-          },
-          {
-            "text": "8.3 Performance  Review",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "2.4 Organizational  Learning",
-          "3.1 Risk Assessment and Management"
-        ]
-      },
-      {
-        "id": 46,
-        "question": "Lowest number of total injury Achieved in HMD Pet Chem in Last 10 Years",
-        "answers": [
-          {
-            "text": "11 in 2021-22",
-            "correct": true
-          },
-          {
-            "text": "13 in 2021-22",
-            "correct": false
-          },
-          {
-            "text": "18 in 2022-23",
-            "correct": false
-          },
-          {
-            "text": "15 in 2019-20",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "11 in 2021-22",
-          "13 in 2021-22"
-        ]
-      },
-      {
-        "id": 47,
-        "question": "Third Party Safety Audit is conducted as per which standard ? At what frequency ?",
-        "answers": [
-          {
-            "text": "Factory Act Codes and Practices - IS 14489 :2018 - Every Year",
-            "correct": false
-          },
-          {
-            "text": "Safety Codes and Practices - IS 14489 :2018 - Every Year",
-            "correct": false
-          },
-          {
-            "text": "Occupational Health and Safety Audit - Code of Practices - IS 14489 :2018 - Every Year",
-            "correct": true
-          },
-          {
-            "text": "OHSA- Code of Practices - IS 14489 :2018 - Every Year",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Occupational Health and Safety Audit - Code of Practices - IS 14489 :2018 - Every Year",
-          "Safety Codes and Practices - IS 14489 :2018 - Every Year"
-        ]
-      },
-      {
-        "id": 48,
-        "question": "Fill in the Blanks  As per SMPV Rules No. ________ : Relief valves shall be tested by a Competent Person for correct operation at least _____ and a record of such test shall be maintained.",
-        "answers": [
-          {
-            "text": "19, Once in two year",
-            "correct": false
-          },
-          {
-            "text": "18, once in a six month",
-            "correct": false
-          },
-          {
-            "text": "19, once in a year",
-            "correct": false
-          },
-          {
-            "text": "18 , once in a year",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "18 , once in a year",
-          "19, once in a year"
-        ]
-      },
-      {
-        "id": 49,
-        "question": "As per RIL Specification what shall be composition of IFR Suit used in Reliance ",
-        "answers": [
-          {
-            "text": "93% Nomex   5% Kelver  2% Q140",
-            "correct": false
-          },
-          {
-            "text": "98% META ARAMID  +PARA ARAMID,  2% ANTISTATIC ",
-            "correct": true
-          },
-          {
-            "text": "92% NOMEX  6% PARA ARAMID   2% ANTISTATIC ",
-            "correct": false
-          },
-          {
-            "text": "93% Nomex   5% PARA ARAMID  2% Q140",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "98% META ARAMID  +PARA ARAMID,  2% ANTISTATIC ",
-          "92% NOMEX  6% PARA ARAMID   2% ANTISTATIC "
-        ]
-      },
-      {
-        "id": 50,
-        "question": "As per RIL Specifications what shall be weight of Helmet and which is the standard for Helmet",
-        "answers": [
-          {
-            "text": "Weight : 400 GMS ( + or - 20 GMS)    Standard : IS 2925 : 1984 ",
-            "correct": true
-          },
-          {
-            "text": "Weight : 400 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 ",
-            "correct": false
-          },
-          {
-            "text": "Weight : 350 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 ",
-            "correct": false
-          },
-          {
-            "text": "Weight : 400 GMS ( + or - 30 GMS)    Standard : IS 2925 : 1983 ",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "Weight : 400 GMS ( + or - 20 GMS)    Standard : IS 2925 : 1984 ",
-          "Weight : 350 GMS ( + or - 10 GMS)    Standard : IS 2925 : 1983 "
-        ]
-      },
-      {
-        "id": 51,
-        "question": "Lifelines shall be designed to support (OSHA  1926.104)",
-        "answers": [
-          {
-            "text": "2500 Kgs per person",
-            "correct": false
-          },
-          {
-            "text": "2100 Kgs per person",
-            "correct": false
-          },
-          {
-            "text": "2300 Kgs PER Person",
-            "correct": true
-          },
-          {
-            "text": "2000 Kgs per person",
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          "2300 Kgs PER Person",
-          "2000 Kgs per person"
-        ]
-      },
-      {
-        "id": 52,
-        "question": "What is the Last issue of Weekly Goal Zero Series ",
-        "answers": [
-          {
-            "text": 123,
-            "correct": false
-          },
-          {
-            "text": 124,
-            "correct": false
-          },
-          {
-            "text": 125,
-            "correct": true
-          },
-          {
-            "text": 126,
-            "correct": false
-          }
-        ],
-        "fiftyFifty": [
-          125,
-          124
-        ]
-      },
-      {
-        "id": 53,
-        "question": "Which is classified not in dangerous occurances as per GFR",
-        "answers": [
-          {
-            "text": "Bursting of a plant used for containing of supplying steam under pressure",
-            "correct": false
-          },
-          {
-            "text": "Collapse or failure of a crane",
-            "correct": false
-          },
-          {
-            "text": "Explosion, fire, bursting out. leakage, or escape of any molten metal",
-            "correct": false
-          },
-          {
-            "text": "Multiple  Fatalities ",
-            "correct": true
-          }
-        ],
-        "fiftyFifty": [
-          "Multiple  Fatalities ",
-          "Bursting of a plant used for containing of supplying steam under pressure"
         ]
       }
     ];
